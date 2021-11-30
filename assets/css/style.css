@@ -21,16 +21,25 @@
   Typography CSS
 -----------------------------------------------------------------------
 */
+@font-face {
+  font-family: iSans;
+  src: url('../fonts/isans.eot') format('eot'),
+  url('../fonts/isans.woff2') format('woff2'),
+  url('../fonts/isans.woff') format('woff');
+  font-weight: normal;
+}
+
 body {
   color: #474747;
   font-size: 16px;
-  font-family: "Poppins", sans-serif;
+  font-family: "iSans", sans-serif;
   font-weight: 400;
   line-height: 2;
   margin: 0;
   overflow-x: hidden;
   -ms-word-wrap: break-word;
   word-wrap: break-word;
+  direction: rtl;
 }
 @media only screen and (max-width: 1199px) {
   body {
@@ -41,7 +50,7 @@ body {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   color: #000;
-  font-family: "Poppins", sans-serif;
+  font-family: "iSans", sans-serif;
   font-weight: 600;
   line-height: 1.2;
   margin-bottom: 10px;
@@ -1026,7 +1035,7 @@ table p {
   border-bottom: 1px solid #373737;
   font-size: 15px;
   font-weight: 500;
-  font-family: "Poppins", sans-serif;
+  font-family: "iSans", sans-serif;
   color: #fff;
 }
 .mobile-menu-items ul li a:hover {
@@ -1310,7 +1319,7 @@ table p {
 .header-area .header-navigation-area .main-menu.nav > li > a {
   color: #fff;
   font-size: 13px;
-  font-family: "Poppins", sans-serif;
+  font-family: "iSans", sans-serif;
   font-weight: 400;
   height: 50px;
   line-height: 50px;
@@ -1543,7 +1552,7 @@ table p {
   color: #2d2d2d;
   font-size: 14px;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: "iSans", sans-serif;
   margin: 14px 0 0 0;
   padding: 11px 35px;
   text-decoration: none;
@@ -5804,7 +5813,7 @@ table p {
   background-color: #eeeff2;
   color: #333131;
   font-weight: 400;
-  font-family: "Poppins", sans-serif;
+  font-family: "iSans", sans-serif;
   font-size: 14px;
   padding: 23px 40px 20px;
   margin-bottom: 30px;
@@ -5964,7 +5973,7 @@ table p {
   background-color: #eeeff2;
   color: #333131;
   font-weight: 400;
-  font-family: "Poppins", sans-serif;
+  font-family: "iSans", sans-serif;
   font-size: 14px;
   padding: 23px 40px 20px;
   margin-bottom: 30px;
@@ -6886,7 +6895,7 @@ table p {
   color: #eb3e32;
   content: attr(data-title);
   display: block;
-  font-family: "Poppins", sans-serif;
+  font-family: "iSans", sans-serif;
   font-weight: 800;
   line-height: 68px;
   letter-spacing: 27px;
@@ -9231,7 +9240,7 @@ table p {
   border-bottom: none;
   border-radius: 0;
   color: #000;
-  font-family: "Poppins", sans-serif;
+  font-family: "iSans", sans-serif;
   font-size: 15px;
   font-weight: 500;
   display: block;
@@ -9264,7 +9273,7 @@ table p {
   margin-top: -20px;
 }
 .myaccount-content h3 {
-  font-family: "Poppins", sans-serif;
+  font-family: "iSans", sans-serif;
   font-weight: 500;
   font-size: 20px;
   border-bottom: 1px dashed #ccc;
@@ -9277,18 +9286,18 @@ table p {
   }
 }
 .myaccount-content .welcome a {
-  font-family: "Poppins", sans-serif;
+  font-family: "iSans", sans-serif;
 }
 .myaccount-content .welcome a:hover {
   color: #eb3e32;
 }
 .myaccount-content .welcome strong {
-  font-family: "Poppins", sans-serif;
+  font-family: "iSans", sans-serif;
   font-weight: 600;
   color: #eb3e32;
 }
 .myaccount-content p {
-  font-family: "Poppins", sans-serif;
+  font-family: "iSans", sans-serif;
   line-height: 28px;
   margin-bottom: 6px;
 }
@@ -9301,7 +9310,7 @@ table p {
   margin-top: 20px;
 }
 .myaccount-content fieldset legend {
-  font-family: "Poppins", sans-serif;
+  font-family: "iSans", sans-serif;
   font-size: 16px;
   margin-bottom: 20px;
   font-weight: 600;
@@ -9320,7 +9329,7 @@ table p {
   margin-bottom: 20px;
 }
 .myaccount-content .account-details-form .single-input-item label {
-  font-family: "Poppins", sans-serif;
+  font-family: "iSans", sans-serif;
   font-size: 14px;
   text-transform: capitalize;
   display: block;
@@ -9333,7 +9342,7 @@ table p {
   background-color: transparent;
   padding: 2px 20px;
   color: #1f2226;
-  font-family: "Poppins", sans-serif;
+  font-family: "iSans", sans-serif;
   font-size: 13px;
 }
 .myaccount-content .account-details-form .single-input-item input:focus {
@@ -9343,7 +9352,7 @@ table p {
   border: none;
   background-color: #eb3e32;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  font-family: "iSans", sans-serif;
   font-weight: 600;
   padding: 20px 40px;
   line-height: 1;
@@ -9356,13 +9365,13 @@ table p {
 
 .myaccount-table {
   white-space: nowrap;
-  font-family: "Poppins", sans-serif;
+  font-family: "iSans", sans-serif;
   font-size: 14px;
 }
 .myaccount-table table th,
 .myaccount-table .table th {
   padding: 10px;
-  font-family: "Poppins", sans-serif;
+  font-family: "iSans", sans-serif;
   font-weight: 600;
   background-color: #f8f8f8;
   border-color: #ccc;
@@ -9377,7 +9386,7 @@ table p {
 }
 .myaccount-table table td a,
 .myaccount-table .table td a {
-  font-family: "Poppins", sans-serif;
+  font-family: "iSans", sans-serif;
   font-size: 14px;
   color: #000;
 }
