@@ -81,7 +81,7 @@
             <div class="header-middle-align">
               <div class="header-middle-align-start">
                 <div class="header-logo-area">
-                  <a href="index.html">
+                  <a href="index.php">
                     <img class="logo-main" src="assets/img/logo.png" width="131" height="34" alt="Logo" />
                     <img class="logo-light" src="assets/img/logo-light.webp" width="131" height="34" alt="Logo" />
                   </a>
@@ -130,7 +130,7 @@
                 <ul class="main-menu nav">
                   <li class="has-submenu"><a href="#/"><span>خانه</span></a>
                     <ul class="submenu-nav">
-                      <li><a href="index.html"><span>خانه یک</span></a></li>
+                      <li><a href="index.php"><span>خانه یک</span></a></li>
                       <li><a href="index-two.html"><span>خانه دو</span></a></li>
                     </ul>
                   </li>
@@ -304,6 +304,16 @@
               <div class="inner-content">
                 <div class="product-collection-content">
                   <div class="content">
+                    <?php
+                    require_once 'connection.php';
+                    $sql = "SELECT * FROM 'vitrin_tbl'";
+                    $pre = $connect->prepare($sql);
+                    $pre->execute();
+                    while ($result = $pre->fetch(PDO::FETCH_ASSOC)) {
+                    $img = $result['img'];
+                    echo $img;
+                    }
+                    ?>
                     <h3 class="title"><a href="shop.html">Sports Shoes</a></h3>
                     <h4 class="price">From $95.00</h4>
                   </div>
@@ -1093,7 +1103,7 @@
             <div class="widget-item">
               <div class="about-widget-wrap">
                 <div class="widget-logo-area">
-                  <a href="index.html">
+                  <a href="index.php">
                     <img class="logo-main" src="assets/img/logo-light.webp" width="131" height="34" alt="Logo" />
                   </a>
                 </div>
@@ -1331,7 +1341,7 @@
         <ul class="nav-menu">
           <li><a href="#">Home</a>
             <ul class="sub-menu">
-              <li><a href="index.html">Home One</a></li>
+              <li><a href="index.php">Home One</a></li>
               <li><a href="index-two.html">Home Two</a></li>
             </ul>
           </li>
