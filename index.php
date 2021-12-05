@@ -129,14 +129,14 @@
             <div class="header-align">
               <div class="header-navigation-area position-relative">
                 <ul class="main-menu nav">
-                  <li class="has-submenu"><a href="#/"><span>خانه</span></a>
+                  <li class="has-submenu"><a href="#"><span>خانه</span></a>
                     <ul class="submenu-nav">
                       <li><a href="index.php"><span>خانه یک</span></a></li>
                       <li><a href="index-two.html"><span>خانه دو</span></a></li>
                     </ul>
                   </li>
                   <li><a href="about-us.html"><span>درباره ما</span></a></li>
-                  <li class="has-submenu"><a href="#/"><span>صفحات</span></a>
+                  <li class="has-submenu"><a href="#"><span>صفحات</span></a>
                     <ul class="submenu-nav">
                       <li><a href="account.html"><span>حساب کاربری</span></a></li>
                       <li><a href="account-login.html"><span>ورود</span></a></li>
@@ -154,7 +154,7 @@
                           <li><a href="shop-right-sidebar.html"><span>فروشگاه با سایدبار راست</span></a></li>
                         </ul>
                       </li>
-                      <li class="mega-menu-item"><a href="#/" class="mega-title"><span>محصول تکی</span></a>
+                      <li class="mega-menu-item"><a href="#" class="mega-title"><span>محصول تکی</span></a>
                         <ul>
                           <li><a href="single-normal-product.html"><span>محصول تکی نرمال</span></a></li>
                           <li><a href="single-product.html"><span>محصول تکی متنوع</span></a></li>
@@ -162,7 +162,7 @@
                           <li><a href="single-affiliate-product.html"><span>محصول تکی افلیت</span></a></li>
                         </ul>
                       </li>
-                      <li class="mega-menu-item"><a href="#/" class="mega-title"><span>صفحات دیگر</span></a>
+                      <li class="mega-menu-item"><a href="#" class="mega-title"><span>صفحات دیگر</span></a>
                         <ul>
                           <li><a href="shop-cart.html"><span>سبد خرید</span></a></li>
                           <li><a href="shop-checkout.html"><span>صورت حساب</span></a></li>
@@ -172,16 +172,16 @@
                       </li>
                     </ul>
                   </li>
-                  <li class="has-submenu"><a href="#/"><span>بلاگ</span></a>
+                  <li class="has-submenu"><a href="#"><span>بلاگ</span></a>
                     <ul class="submenu-nav submenu-nav-mega">
-                      <li class="mega-menu-item"><a href="#/" class="mega-title">بلاگ استایل</a>
+                      <li class="mega-menu-item"><a href="#" class="mega-title">بلاگ استایل</a>
                         <ul>
                           <li><a href="blog.html">بلاگ گرید</a></li>
                           <li><a href="blog-left-sidebar.html">بلاگ با سایدبار چپ</a></li>
                           <li><a href="blog-right-sidebar.html">بلاگ با سایدبار راست</a></li>
                         </ul>
                       </li>
-                      <li class="mega-menu-item"><a href="#/" class="mega-title">بلاگ تکی</a>
+                      <li class="mega-menu-item"><a href="#" class="mega-title">بلاگ تکی</a>
                         <ul>
                           <li><a href="blog-details-no-sidebar.html">جزئیات بلاگ</a></li>
                           <li><a href="blog-details-left-sidebar.html">جزئیات بلاگ با سایدبار چپ</a></li>
@@ -1541,7 +1541,7 @@
     <div class="offcanvas-body">
       <ul class="aside-cart-product-list">
         <li class="product-list-item">
-          <a href="#/" class="remove">×</a>
+          <a href="#" class="remove">×</a>
           <a href="single-product.html">
             <img src="assets/img/shop/product-mini/1.webp" width="90" height="110" alt="Image-HasTech">
             <span class="product-title">Leather Mens Slipper</span>
@@ -1549,7 +1549,7 @@
           <span class="product-price">1 × £69.99</span>
         </li>
         <li class="product-list-item">
-          <a href="#/" class="remove">×</a>
+          <a href="#" class="remove">×</a>
           <a href="single-product.html">
             <img src="assets/img/shop/product-mini/2.webp" width="90" height="110" alt="Image-HasTech">
             <span class="product-title">Quickiin Mens shoes</span>
