@@ -5,9 +5,9 @@ $password = "123456";
 $dbname = "digi_db";
 $dsn = "mysql:host=$servername;dbname=$dbname";
 try {
-$connect2=new PDO($dsn, $username, $password);
-$connect2->exec("SET CHARACTER SET UTF8");
-$connect2->exec("set names utf8");
+$connect=new PDO($dsn, $username, $password);
+$connect->exec("SET CHARACTER SET UTF8");
+$connect->exec("set names utf8");
 }
 catch (PDOException $error) {
     echo $error ->__toString();

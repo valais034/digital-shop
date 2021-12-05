@@ -304,16 +304,16 @@
               <div class="inner-content">
                 <div class="product-collection-content">
                   <div class="content">
-                    <?php
-                    require_once 'connection.php';
-                    $sql = "SELECT * FROM 'vitrin_tbl'";
-                    $pre = $connect->prepare($sql);
-                    $pre->execute();
-                    while ($result = $pre->fetch(PDO::FETCH_ASSOC)) {
-                    $img = $result['img'];
-                    echo $img;
-                    }
-                    ?>
+<!--                    --><?php
+//                    require_once 'connection.php';
+//                    $sql = "SELECT * FROM 'vitrin_tbl'";
+//                    $pre = $connect->prepare($sql);
+//                    $pre->execute();
+//                    while ($result = $pre->fetch(PDO::FETCH_ASSOC)) {
+//                    $img = $result['img'];
+//                    echo $img;
+//                    }
+//                    ?>
                     <h3 class="title"><a href="shop.html">Sports Shoes</a></h3>
                     <h4 class="price">From $95.00</h4>
                   </div>
