@@ -1,3 +1,8 @@
+<?php
+require_once 'inc/config.php';
+require_once 'sections/header.php';
+?>
+
 <!DOCTYPE html>
 <html lang="zxx">
 
@@ -47,157 +52,6 @@
 <div class="wrapper">
 
   <!--== Start Header Wrapper ==-->
-  <header class="main-header-wrapper position-relative">
-    <div class="header-top">
-      <div class="container pt--0 pb--0">
-        <div class="row">
-          <div class="col-12">
-            <div class="header-top-align">
-              <div class="header-top-align-start">
-                <div class="desc">
-                  <p>World Wide Completely Free Returns and Free Shipping</p>
-                </div>
-              </div>
-              <div class="header-top-align-end">
-                <div class="header-info-items">
-                  <div class="info-items">
-                    <ul>
-                      <li class="number"><i class="fa fa-phone"></i><a href="tel://0123456789">+00 123 456 789</a></li>
-                      <li class="email"><i class="fa fa-envelope"></i><a href="mailto://demo@example.com">demo@example.com</a></li>
-                      <li class="account"><i class="fa fa-user"></i><a href="account-login.html">Account</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="header-middle">
-      <div class="container pt--0 pb--0">
-        <div class="row align-items-center">
-          <div class="col-12">
-            <div class="header-middle-align">
-              <div class="header-middle-align-start">
-                <div class="header-logo-area">
-                  <a href="index.html">
-                    <img class="logo-main" src="assets/img/logo.webp" width="131" height="34" alt="Logo" />
-                    <img class="logo-light" src="assets/img/logo-light.webp" width="131" height="34" alt="Logo" />
-                  </a>
-                </div>
-              </div>
-              <div class="header-middle-align-center">
-                <div class="header-search-area">
-                  <form class="header-searchbox">
-                    <input type="search" class="form-control" placeholder="Search">
-                    <button class="btn-submit" type="submit"><i class="pe-7s-search"></i></button>
-                  </form>
-                </div>
-              </div>
-              <div class="header-middle-align-end">
-                <div class="header-action-area">
-                  <div class="shopping-search">
-                    <button class="shopping-search-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#AsideOffcanvasSearch" aria-controls="AsideOffcanvasSearch"><i class="pe-7s-search icon"></i></button>
-                  </div>
-                  <div class="shopping-wishlist">
-                    <a class="shopping-wishlist-btn" href="shop-wishlist.html">
-                      <i class="pe-7s-like icon"></i>
-                    </a>
-                  </div>
-                  <div class="shopping-cart">
-                    <button class="shopping-cart-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#AsideOffcanvasCart" aria-controls="offcanvasRightLabel">
-                      <i class="pe-7s-shopbag icon"></i>
-                      <sup class="shop-count">02</sup>
-                    </button>
-                  </div>
-                  <button class="btn-menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#AsideOffcanvasMenu" aria-controls="AsideOffcanvasMenu">
-                    <i class="pe-7s-menu"></i>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="header-area header-default">
-      <div class="container">
-        <div class="row no-gutter align-items-center position-relative">
-          <div class="col-12">
-            <div class="header-align">
-              <div class="header-navigation-area position-relative">
-                <ul class="main-menu nav">
-                  <li class="has-submenu"><a href="#/"><span>Home</span></a>
-                    <ul class="submenu-nav">
-                      <li><a href="index.html"><span>Home One</span></a></li>
-                      <li><a href="index-two.html"><span>Home Two</span></a></li>
-                    </ul>
-                  </li>
-                  <li><a href="about-us.html"><span>About</span></a></li>
-                  <li class="has-submenu"><a href="#/"><span>Pages</span></a>
-                    <ul class="submenu-nav">
-                      <li><a href="account.html"><span>Account</span></a></li>
-                      <li><a href="account-login.html"><span>Login</span></a></li>
-                      <li><a href="account-register.html"><span>Register</span></a></li>
-                      <li><a href="page-not-found.html"><span>Page Not Found</span></a></li>
-                    </ul>
-                  </li>
-                  <li class="has-submenu position-static"><a href="#/"><span>Shop</span></a>
-                    <ul class="submenu-nav submenu-nav-mega column-3">
-                      <li class="mega-menu-item"><a href="#/" class="mega-title"><span>Shop Layout</span></a>
-                        <ul>
-                          <li><a href="shop-three-columns.html"><span>Shop 3 Column</span></a></li>
-                          <li><a href="shop-four-columns.html"><span>Shop 4 Column</span></a></li>
-                          <li><a href="shop.html"><span>Shop Left Sidebar</span></a></li>
-                          <li><a href="shop-right-sidebar.html"><span>Shop Right Sidebar</span></a></li>
-                        </ul>
-                      </li>
-                      <li class="mega-menu-item"><a href="#/" class="mega-title"><span>Single Product</span></a>
-                        <ul>
-                          <li><a href="single-normal-product.html"><span>Single Product Normal</span></a></li>
-                          <li><a href="single-product.html"><span>Single Product Variable</span></a></li>
-                          <li><a href="single-group-product.html"><span>Single Product Group</span></a></li>
-                          <li><a href="single-affiliate-product.html"><span>Single Product Affiliate</span></a></li>
-                        </ul>
-                      </li>
-                      <li class="mega-menu-item"><a href="#/" class="mega-title"><span>Others Pages</span></a>
-                        <ul>
-                          <li><a href="shop-cart.html"><span>Shopping Cart</span></a></li>
-                          <li><a href="shop-checkout.html"><span>Checkout</span></a></li>
-                          <li><a href="shop-wishlist.html"><span>Wishlist</span></a></li>
-                          <li><a href="shop-compare.html"><span>Compare</span></a></li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="has-submenu"><a href="#/"><span>Blog</span></a>
-                    <ul class="submenu-nav submenu-nav-mega">
-                      <li class="mega-menu-item"><a href="#/" class="mega-title">Blog Layout</a>
-                        <ul>
-                          <li><a href="blog.html">Blog Grid</a></li>
-                          <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-                          <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
-                        </ul>
-                      </li>
-                      <li class="mega-menu-item"><a href="#/" class="mega-title">Single Blog</a>
-                        <ul>
-                          <li><a href="blog-details-no-sidebar.html">Blog Details</a></li>
-                          <li><a href="blog-details-left-sidebar.html">Blog Details Left Sidebar</a></li>
-                          <li><a href="blog-details.html">Blog Details Right Sidebar</a></li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
-                  <li><a href="contact.html"><span>Contact</span></a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
   <!--== End Header Wrapper ==-->
   
   <main class="main-content">
@@ -210,7 +64,7 @@
               <h2 class="title" data-aos="fade-down" data-aos-duration="1000">About Us</h2>
               <nav class="breadcrumb-area" data-aos="fade-down" data-aos-duration="1200">
                 <ul class="breadcrumb">
-                  <li><a href="index.html">Home</a></li>
+                  <li><a href="index.php">Home</a></li>
                   <li class="breadcrumb-sep">//</li>
                   <li>About Us</li>
                 </ul>
@@ -289,7 +143,7 @@
             <div class="team-item">
               <div class="inner-content">
                 <div class="thumb">
-                  <a href="about-us.html"><img src="assets/img/team/1.webp" width="270" height="270" alt="Image-HasTech"></a>
+                  <a href="about-us.php"><img src="assets/img/team/1.webp" width="270" height="270" alt="Image-HasTech"></a>
                   <div class="member-icons">
                     <a href="https://www.facebook.com/" target="_blank" rel="noopener"><i class="fa fa-facebook"></i></a>
                     <a href="https://dribbble.com/" target="_blank" rel="noopener"><i class="fa fa-dribbble"></i></a>
@@ -297,7 +151,7 @@
                   </div>
                 </div>
                 <div class="content">
-                  <h4 class="title"><a href="about-us.html">Jander Durham</a></h4>
+                  <h4 class="title"><a href="about-us.php">Jander Durham</a></h4>
                   <p>Team Member</p>
                 </div>
               </div>
@@ -309,7 +163,7 @@
             <div class="team-item">
               <div class="inner-content">
                 <div class="thumb">
-                  <a href="about-us.html"><img src="assets/img/team/2.webp" width="270" height="270" alt="Image-HasTech"></a>
+                  <a href="about-us.php"><img src="assets/img/team/2.webp" width="270" height="270" alt="Image-HasTech"></a>
                   <div class="member-icons">
                     <a href="https://www.facebook.com/" target="_blank" rel="noopener"><i class="fa fa-facebook"></i></a>
                     <a href="https://dribbble.com/" target="_blank" rel="noopener"><i class="fa fa-dribbble"></i></a>
@@ -317,7 +171,7 @@
                   </div>
                 </div>
                 <div class="content">
-                  <h4 class="title"><a href="about-us.html">Jaren Hammer</a></h4>
+                  <h4 class="title"><a href="about-us.php">Jaren Hammer</a></h4>
                   <p>Team Member</p>
                 </div>
               </div>
@@ -329,7 +183,7 @@
             <div class="team-item">
               <div class="inner-content">
                 <div class="thumb">
-                  <a href="about-us.html"><img src="assets/img/team/3.webp" width="270" height="270" alt="Image-HasTech"></a>
+                  <a href="about-us.php"><img src="assets/img/team/3.webp" width="270" height="270" alt="Image-HasTech"></a>
                   <div class="member-icons">
                     <a href="https://www.facebook.com/" target="_blank" rel="noopener"><i class="fa fa-facebook"></i></a>
                     <a href="https://dribbble.com/" target="_blank" rel="noopener"><i class="fa fa-dribbble"></i></a>
@@ -337,7 +191,7 @@
                   </div>
                 </div>
                 <div class="content">
-                  <h4 class="title"><a href="about-us.html">Nurdan Denkel</a></h4>
+                  <h4 class="title"><a href="about-us.php">Nurdan Denkel</a></h4>
                   <p>Team Member</p>
                 </div>
               </div>
@@ -349,7 +203,7 @@
             <div class="team-item">
               <div class="inner-content">
                 <div class="thumb">
-                  <a href="about-us.html"><img src="assets/img/team/4.webp" width="270" height="270" alt="Image-HasTech"></a>
+                  <a href="about-us.php"><img src="assets/img/team/4.webp" width="270" height="270" alt="Image-HasTech"></a>
                   <div class="member-icons">
                     <a href="https://www.facebook.com/" target="_blank" rel="noopener"><i class="fa fa-facebook"></i></a>
                     <a href="https://dribbble.com/" target="_blank" rel="noopener"><i class="fa fa-dribbble"></i></a>
@@ -357,7 +211,7 @@
                   </div>
                 </div>
                 <div class="content">
-                  <h4 class="title"><a href="about-us.html">Monroe Bond</a></h4>
+                  <h4 class="title"><a href="about-us.php">Monroe Bond</a></h4>
                   <p>Team Member</p>
                 </div>
               </div>
@@ -397,7 +251,7 @@
                         <p>Lorem ipsum dolor sit amel adipiscing elit, sed do eiusll tempor incididunt ut laborj et dolore magna.</p>
                         <div class="testi-author">
                           <div class="testi-info">
-                            <span class="name"><a href="about-us.html">Jaren Hammer</a></span>
+                            <span class="name"><a href="about-us.php">Jaren Hammer</a></span>
                           </div>
                         </div>
                         <div class="testi-quote"><img src="assets/img/icons/quote1.webp" width="62" height="44" alt="Image-HasTech"></div>
@@ -417,7 +271,7 @@
                         <p>Lorem ipsum dolor sit amel adipiscing elit, sed do eiusll tempor incididunt ut laborj et dolore magna.</p>
                         <div class="testi-author">
                           <div class="testi-info">
-                            <span class="name"><a href="about-us.html">Dorian Cordova</a></span>
+                            <span class="name"><a href="about-us.php">Dorian Cordova</a></span>
                           </div>
                         </div>
                         <div class="testi-quote"><img src="assets/img/icons/quote1.webp" width="62" height="44" alt="Image-HasTech"></div>
@@ -534,7 +388,7 @@
             <div class="widget-item">
               <div class="about-widget-wrap">
                 <div class="widget-logo-area">
-                  <a href="index.html">
+                  <a href="index.php">
                     <img class="logo-main" src="assets/img/logo-light.webp" width="131" height="34" alt="Logo" />
                   </a>
                 </div>
@@ -772,11 +626,11 @@
         <ul class="nav-menu">
           <li><a href="#">Home</a>
             <ul class="sub-menu">
-              <li><a href="index.html">Home One</a></li>
+              <li><a href="index.php">Home One</a></li>
               <li><a href="index-two.html">Home Two</a></li>
             </ul>
           </li>
-          <li><a href="about-us.html">About</a></li>
+          <li><a href="about-us.php">About</a></li>
           <li><a href="#">Pages</a>
             <ul class="sub-menu">
               <li><a href="account.html">Account</a></li>
