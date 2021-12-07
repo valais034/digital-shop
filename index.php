@@ -1,8 +1,3 @@
-<?php
-require_once 'inc/config.php';
-require_once 'sections/header.php';
-?>
-
 <!DOCTYPE html>
 <html lang="zxx">
 
@@ -41,8 +36,8 @@ require_once 'sections/header.php';
     <link href="assets/css/style.css" rel="stylesheet" />
 
     <!--[if lt IE 9]>
-    <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
 
@@ -52,6 +47,158 @@ require_once 'sections/header.php';
 <div class="wrapper">
 
   <!--== Start Header Wrapper ==-->
+  <header class="main-header-wrapper position-relative">
+    <div class="header-top">
+
+      <div class="container pt--0 pb--0">
+        <div class="row">
+          <div class="col-12">
+            <div class="header-top-align">
+              <div class="header-top-align-start">
+                <div class="desc">
+                  <p>حمل رایگان در تهران برای سفارشات بالای 200 هزار تومان</p>
+                </div>
+              </div>
+              <div class="header-top-align-end">
+                <div class="header-info-items">
+                  <div class="info-items">
+                    <ul>
+                      <li class="number"><i class="fa fa-phone"></i><a href="tel://+982166388810"> 02166388810</a></li>
+                      <li class="email"><i class="fa fa-envelope"></i><a href="mailto://info@digital-shop.com"> info@digital-shop.com</a></li>
+                      <li class="account"><i class="fa fa-user"></i><a href="account-login.html"> پنل کاربری</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header-middle">
+      <div class="container pt--0 pb--0">
+        <div class="row align-items-center">
+          <div class="col-12">
+            <div class="header-middle-align">
+              <div class="header-middle-align-start">
+                <div class="header-logo-area">
+                  <a href="index.php">
+                    <img class="logo-main" src="assets/img/logo.png" width="131" height="34" alt="Logo" />
+                    <img class="logo-light" src="assets/img/logo-light.webp" width="131" height="34" alt="Logo" />
+                  </a>
+                </div>
+              </div>
+              <div class="header-middle-align-center">
+                <div class="header-search-area">
+                  <form class="header-searchbox">
+                    <input type="search" class="form-control" placeholder="جستجو...">
+                    <button class="btn-submit" type="submit"><i class="pe-7s-search"></i></button>
+                  </form>
+                </div>
+              </div>
+              <div class="header-middle-align-end">
+                <div class="header-action-area">
+                  <div class="shopping-search">
+                    <button class="shopping-search-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#AsideOffcanvasSearch" aria-controls="AsideOffcanvasSearch"><i class="pe-7s-search icon"></i></button>
+                  </div>
+                  <div class="shopping-wishlist">
+                    <a class="shopping-wishlist-btn" href="shop-wishlist.html">
+                      <i class="pe-7s-like icon"></i>
+                    </a>
+                  </div>
+                  <div class="shopping-cart">
+                    <button class="shopping-cart-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#AsideOffcanvasCart" aria-controls="offcanvasRightLabel">
+                      <i class="pe-7s-shopbag icon"></i>
+                      <sup class="shop-count">02</sup>
+                    </button>
+                  </div>
+                  <button class="btn-menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#AsideOffcanvasMenu" aria-controls="AsideOffcanvasMenu">
+                    <i class="pe-7s-menu"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header-area header-default">
+      <div class="container">
+        <div class="row no-gutter align-items-center position-relative">
+          <div class="col-12">
+            <div class="header-align">
+              <div class="header-navigation-area position-relative">
+                <ul class="main-menu nav">
+                  <li class="has-submenu"><a href="#"><span>خانه</span></a>
+                    <ul class="submenu-nav">
+                      <li><a href="index.php"><span>خانه یک</span></a></li>
+                      <li><a href="index-two.html"><span>خانه دو</span></a></li>
+                    </ul>
+                  </li>
+                  <li><a href="about-us.html"><span>درباره ما</span></a></li>
+                  <li class="has-submenu"><a href="#"><span>صفحات</span></a>
+                    <ul class="submenu-nav">
+                      <li><a href="account.html"><span>حساب کاربری</span></a></li>
+                      <li><a href="account-login.html"><span>ورود</span></a></li>
+                      <li><a href="account-register.html"><span>ثبت نام</span></a></li>
+                      <li><a href="page-not-found.html"><span>صفحه پیدا نشد</span></a></li>
+                    </ul>
+                  </li>
+                  <li class="has-submenu position-static"><a href="#"><span>فروشگاه</span></a>
+                    <ul class="submenu-nav submenu-nav-mega column-3">
+                      <li class="mega-menu-item"><a href="#" class="mega-title"><span>استایل فروشگاه</span></a>
+                        <ul>
+                          <li><a href="shop-three-columns.html"><span>فروشگاه سه ستونه</span></a></li>
+                          <li><a href="shop-four-columns.html"><span>فروشگاه چهار ستونه</span></a></li>
+                          <li><a href="shop.html"><span>فروشگاه با سایدبار چپ</span></a></li>
+                          <li><a href="shop-right-sidebar.html"><span>فروشگاه با سایدبار راست</span></a></li>
+                        </ul>
+                      </li>
+                      <li class="mega-menu-item"><a href="#" class="mega-title"><span>محصول تکی</span></a>
+                        <ul>
+                          <li><a href="single-normal-product.html"><span>محصول تکی نرمال</span></a></li>
+                          <li><a href="single-product.html"><span>محصول تکی متنوع</span></a></li>
+                          <li><a href="single-group-product.html"><span>محصول تکی گروه</span></a></li>
+                          <li><a href="single-affiliate-product.html"><span>محصول تکی افلیت</span></a></li>
+                        </ul>
+                      </li>
+                      <li class="mega-menu-item"><a href="#" class="mega-title"><span>صفحات دیگر</span></a>
+                        <ul>
+                          <li><a href="shop-cart.html"><span>سبد خرید</span></a></li>
+                          <li><a href="shop-checkout.html"><span>صورت حساب</span></a></li>
+                          <li><a href="shop-wishlist.html"><span>علاقه مندی ها</span></a></li>
+                          <li><a href="shop-compare.html"><span>مقایسه</span></a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="has-submenu"><a href="#"><span>بلاگ</span></a>
+                    <ul class="submenu-nav submenu-nav-mega">
+                      <li class="mega-menu-item"><a href="#" class="mega-title">بلاگ استایل</a>
+                        <ul>
+                          <li><a href="blog.html">بلاگ گرید</a></li>
+                          <li><a href="blog-left-sidebar.html">بلاگ با سایدبار چپ</a></li>
+                          <li><a href="blog-right-sidebar.html">بلاگ با سایدبار راست</a></li>
+                        </ul>
+                      </li>
+                      <li class="mega-menu-item"><a href="#" class="mega-title">بلاگ تکی</a>
+                        <ul>
+                          <li><a href="blog-details-no-sidebar.html">جزئیات بلاگ</a></li>
+                          <li><a href="blog-details-left-sidebar.html">جزئیات بلاگ با سایدبار چپ</a></li>
+                          <li><a href="blog-details.html">جزئیات بلاگ با سایدبار راست</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li><a href="contact.html"><span>تماس با ما</span></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
   <!--== End Header Wrapper ==-->
   
   <main class="main-content">
@@ -68,13 +215,13 @@ require_once 'sections/header.php';
                       <div class="slider-content">
                         <div class="content">
                           <div class="title-box">
-                            <h2 class="title">تکنولوژی در دستان شما </h2>
+                            <h2 class="title">Exclusive New Shoes</h2>
                           </div>
                           <div class="desc-box">
-                            <p class="desc">محصول جدید اپل، اوج تکنولوژی</p>
+                            <p class="desc">Up To 30% Off All Shoes & Products</p>
                           </div>
                           <div class="btn-box">
-                            <a class="btn-slider" href="shop.html">خرید کنید...</a>
+                            <a class="btn-slider" href="shop.html">Shop Now</a>
                           </div>
                         </div>
                       </div>
@@ -93,7 +240,7 @@ require_once 'sections/header.php';
                   </div>
                 </div>
               </div>
-              <h2 class="slider-text-shape">PRO MAX 13</h2>
+              <h2 class="slider-text-shape">NEW 2021</h2>
             </div>
           </div>
           <div class="swiper-slide">
@@ -105,13 +252,13 @@ require_once 'sections/header.php';
                       <div class="slider-content">
                         <div class="content">
                           <div class="title-box">
-                            <h2 class="title">در رنگ های متنوع</h2>
+                            <h2 class="title">Exclusive New Shoes</h2>
                           </div>
                           <div class="desc-box">
-                            <p class="desc">با گارانتی و تضمین اصالت</p>
+                            <p class="desc">Up To 30% Off All Shoes & Products</p>
                           </div>
                           <div class="btn-box">
-                            <a class="btn-slider" href="shop.html">خرید کنید</a>
+                            <a class="btn-slider" href="shop.html">Shop Now</a>
                           </div>
                         </div>
                       </div>
@@ -130,7 +277,7 @@ require_once 'sections/header.php';
                   </div>
                 </div>
               </div>
-              <h2 class="slider-text-shape">NEW IPHONE</h2>
+              <h2 class="slider-text-shape">NEW 2022</h2>
             </div>
           </div>
         </div>
@@ -138,10 +285,10 @@ require_once 'sections/header.php';
         <!--== Add Swiper Arrows ==-->
         <div class="swiper-btn-wrap">
           <div class="swiper-btn-prev">
-              <i class="pe-7s-angle-right"></i>
+            <i class="pe-7s-angle-left"></i>
           </div>
           <div class="swiper-btn-next">
-              <i class="pe-7s-angle-left"></i>
+            <i class="pe-7s-angle-right"></i>
           </div>
         </div>
       </div>
@@ -158,11 +305,21 @@ require_once 'sections/header.php';
               <div class="inner-content">
                 <div class="product-collection-content">
                   <div class="content">
-                    <h3 class="title"><a href="shop.html">تلفن همراه</a></h3>
-                    <h4 class="price">جدیدترین ها و برترین ها</h4>
+<!--                    --><?php
+//                    require_once 'connection.php';
+//                    $sql = "SELECT * FROM 'vitrin_tbl'";
+//                    $pre = $connect->prepare($sql);
+//                    $pre->execute();
+//                    while ($result = $pre->fetch(PDO::FETCH_ASSOC)) {
+//                    $img = $result['img'];
+//                    echo $img;
+//                    }
+//                    ?>
+                    <h3 class="title"><a href="shop.html">Sports Shoes</a></h3>
+                    <h4 class="price">From $95.00</h4>
                   </div>
                 </div>
-                <div class="product-collection-thumb" data-bg-img="assets/img/shop/collection/1.jpg"></div>
+                <div class="product-collection-thumb" data-bg-img="assets/img/shop/collection/1.webp"></div>
                 <a class="banner-link-overlay" href="shop.html"></a>
               </div>
             </div>
@@ -174,11 +331,11 @@ require_once 'sections/header.php';
               <div class="inner-content">
                 <div class="product-collection-content">
                   <div class="content">
-                    <h3 class="title"><a href="shop.html">لپ تاپ ها</a></h3>
-                    <h4 class="price">جدیدترین تکنولوژی ها</h4>
+                    <h3 class="title"><a href="shop.html">Latest Shoes</a></h3>
+                    <h4 class="price">From $90.00</h4>
                   </div>
                 </div>
-                <div class="product-collection-thumb" data-bg-img="assets/img/shop/collection/2.jpg"></div>
+                <div class="product-collection-thumb" data-bg-img="assets/img/shop/collection/2.webp"></div>
                 <a class="banner-link-overlay" href="shop.html"></a>
               </div>
             </div>
@@ -190,11 +347,11 @@ require_once 'sections/header.php';
               <div class="inner-content">
                 <div class="product-collection-content">
                   <div class="content">
-                    <h3 class="title"><a href="shop.html">لوازم جانبی</a></h3>
-                    <h4 class="price">با کیفیت برتر</h4>
+                    <h3 class="title"><a href="shop.html">Office Shoes</a></h3>
+                    <h4 class="price">From $82.00</h4>
                   </div>
                 </div>
-                <div class="product-collection-thumb" data-bg-img="assets/img/shop/collection/3.jpg"></div>
+                <div class="product-collection-thumb" data-bg-img="assets/img/shop/collection/3.webp"></div>
                 <a class="banner-link-overlay" href="shop.html"></a>
               </div>
             </div>
@@ -553,6 +710,273 @@ require_once 'sections/header.php';
     <!--== End Divider Area Wrapper ==-->
 
     <!--== Start Product Area Wrapper ==-->
+    <section class="product-area product-best-seller-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title text-center">
+              <h3 class="title">اسلایدر محصولات</h3>
+              <div class="desc">
+                <p>محصولات جدید دیجی مارکت</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="product-slider-wrap">
+              <div class="swiper-container product-slider-col4-container">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <!--== Start Product Item ==-->
+
+                    <div class="product-item">
+                      <div class="inner-content">
+                        <div class="product-thumb">
+                          <a href="single-product.html">
+                            <img src="assets/img/shop/1.webp" width="270" height="274" alt="Image-HasTech">
+                          </a>
+                          <div class="product-flag">
+                            <ul>
+                              <li class="discount">-10%</li>
+                            </ul>
+                          </div>
+                          <div class="product-action">
+                    <a class="btn-product-wishlist" href="shop-wishlist.html"><i class="fa fa-heart"></i></a>
+                    <a class="btn-product-cart" href="shop-cart.html"><i class="fa fa-shopping-cart"></i></a>
+                    <button type="button" class="btn-product-quick-view-open">
+                      <i class="fa fa-arrows"></i>
+                    </button>
+                    <a class="btn-product-compare" href="shop-compare.html"><i class="fa fa-random"></i></a>
+                  </div>
+                          <a class="banner-link-overlay" href="shop.html"></a>
+                        </div>
+                        <div class="product-info">
+                          <div class="category">
+                    <ul>
+                      <li><a href="shop.html">Men</a></li>
+                              <li class="sep">/</li>
+                              <li><a href="shop.html">Women</a></li>
+                            </ul>
+                          </div>
+                          <h4 class="title"><a href="single-product.html">Modern Smart Shoes</a></h4>
+                          <div class="prices">
+                            <span class="price-old">$200</span>
+                            <span class="sep">-</span>
+                            <span class="price">$240.00</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!--== End prPduct Item ==-->
+                  </div>
+                  <div class="swiper-slide">
+                    <!--== Start Product Item ==-->
+                    <div class="product-item">
+                      <div class="inner-content">
+                        <div class="product-thumb">
+                          <a href="single-product.html">
+                            <img src="assets/img/shop/7.webp" width="270" height="274" alt="Image-HasTech">
+                          </a>
+                          <div class="product-action">
+                    <a class="btn-product-wishlist" href="shop-wishlist.html"><i class="fa fa-heart"></i></a>
+                    <a class="btn-product-cart" href="shop-cart.html"><i class="fa fa-shopping-cart"></i></a>
+                    <button type="button" class="btn-product-quick-view-open">
+                      <i class="fa fa-arrows"></i>
+                    </button>
+                    <a class="btn-product-compare" href="shop-compare.html"><i class="fa fa-random"></i></a>
+                  </div>
+                          <a class="banner-link-overlay" href="shop.html"></a>
+                        </div>
+                        <div class="product-info">
+                          <div class="category">
+                    <ul>
+                      <li><a href="shop.html">Men</a></li>
+                              <li class="sep">/</li>
+                              <li><a href="shop.html">Women</a></li>
+                            </ul>
+                          </div>
+                          <h4 class="title"><a href="single-product.html">Quickiin Mens shoes</a></h4>
+                          <div class="prices">
+                            <span class="price">$440.00</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!--== End prPduct Item ==-->
+                  </div>
+                  <div class="swiper-slide">
+                    <!--== Start Product Item ==-->
+                    <div class="product-item">
+                      <div class="inner-content">
+                        <div class="product-thumb">
+                          <a href="single-product.html">
+                            <img src="assets/img/shop/3.webp" width="270" height="274" alt="Image-HasTech">
+                          </a>
+                          <div class="product-flag">
+                            <ul>
+                              <li class="discount">-10%</li>
+                            </ul>
+                          </div>
+                          <div class="product-action">
+                    <a class="btn-product-wishlist" href="shop-wishlist.html"><i class="fa fa-heart"></i></a>
+                    <a class="btn-product-cart" href="shop-cart.html"><i class="fa fa-shopping-cart"></i></a>
+                    <button type="button" class="btn-product-quick-view-open">
+                      <i class="fa fa-arrows"></i>
+                    </button>
+                    <a class="btn-product-compare" href="shop-compare.html"><i class="fa fa-random"></i></a>
+                  </div>
+                          <a class="banner-link-overlay" href="shop.html"></a>
+                        </div>
+                        <div class="product-info">
+                          <div class="category">
+                    <ul>
+                      <li><a href="shop.html">Men</a></li>
+                              <li class="sep">/</li>
+                              <li><a href="shop.html">Women</a></li>
+                            </ul>
+                          </div>
+                          <h4 class="title"><a href="single-product.html">Rexpo Womens shoes</a></h4>
+                          <div class="prices">
+                            <span class="price-old">$130</span>
+                            <span class="sep">-</span>
+                            <span class="price">$333.00</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!--== End prPduct Item ==-->
+                  </div>
+                  <div class="swiper-slide">
+                    <!--== Start Product Item ==-->
+                    <div class="product-item">
+                      <div class="inner-content">
+                        <div class="product-thumb">
+                          <a href="single-product.html">
+                            <img src="assets/img/shop/4.webp" width="270" height="274" alt="Image-HasTech">
+                          </a>
+                          <div class="product-action">
+                    <a class="btn-product-wishlist" href="shop-wishlist.html"><i class="fa fa-heart"></i></a>
+                    <a class="btn-product-cart" href="shop-cart.html"><i class="fa fa-shopping-cart"></i></a>
+                    <button type="button" class="btn-product-quick-view-open">
+                      <i class="fa fa-arrows"></i>
+                    </button>
+                    <a class="btn-product-compare" href="shop-compare.html"><i class="fa fa-random"></i></a>
+                  </div>
+                          <a class="banner-link-overlay" href="shop.html"></a>
+                        </div>
+                        <div class="product-info">
+                          <div class="category">
+                    <ul>
+                      <li><a href="shop.html">Men</a></li>
+                              <li class="sep">/</li>
+                              <li><a href="shop.html">Women</a></li>
+                            </ul>
+                          </div>
+                          <h4 class="title"><a href="single-product.html">Leather Mens Slipper</a></h4>
+                          <div class="prices">
+                            <span class="price">$540.00</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!--== End prPduct Item ==-->
+                  </div>
+                  <div class="swiper-slide">
+                    <!--== Start Product Item ==-->
+                    <div class="product-item">
+                      <div class="inner-content">
+                        <div class="product-thumb">
+                          <a href="single-product.html">
+                            <img src="assets/img/shop/5.webp" width="270" height="274" alt="Image-HasTech">
+                          </a>
+                          <div class="product-action">
+                    <a class="btn-product-wishlist" href="shop-wishlist.html"><i class="fa fa-heart"></i></a>
+                    <a class="btn-product-cart" href="shop-cart.html"><i class="fa fa-shopping-cart"></i></a>
+                    <button type="button" class="btn-product-quick-view-open">
+                      <i class="fa fa-arrows"></i>
+                    </button>
+                    <a class="btn-product-compare" href="shop-compare.html"><i class="fa fa-random"></i></a>
+                  </div>
+                          <a class="banner-link-overlay" href="shop.html"></a>
+                        </div>
+                        <div class="product-info">
+                          <div class="category">
+                    <ul>
+                      <li><a href="shop.html">Men</a></li>
+                              <li class="sep">/</li>
+                              <li><a href="shop.html">Women</a></li>
+                            </ul>
+                          </div>
+                          <h4 class="title"><a href="single-product.html">Primitive Mens shoes</a></h4>
+                          <div class="prices">
+                            <span class="price-old">$40</span>
+                            <span class="sep">-</span>
+                            <span class="price">$280.00</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!--== End prPduct Item ==-->
+                  </div>
+                  <div class="swiper-slide">
+                    <!--== Start Product Item ==-->
+                    <div class="product-item">
+                      <div class="inner-content">
+                        <div class="product-thumb">
+                          <a href="single-product.html">
+                            <img src="assets/img/shop/6.webp" width="270" height="274" alt="Image-HasTech">
+                          </a>
+                          <div class="product-flag">
+                            <ul>
+                              <li class="discount">-10%</li>
+                            </ul>
+                          </div>
+                          <div class="product-action">
+                    <a class="btn-product-wishlist" href="shop-wishlist.html"><i class="fa fa-heart"></i></a>
+                    <a class="btn-product-cart" href="shop-cart.html"><i class="fa fa-shopping-cart"></i></a>
+                    <button type="button" class="btn-product-quick-view-open">
+                      <i class="fa fa-arrows"></i>
+                    </button>
+                    <a class="btn-product-compare" href="shop-compare.html"><i class="fa fa-random"></i></a>
+                  </div>
+                          <a class="banner-link-overlay" href="shop.html"></a>
+                        </div>
+                        <div class="product-info">
+                          <div class="category">
+                    <ul>
+                      <li><a href="shop.html">Men</a></li>
+                              <li class="sep">/</li>
+                              <li><a href="shop.html">Women</a></li>
+                            </ul>
+                          </div>
+                          <h4 class="title"><a href="single-product.html">Simple Fabric Shoe</a></h4>
+                          <div class="prices">
+                            <span class="price-old">$400</span>
+                            <span class="sep">-</span>
+                            <span class="price">$580.00</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!--== End prPduct Item ==-->
+                  </div>
+                </div>
+              </div>
+              <!--== Add Swiper Arrows ==-->
+              <div class="product-swiper-btn-wrap">
+                <div class="product-swiper-btn-prev">
+                  <i class="fa fa-arrow-left"></i>
+                </div>
+                <div class="product-swiper-btn-next">
+                  <i class="fa fa-arrow-right"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="product-area product-best-seller-area">
       <div class="container">
         <div class="row">
@@ -1117,7 +1541,7 @@ require_once 'sections/header.php';
     <div class="offcanvas-body">
       <ul class="aside-cart-product-list">
         <li class="product-list-item">
-          <a href="#/" class="remove">×</a>
+          <a href="#" class="remove">×</a>
           <a href="single-product.html">
             <img src="assets/img/shop/product-mini/1.webp" width="90" height="110" alt="Image-HasTech">
             <span class="product-title">Leather Mens Slipper</span>
@@ -1125,7 +1549,7 @@ require_once 'sections/header.php';
           <span class="product-price">1 × £69.99</span>
         </li>
         <li class="product-list-item">
-          <a href="#/" class="remove">×</a>
+          <a href="#" class="remove">×</a>
           <a href="single-product.html">
             <img src="assets/img/shop/product-mini/2.webp" width="90" height="110" alt="Image-HasTech">
             <span class="product-title">Quickiin Mens shoes</span>
@@ -1189,7 +1613,7 @@ require_once 'sections/header.php';
               <li><a href="index-two.html">Home Two</a></li>
             </ul>
           </li>
-          <li><a href="about-us.php">About</a></li>
+          <li><a href="about-us.html">About</a></li>
           <li><a href="#">Pages</a>
             <ul class="sub-menu">
               <li><a href="account.html">Account</a></li>
