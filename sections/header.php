@@ -57,7 +57,7 @@ function myFunction() {
                                         <ul>
                                             <li class="number"><i class="fa fa-phone"></i><a href="tel://+982166388810"> 02166388810</a></li>
                                             <li class="email"><i class="fa fa-envelope"></i><a href="mailto://info@digital-shop.com"> info@digital-shop.com</a></li>
-                                            <li class="account"><i class="fa fa-user"></i><a href="account-login.html"> پنل کاربری</a></li>
+                                            <li class="account"><i class="fa fa-user"></i><a href="<?php echo PATH; ?>/users/login.php"> پنل کاربری</a></li>
                                         </ul>
                                     </div>
                                 </div>
