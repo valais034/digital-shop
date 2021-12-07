@@ -2,122 +2,114 @@
 $footer_posts = get_posts(3);
 ?>
 <!-- Footer Section start here -->
-<footer class="footer-section" style="background-image: url(assets/images/bg-images/footer-bg.png);">
-    <div class="footer-top">
-        <div class="container">
-            <div class="row g-3 justify-content-center g-lg-0">
-                <div class="col-lg-4 col-sm-6 col-12">
-                    <div class="footer-top-item lab-item">
-                        <div class="lab-inner">
-                            <div class="lab-thumb">
-                                <img src="assets/images/footer/footer-top/01.png" alt="Phone-icon">
-                            </div>
-                            <div class="lab-content">
-                                <span>امور نمایندگی ها: 021-88680364</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 col-12">
-                    <div class="footer-top-item lab-item">
-                        <div class="lab-inner">
-                            <div class="lab-thumb">
-                                <img src="assets/images/footer/footer-top/02.png" alt="email-icon">
-                            </div>
-                            <div class="lab-content">
-                                <span>ایمیل: ads@adidasland.com</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 col-12">
-                    <div class="footer-top-item lab-item">
-                        <div class="lab-inner">
-                            <div class="lab-thumb">
-                                <img src="assets/images/footer/footer-top/03.png" alt="location-icon">
-                            </div>
-                            <div class="lab-content">
-                                <span>سعادت آباد، م کاج، نبش سوم، پلاک 22</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="footer-middle padding-tb">
-        <div class="container">
-            <div class="row shape-c">
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="footer-middle-item-wrapper">
-                        <div class="footer-middle-item mb-5 mb-lg-0">
-                            <div class="fm-item-title">
-                                <h5>درباره ما</h5>
-                            </div>
-                            <div class="fm-item-content">
-                                <p class="mb-30">آدیداس برندی قدیمی، بااصالت و پرآوازه در صنف محصولات ورزشی است. نمایندگی آدیداس در تهران آماده خدمت رسانی به مشتریان عزیز می باشد.</p>
-                                <img class="rounded footer-abt-img" src="assets/images/logo/01.png"
-                                     alt="about-image">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="footer-middle-item-wrapper">
-                        <div class="footer-middle-item mb-5 mb-lg-0">
-                            <div class="fm-item-title">
-                                <h5>اخبار جدید</h5>
-                            </div>
-                            <div class="fm-item-content">
-                                <?php while ($footer_post = mysqli_fetch_array($footer_posts)) { ?>
-                                    <div class="fm-item-widget lab-item">
-                                        <div class="lab-inner">
-                                            <div class="lab-thumb">
-                                                <a href="post.php?post-id=<?php echo $footer_post['id'] ?>"><img src="assets/images/post/<?php echo $footer_post['post_image'] ?>" alt=""></a>
-                                            </div>
-                                            <div class="lab-content">
-                                                <h6><a href="post.php?post-id=<?php echo $footer_post['id'] ?>"><?php echo $footer_post['post_title'] ?></a></h6>
-                                                <p>14 آذر 1400</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                <?php } ?>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-12">
-                    <div class="footer-middle-item-wrapper">
-                        <div class="footer-middle-item-3 mb-5 mb-lg-0">
-                            <div class="fm-item-title">
-                                <h5>خبرنامه</h5>
-                            </div>
-                            <div class="fm-item-content">
-                                <p>چنانچه میخواهید از نمایندگی ها و تغییراتشان با خبر شوید ایمیل خود را ارسال نمایید.</p>
-                                <form action="#" id="subsFrm" method="post">
-                                    <input type="text" id="name" placeholder="Full Name" required="">
-                                    <input type="email" id="email" placeholder="E-mail" required="">
-                                    <input type="button" id="subscribeBtn" class="lab-btn" value="عضویت">
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="footer-bottom">
-        <div class="container">
+<footer class="footer-area">
+    <!--== Start Footer Main ==-->
+    <div class="footer-main">
+        <div class="container pt--0 pb--0">
             <div class="row">
-                <div class="col-12">
-                    <div class="footer-bottom-content text-center">
-                        <p>@2021 طراحی و توسعه :  <a href="https://es92.ir/" target="_blank">اسماعیل علی حسینی</a></p>
+                <div class="col-md-6 col-lg-3">
+                    <!--== Start widget Item ==-->
+                    <div class="widget-item">
+                        <div class="about-widget-wrap">
+                            <div class="widget-logo-area">
+                                <a href="index.php">
+                                    <img class="logo-main" src="assets/img/logo.png" width="131" height="34" alt="Logo" />
+                                </a>
+                            </div>
+                            <p class="desc">فروشگاه دیجیتال شاپ یکی از اولین فروشگاه های اینترنی در ایران در حوزه فروش موبایل و لپ تاپ</p>
+                            <div class="social-icons">
+                                <a href="https://www.facebook.com/" target="_blank" rel="noopener"><i class="fa fa-facebook"></i></a>
+                                <a href="https://dribbble.com/" target="_blank" rel="noopener"><i class="fa fa-dribbble"></i></a>
+                                <a href="https://www.pinterest.com/" target="_blank" rel="noopener"><i class="fa fa-pinterest-p"></i></a>
+                                <a href="https://twitter.com/" target="_blank" rel="noopener"><i class="fa fa-twitter"></i></a>
+                            </div>
+                        </div>
                     </div>
+                    <!--== End widget Item ==-->
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <!--== Start widget Item ==-->
+                    <div class="widget-item widget-services-item">
+                        <h4 class="widget-title">محصولات</h4>
+                        <h4 class="widget-collapsed-title collapsed" data-bs-toggle="collapse" data-bs-target="#widgetId-1">Services</h4>
+                        <div id="widgetId-1" class="collapse widget-collapse-body">
+                            <div class="collapse-body">
+                                <div class="widget-menu-wrap">
+                                    <ul class="nav-menu">
+                                        <li><a href="contact.html">تلفن همراه</a></li>
+                                        <li><a href="contact.html">لپ تاپ</a></li>
+                                        <li><a href="contact.html">لوازم جانبی</a></li>
+                                        <li><a href="contact.html">قطعات کامپیوتر</a></li>
+                                        <li><a href="contact.html">موبایل های کترپیلار</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--== End widget Item ==-->
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <!--== Start widget Item ==-->
+                    <div class="widget-item widget-account-item">
+                        <h4 class="widget-title">لینک ها</h4>
+                        <h4 class="widget-collapsed-title collapsed" data-bs-toggle="collapse" data-bs-target="#widgetId-2">My Account</h4>
+                        <div id="widgetId-2" class="collapse widget-collapse-body">
+                            <div class="collapse-body">
+                                <div class="widget-menu-wrap">
+                                    <ul class="nav-menu">
+                                        <li><a href="account-login.html">حساب کاربری</a></li>
+                                        <li><a href="contact.html">تماس با ما</a></li>
+                                        <li><a href="shop-cart.html">سبد خرید</a></li>
+                                        <li><a href="shop.php">محصولات</a></li>
+                                        <li><a href="account-login.html">ورود/ ثبت نام</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--== End widget Item ==-->
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <!--== Start widget Item ==-->
+                    <div class="widget-item">
+                        <h4 class="widget-title">آدرس دیجیتال شاپ</h4>
+                        <h4 class="widget-collapsed-title collapsed" data-bs-toggle="collapse" data-bs-target="#widgetId-3">Contact Info</h4>
+                        <div id="widgetId-3" class="collapse widget-collapse-body">
+                            <div class="collapse-body">
+                                <div class="widget-contact-wrap">
+                                    <ul>
+                                        <li><span>تهران،</span> خ ولیعصر، بالاتر از پارک ساعی، نبش کوچه 18، پلاک 28، واحد 2</li>
+                                        <li><span>تلفن:</span> <a href="tel://02166388810">02166388810</a></li>
+                                        <li><span>ایمیل:</span> <a href="mailto://info@digital-shop.com">info@digital-shop.com</a></li>
+                                        <li><span>واتساپ:</span> <a href="tel://09354608896">09354608896</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--== End widget Item ==-->
                 </div>
             </div>
         </div>
     </div>
+    <!--== End Footer Main ==-->
+
+    <!--== Start Footer Bottom ==-->
+    <div class="footer-bottom">
+        <div class="container pt--0 pb--0">
+            <div class="row">
+                <div class="col-md-7 col-lg-6">
+                    <p class="copyright">© 2021 دیجیتال شاپ (طراحی با <i class="fa fa-heart"></i> توسط <a target="_blank" href="https://es92.ir">اسماعیل علی حسینی)</a></p>
+                </div>
+<!--                <div class="col-md-5 col-lg-6">-->
+<!--                    <div class="payment">-->
+<!--                        <a href="account-login.html"><img src="assets/img/photos/payment-card.webp" width="192" height="21" alt="Payment Logo"></a>-->
+<!--                    </div>-->
+<!--                </div>-->
+            </div>
+        </div>
+    </div>
+    <!--== End Footer Bottom ==-->
 </footer>
 <!-- Footer Section end here -->
 

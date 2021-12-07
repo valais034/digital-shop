@@ -123,14 +123,6 @@ function myFunction() {
                                 <ul class="main-menu nav">
                                     <li><a href="<?php echo PATH; ?>"><span>خانه</span></a></li>
                                     <li><a href="<?php echo PATH; ?>/shop.php"><span>محصولات</span></a></li>
-                                    <li class="has-submenu"><a href="#"><span>صفحات</span></a>
-                                        <ul class="submenu-nav">
-                                            <li><a href="account.html"><span>حساب کاربری</span></a></li>
-                                            <li><a href="account-login.html"><span>ورود</span></a></li>
-                                            <li><a href="account-register.html"><span>ثبت نام</span></a></li>
-                                            <li><a href="page-not-found.html"><span>صفحه پیدا نشد</span></a></li>
-                                        </ul>
-                                    </li>
                                     <li class="has-submenu position-static"><a href="#"><span>فروشگاه</span></a>
                                         <ul class="submenu-nav submenu-nav-mega column-3">
                                             <li class="mega-menu-item"><a href="#" class="mega-title"><span>استایل فروشگاه</span></a>

@@ -149,7 +149,7 @@
                         <ul>
                           <li><a href="shop-three-columns.html"><span>Shop 3 Column</span></a></li>
                           <li><a href="shop-four-columns.html"><span>Shop 4 Column</span></a></li>
-                          <li><a href="shop.html"><span>Shop Left Sidebar</span></a></li>
+                          <li><a href="shop.php"><span>Shop Left Sidebar</span></a></li>
                           <li><a href="shop-right-sidebar.html"><span>Shop Right Sidebar</span></a></li>
                         </ul>
                       </li>
@@ -259,7 +259,7 @@
               <h4 class="sub-title">Saving 50%</h4>
               <h2 class="title">All Online Store</h2>
               <p class="desc">Offer Available All Shoes & Products</p>
-              <a class="btn-theme" href="shop.html">Shop Now</a>
+              <a class="btn-theme" href="shop.php">Shop Now</a>
             </div>
           </div>
         </div>
@@ -582,7 +582,7 @@
                       <li><a href="account-login.html">My Account</a></li>
                       <li><a href="contact.html">Contact</a></li>
                       <li><a href="shop-cart.html">Shopping cart</a></li>
-                      <li><a href="shop.html">Shop</a></li>
+                      <li><a href="shop.php">Shop</a></li>
                       <li><a href="account-login.html">Services Login</a></li>
                     </ul>
                   </div>
@@ -791,7 +791,7 @@
                 <ul class="sub-menu">
                   <li><a href="shop-three-columns.html">Shop 3 Column</a></li>
                   <li><a href="shop-four-columns.html">Shop 4 Column</a></li>
-                  <li><a href="shop.html">Shop Left Sidebar</a></li>
+                  <li><a href="shop.php">Shop Left Sidebar</a></li>
                   <li><a href="shop-right-sidebar.html">Shop Right Sidebar</a></li>
                 </ul>
               </li>

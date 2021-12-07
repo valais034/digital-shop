@@ -149,7 +149,7 @@
                         <ul>
                           <li><a href="shop-three-columns.html"><span>Shop 3 Column</span></a></li>
                           <li><a href="shop-four-columns.html"><span>Shop 4 Column</span></a></li>
-                          <li><a href="shop.html"><span>Shop Left Sidebar</span></a></li>
+                          <li><a href="shop.php"><span>Shop Left Sidebar</span></a></li>
                           <li><a href="shop-right-sidebar.html"><span>Shop Right Sidebar</span></a></li>
                         </ul>
                       </li>
@@ -231,7 +231,7 @@
               <div class="col-12">
                 <div class="shop-top-bar">
                   <div class="shop-top-left">
-                    <p class="pagination-line"><a href="shop.html">12</a> Product Found of <a href="shop.html">30</a></p>
+                    <p class="pagination-line"><a href="shop.php">12</a> Product Found of <a href="shop.php">30</a></p>
                   </div>
                   <div class="shop-top-center">
                     <nav class="product-nav">
@@ -280,14 +280,14 @@
                     </button>
                     <a class="btn-product-compare" href="shop-compare.html"><i class="fa fa-random"></i></a>
                   </div>
-                              <a class="banner-link-overlay" href="shop.html"></a>
+                              <a class="banner-link-overlay" href="shop.php"></a>
                             </div>
                             <div class="product-info">
                               <div class="category">
                                 <ul>
-                                  <li><a href="shop.html">Men</a></li>
+                                  <li><a href="shop.php">Men</a></li>
                                   <li class="sep">/</li>
-                                  <li><a href="shop.html">Women</a></li>
+                                  <li><a href="shop.php">Women</a></li>
                                 </ul>
                               </div>
                               <h4 class="title"><a href="single-product.html">Leather Mens Slipper</a></h4>
@@ -317,14 +317,14 @@
                     </button>
                     <a class="btn-product-compare" href="shop-compare.html"><i class="fa fa-random"></i></a>
                   </div>
-                              <a class="banner-link-overlay" href="shop.html"></a>
+                              <a class="banner-link-overlay" href="shop.php"></a>
                             </div>
                             <div class="product-info">
                               <div class="category">
                                 <ul>
-                                  <li><a href="shop.html">Men</a></li>
+                                  <li><a href="shop.php">Men</a></li>
                                   <li class="sep">/</li>
-                                  <li><a href="shop.html">Women</a></li>
+                                  <li><a href="shop.php">Women</a></li>
                                 </ul>
                               </div>
                               <h4 class="title"><a href="single-product.html">Quickiin Mens shoes</a></h4>
@@ -357,14 +357,14 @@
                     </button>
                     <a class="btn-product-compare" href="shop-compare.html"><i class="fa fa-random"></i></a>
                   </div>
-                              <a class="banner-link-overlay" href="shop.html"></a>
+                              <a class="banner-link-overlay" href="shop.php"></a>
                             </div>
                             <div class="product-info">
                               <div class="category">
                                 <ul>
-                                  <li><a href="shop.html">Men</a></li>
+                                  <li><a href="shop.php">Men</a></li>
                                   <li class="sep">/</li>
-                                  <li><a href="shop.html">Women</a></li>
+                                  <li><a href="shop.php">Women</a></li>
                                 </ul>
                               </div>
                               <h4 class="title"><a href="single-product.html">Rexpo Womens shoes</a></h4>
@@ -394,14 +394,14 @@
                     </button>
                     <a class="btn-product-compare" href="shop-compare.html"><i class="fa fa-random"></i></a>
                   </div>
-                              <a class="banner-link-overlay" href="shop.html"></a>
+                              <a class="banner-link-overlay" href="shop.php"></a>
                             </div>
                             <div class="product-info">
                               <div class="category">
                                 <ul>
-                                  <li><a href="shop.html">Men</a></li>
+                                  <li><a href="shop.php">Men</a></li>
                                   <li class="sep">/</li>
-                                  <li><a href="shop.html">Women</a></li>
+                                  <li><a href="shop.php">Women</a></li>
                                 </ul>
                               </div>
                               <h4 class="title"><a href="single-product.html">Modern Smart Shoes</a></h4>
@@ -434,14 +434,14 @@
                     </button>
                     <a class="btn-product-compare" href="shop-compare.html"><i class="fa fa-random"></i></a>
                   </div>
-                              <a class="banner-link-overlay" href="shop.html"></a>
+                              <a class="banner-link-overlay" href="shop.php"></a>
                             </div>
                             <div class="product-info">
                               <div class="category">
                                 <ul>
-                                  <li><a href="shop.html">Men</a></li>
+                                  <li><a href="shop.php">Men</a></li>
                                   <li class="sep">/</li>
-                                  <li><a href="shop.html">Women</a></li>
+                                  <li><a href="shop.php">Women</a></li>
                                 </ul>
                               </div>
                               <h4 class="title"><a href="single-product.html">Primitive Mens shoes</a></h4>
@@ -469,14 +469,14 @@
                     </button>
                     <a class="btn-product-compare" href="shop-compare.html"><i class="fa fa-random"></i></a>
                   </div>
-                              <a class="banner-link-overlay" href="shop.html"></a>
+                              <a class="banner-link-overlay" href="shop.php"></a>
                             </div>
                             <div class="product-info">
                               <div class="category">
                                 <ul>
-                                  <li><a href="shop.html">Men</a></li>
+                                  <li><a href="shop.php">Men</a></li>
                                   <li class="sep">/</li>
-                                  <li><a href="shop.html">Women</a></li>
+                                  <li><a href="shop.php">Women</a></li>
                                 </ul>
                               </div>
                               <h4 class="title"><a href="single-product.html">Leather Mens Slipper</a></h4>
@@ -511,14 +511,14 @@
                     </button>
                     <a class="btn-product-compare" href="shop-compare.html"><i class="fa fa-random"></i></a>
                   </div>
-                              <a class="banner-link-overlay" href="shop.html"></a>
+                              <a class="banner-link-overlay" href="shop.php"></a>
                             </div>
                             <div class="product-info">
                               <div class="category">
                                 <ul>
-                                  <li><a href="shop.html">Men</a></li>
+                                  <li><a href="shop.php">Men</a></li>
                                   <li class="sep">/</li>
-                                  <li><a href="shop.html">Women</a></li>
+                                  <li><a href="shop.php">Women</a></li>
                                 </ul>
                               </div>
                               <h4 class="title"><a href="single-product.html">Simple Fabric Shoe</a></h4>
@@ -546,14 +546,14 @@
                     </button>
                     <a class="btn-product-compare" href="shop-compare.html"><i class="fa fa-random"></i></a>
                   </div>
-                              <a class="banner-link-overlay" href="shop.html"></a>
+                              <a class="banner-link-overlay" href="shop.php"></a>
                             </div>
                             <div class="product-info">
                               <div class="category">
                                 <ul>
-                                  <li><a href="shop.html">Men</a></li>
+                                  <li><a href="shop.php">Men</a></li>
                                   <li class="sep">/</li>
-                                  <li><a href="shop.html">Women</a></li>
+                                  <li><a href="shop.php">Women</a></li>
                                 </ul>
                               </div>
                               <h4 class="title"><a href="single-product.html">Primitive Men shoes</a></h4>
@@ -588,14 +588,14 @@
                     </button>
                     <a class="btn-product-compare" href="shop-compare.html"><i class="fa fa-random"></i></a>
                   </div>
-                              <a class="banner-link-overlay" href="shop.html"></a>
+                              <a class="banner-link-overlay" href="shop.php"></a>
                             </div>
                             <div class="product-info">
                               <div class="category">
                                 <ul>
-                                  <li><a href="shop.html">Men</a></li>
+                                  <li><a href="shop.php">Men</a></li>
                                   <li class="sep">/</li>
-                                  <li><a href="shop.html">Women</a></li>
+                                  <li><a href="shop.php">Women</a></li>
                                 </ul>
                               </div>
                               <h4 class="title"><a href="single-product.html">Hollister V-Neck Knit</a></h4>
@@ -625,14 +625,14 @@
                     </button>
                     <a class="btn-product-compare" href="shop-compare.html"><i class="fa fa-random"></i></a>
                   </div>
-                              <a class="banner-link-overlay" href="shop.html"></a>
+                              <a class="banner-link-overlay" href="shop.php"></a>
                             </div>
                             <div class="product-info">
                               <div class="category">
                                 <ul>
-                                  <li><a href="shop.html">Men</a></li>
+                                  <li><a href="shop.php">Men</a></li>
                                   <li class="sep">/</li>
-                                  <li><a href="shop.html">Women</a></li>
+                                  <li><a href="shop.php">Women</a></li>
                                 </ul>
                               </div>
                               <h4 class="title"><a href="single-product.html">exclusive mens shoe</a></h4>
@@ -665,14 +665,14 @@
                     </button>
                     <a class="btn-product-compare" href="shop-compare.html"><i class="fa fa-random"></i></a>
                   </div>
-                              <a class="banner-link-overlay" href="shop.html"></a>
+                              <a class="banner-link-overlay" href="shop.php"></a>
                             </div>
                             <div class="product-info">
                               <div class="category">
                                 <ul>
-                                  <li><a href="shop.html">Men</a></li>
+                                  <li><a href="shop.php">Men</a></li>
                                   <li class="sep">/</li>
-                                  <li><a href="shop.html">Women</a></li>
+                                  <li><a href="shop.php">Women</a></li>
                                 </ul>
                               </div>
                               <h4 class="title"><a href="single-product.html">New Womens High Hills</a></h4>
@@ -702,14 +702,14 @@
                     </button>
                     <a class="btn-product-compare" href="shop-compare.html"><i class="fa fa-random"></i></a>
                   </div>
-                              <a class="banner-link-overlay" href="shop.html"></a>
+                              <a class="banner-link-overlay" href="shop.php"></a>
                             </div>
                             <div class="product-info">
                               <div class="category">
                                 <ul>
-                                  <li><a href="shop.html">Men</a></li>
+                                  <li><a href="shop.php">Men</a></li>
                                   <li class="sep">/</li>
-                                  <li><a href="shop.html">Women</a></li>
+                                  <li><a href="shop.php">Women</a></li>
                                 </ul>
                               </div>
                               <h4 class="title"><a href="single-product.html">Leather Mens slippers</a></h4>
@@ -724,7 +724,7 @@
                       <div class="col-12">
                         <div class="pagination-items">
                           <ul class="pagination justify-content-end mb--0">
-                            <li><a class="active" href="shop.html">1</a></li>
+                            <li><a class="active" href="shop.php">1</a></li>
                             <li><a href="shop-four-columns.html">2</a></li>
                             <li><a href="shop-three-columns.html">3</a></li>
                           </ul>                    
@@ -755,14 +755,14 @@
                     </button>
                     <a class="btn-product-compare" href="shop-compare.html"><i class="fa fa-random"></i></a>
                   </div>
-                              <a class="banner-link-overlay" href="shop.html"></a>
+                              <a class="banner-link-overlay" href="shop.php"></a>
                             </div>
                             <div class="product-info">
                               <div class="category">
                                 <ul>
-                                  <li><a href="shop.html">Men</a></li>
+                                  <li><a href="shop.php">Men</a></li>
                                   <li class="sep">/</li>
-                                  <li><a href="shop.html">Women</a></li>
+                                  <li><a href="shop.php">Women</a></li>
                                 </ul>
                               </div>
                               <h4 class="title"><a href="single-product.html">Leather Mens Slipper</a></h4>
@@ -794,14 +794,14 @@
                     </button>
                     <a class="btn-product-compare" href="shop-compare.html"><i class="fa fa-random"></i></a>
                   </div>
-                              <a class="banner-link-overlay" href="shop.html"></a>
+                              <a class="banner-link-overlay" href="shop.php"></a>
                             </div>
                             <div class="product-info">
                               <div class="category">
                                 <ul>
-                                  <li><a href="shop.html">Men</a></li>
+                                  <li><a href="shop.php">Men</a></li>
                                   <li class="sep">/</li>
-                                  <li><a href="shop.html">Women</a></li>
+                                  <li><a href="shop.php">Women</a></li>
                                 </ul>
                               </div>
                               <h4 class="title"><a href="single-product.html">Quickiin Mens shoes</a></h4>
@@ -836,14 +836,14 @@
                     </button>
                     <a class="btn-product-compare" href="shop-compare.html"><i class="fa fa-random"></i></a>
                   </div>
-                              <a class="banner-link-overlay" href="shop.html"></a>
+                              <a class="banner-link-overlay" href="shop.php"></a>
                             </div>
                             <div class="product-info">
                               <div class="category">
                                 <ul>
-                                  <li><a href="shop.html">Men</a></li>
+                                  <li><a href="shop.php">Men</a></li>
                                   <li class="sep">/</li>
-                                  <li><a href="shop.html">Women</a></li>
+                                  <li><a href="shop.php">Women</a></li>
                                 </ul>
                               </div>
                               <h4 class="title"><a href="single-product.html">Rexpo Womens shoes</a></h4>
@@ -875,14 +875,14 @@
                     </button>
                     <a class="btn-product-compare" href="shop-compare.html"><i class="fa fa-random"></i></a>
                   </div>
-                              <a class="banner-link-overlay" href="shop.html"></a>
+                              <a class="banner-link-overlay" href="shop.php"></a>
                             </div>
                             <div class="product-info">
                               <div class="category">
                                 <ul>
-                                  <li><a href="shop.html">Men</a></li>
+                                  <li><a href="shop.php">Men</a></li>
                                   <li class="sep">/</li>
-                                  <li><a href="shop.html">Women</a></li>
+                                  <li><a href="shop.php">Women</a></li>
                                 </ul>
                               </div>
                               <h4 class="title"><a href="single-product.html">Modern Smart Shoes</a></h4>
@@ -917,14 +917,14 @@
                     </button>
                     <a class="btn-product-compare" href="shop-compare.html"><i class="fa fa-random"></i></a>
                   </div>
-                              <a class="banner-link-overlay" href="shop.html"></a>
+                              <a class="banner-link-overlay" href="shop.php"></a>
                             </div>
                             <div class="product-info">
                               <div class="category">
                                 <ul>
-                                  <li><a href="shop.html">Men</a></li>
+                                  <li><a href="shop.php">Men</a></li>
                                   <li class="sep">/</li>
-                                  <li><a href="shop.html">Women</a></li>
+                                  <li><a href="shop.php">Women</a></li>
                                 </ul>
                               </div>
                               <h4 class="title"><a href="single-product.html">Primitive Mens shoes</a></h4>
@@ -954,14 +954,14 @@
                     </button>
                     <a class="btn-product-compare" href="shop-compare.html"><i class="fa fa-random"></i></a>
                   </div>
-                              <a class="banner-link-overlay" href="shop.html"></a>
+                              <a class="banner-link-overlay" href="shop.php"></a>
                             </div>
                             <div class="product-info">
                               <div class="category">
                                 <ul>
-                                  <li><a href="shop.html">Men</a></li>
+                                  <li><a href="shop.php">Men</a></li>
                                   <li class="sep">/</li>
-                                  <li><a href="shop.html">Women</a></li>
+                                  <li><a href="shop.php">Women</a></li>
                                 </ul>
                               </div>
                               <h4 class="title"><a href="single-product.html">Leather Mens Slipper</a></h4>
@@ -980,7 +980,7 @@
                       <div class="col-12">
                         <div class="pagination-items">
                           <ul class="pagination justify-content-end mb--0">
-                            <li><a class="active" href="shop.html">1</a></li>
+                            <li><a class="active" href="shop.php">1</a></li>
                             <li><a href="shop-four-columns.html">2</a></li>
                             <li><a href="shop-three-columns.html">3</a></li>
                           </ul>                    
@@ -998,13 +998,13 @@
                 <h4 class="sidebar-title">Top Categories</h4>
                 <div class="sidebar-category">
                   <ul class="category-list mb--0">
-                    <li><a href="shop.html">Shoes <span>(6)</span></a></li>
-                    <li><a href="shop.html">Computer <span>(4)</span></a></li>
-                    <li><a href="shop.html">Covid-19 <span>(2)</span></a></li>
-                    <li><a href="shop.html">Electronics <span>(6)</span></a></li>
-                    <li><a href="shop.html">Frame Sunglasses <span>(12)</span></a></li>
-                    <li><a href="shop.html">Furniture <span>(7)</span></a></li>
-                    <li><a href="shop.html">Genuine Leather <span>(9)</span></a></li>
+                    <li><a href="shop.php">Shoes <span>(6)</span></a></li>
+                    <li><a href="shop.php">Computer <span>(4)</span></a></li>
+                    <li><a href="shop.php">Covid-19 <span>(2)</span></a></li>
+                    <li><a href="shop.php">Electronics <span>(6)</span></a></li>
+                    <li><a href="shop.php">Frame Sunglasses <span>(12)</span></a></li>
+                    <li><a href="shop.php">Furniture <span>(7)</span></a></li>
+                    <li><a href="shop.php">Genuine Leather <span>(9)</span></a></li>
                   </ul>
                 </div>
               </div>
@@ -1042,11 +1042,11 @@
                 <h4 class="sidebar-title">Size</h4>
                 <div class="sidebar-size">
                   <ul class="size-list">
-                    <li><a href="shop.html">S <span>(6)</span></a></li>
-                    <li><a href="shop.html">M <span>(4)</span></a></li>
-                    <li><a href="shop.html">L <span>(2)</span></a></li>
-                    <li><a href="shop.html">XL <span>(6)</span></a></li>
-                    <li><a href="shop.html">XXL <span>(12)</span></a></li>
+                    <li><a href="shop.php">S <span>(6)</span></a></li>
+                    <li><a href="shop.php">M <span>(4)</span></a></li>
+                    <li><a href="shop.php">L <span>(2)</span></a></li>
+                    <li><a href="shop.php">XL <span>(6)</span></a></li>
+                    <li><a href="shop.php">XXL <span>(12)</span></a></li>
                   </ul>
                 </div>
               </div>
@@ -1055,11 +1055,11 @@
                 <h4 class="sidebar-title">Brand</h4>
                 <div class="sidebar-brand">
                   <ul class="brand-list mb--0">
-                    <li><a href="shop.html">Lakmeetao <span>(6)</span></a></li>
-                    <li><a href="shop.html">Beautifill <span>(4)</span></a></li>
-                    <li><a href="shop.html">Made In GD <span>(2)</span></a></li>
-                    <li><a href="shop.html">Pecifico <span>(6)</span></a></li>
-                    <li><a href="shop.html">Xlovgtir <span>(12)</span></a></li>
+                    <li><a href="shop.php">Lakmeetao <span>(6)</span></a></li>
+                    <li><a href="shop.php">Beautifill <span>(4)</span></a></li>
+                    <li><a href="shop.php">Made In GD <span>(2)</span></a></li>
+                    <li><a href="shop.php">Pecifico <span>(6)</span></a></li>
+                    <li><a href="shop.php">Xlovgtir <span>(12)</span></a></li>
                   </ul>
                 </div>
               </div>
@@ -1130,7 +1130,7 @@
                       <li><a href="account-login.html">My Account</a></li>
                       <li><a href="contact.html">Contact</a></li>
                       <li><a href="shop-cart.html">Shopping cart</a></li>
-                      <li><a href="shop.html">Shop</a></li>
+                      <li><a href="shop.php">Shop</a></li>
                       <li><a href="account-login.html">Services Login</a></li>
                     </ul>
                   </div>
@@ -1339,7 +1339,7 @@
                 <ul class="sub-menu">
                   <li><a href="shop-three-columns.html">Shop 3 Column</a></li>
                   <li><a href="shop-four-columns.html">Shop 4 Column</a></li>
-                  <li><a href="shop.html">Shop Left Sidebar</a></li>
+                  <li><a href="shop.php">Shop Left Sidebar</a></li>
                   <li><a href="shop-right-sidebar.html">Shop Right Sidebar</a></li>
                 </ul>
               </li>

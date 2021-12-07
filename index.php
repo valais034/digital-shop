@@ -71,13 +71,13 @@ $posts = get_posts(3);
                       <div class="slider-content">
                         <div class="content">
                           <div class="title-box">
-                            <h2 class="title">Exclusive New Shoes</h2>
+                            <h2 class="title">جدید ترین تکنولوژی</h2>
                           </div>
                           <div class="desc-box">
-                            <p class="desc">Up To 30% Off All Shoes & Products</p>
+                            <p class="desc">در دستان شماست</p>
                           </div>
                           <div class="btn-box">
-                            <a class="btn-slider" href="shop.html">Shop Now</a>
+                            <a class="btn-slider" href="shop.php">خرید کنید...</a>
                           </div>
                         </div>
                       </div>
@@ -96,7 +96,7 @@ $posts = get_posts(3);
                   </div>
                 </div>
               </div>
-              <h2 class="slider-text-shape">NEW 2021</h2>
+              <h2 class="slider-text-shape">13 PRO MAX</h2>
             </div>
           </div>
           <div class="swiper-slide">
@@ -108,13 +108,13 @@ $posts = get_posts(3);
                       <div class="slider-content">
                         <div class="content">
                           <div class="title-box">
-                            <h2 class="title">Exclusive New Shoes</h2>
+                            <h2 class="title">در رنگبندی های متنوع</h2>
                           </div>
                           <div class="desc-box">
-                            <p class="desc">Up To 30% Off All Shoes & Products</p>
+                            <p class="desc">با گارانتی و تضمین اصالت</p>
                           </div>
                           <div class="btn-box">
-                            <a class="btn-slider" href="shop.html">Shop Now</a>
+                            <a class="btn-slider" href="shop.php">خرید کنید...</a>
                           </div>
                         </div>
                       </div>
@@ -141,10 +141,10 @@ $posts = get_posts(3);
         <!--== Add Swiper Arrows ==-->
         <div class="swiper-btn-wrap">
           <div class="swiper-btn-prev">
-            <i class="pe-7s-angle-left"></i>
+              <i class="pe-7s-angle-right"></i>
           </div>
           <div class="swiper-btn-next">
-            <i class="pe-7s-angle-right"></i>
+              <i class="pe-7s-angle-left"></i>
           </div>
         </div>
       </div>
@@ -171,12 +171,12 @@ $posts = get_posts(3);
 //                    echo $img;
 //                    }
 //                    ?>
-                    <h3 class="title"><a href="shop.html">Sports Shoes</a></h3>
-                    <h4 class="price">From $95.00</h4>
+                    <h3 class="title"><a href="shop.php">تلفن همراه</a></h3>
+                    <h4 class="price">برترین ها و جدیدترین ها</h4>
                   </div>
                 </div>
-                <div class="product-collection-thumb" data-bg-img="assets/img/shop/collection/1.webp"></div>
-                <a class="banner-link-overlay" href="shop.html"></a>
+                <div class="product-collection-thumb" data-bg-img="assets/img/shop/collection/1.jpg"></div>
+                <a class="banner-link-overlay" href="shop.php"></a>
               </div>
             </div>
             <!--== End Product Collection Item ==-->
@@ -187,12 +187,12 @@ $posts = get_posts(3);
               <div class="inner-content">
                 <div class="product-collection-content">
                   <div class="content">
-                    <h3 class="title"><a href="shop.html">Latest Shoes</a></h3>
-                    <h4 class="price">From $90.00</h4>
+                    <h3 class="title"><a href="shop.php">لپ تاپ</a></h3>
+                    <h4 class="price">از برترین برندها</h4>
                   </div>
                 </div>
-                <div class="product-collection-thumb" data-bg-img="assets/img/shop/collection/2.webp"></div>
-                <a class="banner-link-overlay" href="shop.html"></a>
+                <div class="product-collection-thumb" data-bg-img="assets/img/shop/collection/2.jpg"></div>
+                <a class="banner-link-overlay" href="shop.php"></a>
               </div>
             </div>
             <!--== End Product Collection Item ==-->
@@ -203,12 +203,12 @@ $posts = get_posts(3);
               <div class="inner-content">
                 <div class="product-collection-content">
                   <div class="content">
-                    <h3 class="title"><a href="shop.html">Office Shoes</a></h3>
-                    <h4 class="price">From $82.00</h4>
+                    <h3 class="title"><a href="shop.php">لوازم جانبی</a></h3>
+                    <h4 class="price">برترین کیفیت و قیمت</h4>
                   </div>
                 </div>
-                <div class="product-collection-thumb" data-bg-img="assets/img/shop/collection/3.webp"></div>
-                <a class="banner-link-overlay" href="shop.html"></a>
+                <div class="product-collection-thumb" data-bg-img="assets/img/shop/collection/3.jpg"></div>
+                <a class="banner-link-overlay" href="shop.php"></a>
               </div>
             </div>
             <!--== End Product Collection Item ==-->
@@ -224,9 +224,9 @@ $posts = get_posts(3);
         <div class="row">
           <div class="col-12">
             <div class="section-title text-center">
-              <h3 class="title">Featured Items</h3>
+              <h3 class="title">محصولات تخفیف دار</h3>
               <div class="desc">
-                <p>There are many variations of passages of Lorem Ipsum available</p>
+                <p>گلچین محصولاتی که دارای تخفیف ویژه هستند</p>
               </div>
             </div>
           </div>
@@ -253,14 +253,14 @@ $posts = get_posts(3);
                     </button>
                     <a class="btn-product-compare" href="shop-compare.html"><i class="fa fa-random"></i></a>
                   </div>
-                  <a class="banner-link-overlay" href="shop.html"></a>
+                  <a class="banner-link-overlay" href="shop.php"></a>
                 </div>
                 <div class="product-info">
                   <div class="category">
                     <ul>
-                      <li><a href="shop.html">Men</a></li>
+                      <li><a href="shop.php">Men</a></li>
                       <li class="sep">/</li>
-                      <li><a href="shop.html">Women</a></li>
+                      <li><a href="shop.php">Women</a></li>
                     </ul>
                   </div>
                   <h4 class="title"><a href="single-product.html">Leather Mens Slipper</a></h4>
@@ -290,14 +290,14 @@ $posts = get_posts(3);
                     </button>
                     <a class="btn-product-compare" href="shop-compare.html"><i class="fa fa-random"></i></a>
                   </div>
-                  <a class="banner-link-overlay" href="shop.html"></a>
+                  <a class="banner-link-overlay" href="shop.php"></a>
                 </div>
                 <div class="product-info">
                   <div class="category">
                     <ul>
-                      <li><a href="shop.html">Men</a></li>
+                      <li><a href="shop.php">Men</a></li>
                       <li class="sep">/</li>
-                      <li><a href="shop.html">Women</a></li>
+                      <li><a href="shop.php">Women</a></li>
                     </ul>
                   </div>
                   <h4 class="title"><a href="single-product.html">Quickiin Mens shoes</a></h4>
@@ -330,14 +330,14 @@ $posts = get_posts(3);
                     </button>
                     <a class="btn-product-compare" href="shop-compare.html"><i class="fa fa-random"></i></a>
                   </div>
-                  <a class="banner-link-overlay" href="shop.html"></a>
+                  <a class="banner-link-overlay" href="shop.php"></a>
                 </div>
                 <div class="product-info">
                   <div class="category">
                     <ul>
-                      <li><a href="shop.html">Men</a></li>
+                      <li><a href="shop.php">Men</a></li>
                       <li class="sep">/</li>
-                      <li><a href="shop.html">Women</a></li>
+                      <li><a href="shop.php">Women</a></li>
                     </ul>
                   </div>
                   <h4 class="title"><a href="single-product.html">Rexpo Womens shoes</a></h4>
@@ -367,14 +367,14 @@ $posts = get_posts(3);
                     </button>
                     <a class="btn-product-compare" href="shop-compare.html"><i class="fa fa-random"></i></a>
                   </div>
-                  <a class="banner-link-overlay" href="shop.html"></a>
+                  <a class="banner-link-overlay" href="shop.php"></a>
                 </div>
                 <div class="product-info">
                   <div class="category">
                     <ul>
-                      <li><a href="shop.html">Men</a></li>
+                      <li><a href="shop.php">Men</a></li>
                       <li class="sep">/</li>
-                      <li><a href="shop.html">Women</a></li>
+                      <li><a href="shop.php">Women</a></li>
                     </ul>
                   </div>
                   <h4 class="title"><a href="single-product.html">Hollister V-Neck Knit</a></h4>
@@ -402,14 +402,14 @@ $posts = get_posts(3);
                     </button>
                     <a class="btn-product-compare" href="shop-compare.html"><i class="fa fa-random"></i></a>
                   </div>
-                  <a class="banner-link-overlay" href="shop.html"></a>
+                  <a class="banner-link-overlay" href="shop.php"></a>
                 </div>
                 <div class="product-info">
                   <div class="category">
                     <ul>
-                      <li><a href="shop.html">Men</a></li>
+                      <li><a href="shop.php">Men</a></li>
                       <li class="sep">/</li>
-                      <li><a href="shop.html">Women</a></li>
+                      <li><a href="shop.php">Women</a></li>
                     </ul>
                   </div>
                   <h4 class="title"><a href="single-product.html">Primitive Mens shoes</a></h4>
@@ -442,14 +442,14 @@ $posts = get_posts(3);
                     </button>
                     <a class="btn-product-compare" href="shop-compare.html"><i class="fa fa-random"></i></a>
                   </div>
-                  <a class="banner-link-overlay" href="shop.html"></a>
+                  <a class="banner-link-overlay" href="shop.php"></a>
                 </div>
                 <div class="product-info">
                   <div class="category">
                     <ul>
-                      <li><a href="shop.html">Men</a></li>
+                      <li><a href="shop.php">Men</a></li>
                       <li class="sep">/</li>
-                      <li><a href="shop.html">Women</a></li>
+                      <li><a href="shop.php">Women</a></li>
                     </ul>
                   </div>
                   <h4 class="title"><a href="single-product.html">New Womens High Hills</a></h4>
@@ -479,14 +479,14 @@ $posts = get_posts(3);
                     </button>
                     <a class="btn-product-compare" href="shop-compare.html"><i class="fa fa-random"></i></a>
                   </div>
-                  <a class="banner-link-overlay" href="shop.html"></a>
+                  <a class="banner-link-overlay" href="shop.php"></a>
                 </div>
                 <div class="product-info">
                   <div class="category">
                     <ul>
-                      <li><a href="shop.html">Men</a></li>
+                      <li><a href="shop.php">Men</a></li>
                       <li class="sep">/</li>
-                      <li><a href="shop.html">Women</a></li>
+                      <li><a href="shop.php">Women</a></li>
                     </ul>
                   </div>
                   <h4 class="title"><a href="single-product.html">Simple Fabric Shoe</a></h4>
@@ -519,14 +519,14 @@ $posts = get_posts(3);
                     </button>
                     <a class="btn-product-compare" href="shop-compare.html"><i class="fa fa-random"></i></a>
                   </div>
-                  <a class="banner-link-overlay" href="shop.html"></a>
+                  <a class="banner-link-overlay" href="shop.php"></a>
                 </div>
                 <div class="product-info">
                   <div class="category">
                     <ul>
-                      <li><a href="shop.html">Men</a></li>
+                      <li><a href="shop.php">Men</a></li>
                       <li class="sep">/</li>
-                      <li><a href="shop.html">Women</a></li>
+                      <li><a href="shop.php">Women</a></li>
                     </ul>
                   </div>
                   <h4 class="title"><a href="single-product.html">exclusive mens shoe</a></h4>
@@ -551,16 +551,16 @@ $posts = get_posts(3);
         <div class="row divider-wrap divider-style1">
           <div class="col-lg-6">
             <div class="divider-content" data-title="NEW">
-              <h4 class="sub-title">Saving 50%</h4>
-              <h2 class="title">All Online Store</h2>
-              <p class="desc">Offer Available All Shoes & Products</p>
-              <a class="btn-theme" href="shop.html">Shop Now</a>
+              <h4 class="sub-title">خاص ترین ها</h4>
+              <h2 class="title">فقط در دیجیتال شاپ</h2>
+              <p class="desc">گوشی های CAT در انواع گوناگون</p>
+              <a class="btn-theme" href="shop.php">مشاهده...</a>
             </div>
           </div>
         </div>
       </div>
       <div class="bg-layer-wrap">
-        <div class="bg-layer-style z-index--1 parallax" data-speed="1.05" data-bg-img="assets/img/photos/bg1.webp"></div>
+        <div class="bg-layer-style z-index--1 parallax" data-speed="1.05" data-bg-img="assets/img/photos/bg1.jpg"></div>
       </div>
     </section>
     <!--== End Divider Area Wrapper ==-->
@@ -605,14 +605,14 @@ $posts = get_posts(3);
                     </button>
                     <a class="btn-product-compare" href="shop-compare.html"><i class="fa fa-random"></i></a>
                   </div>
-                          <a class="banner-link-overlay" href="shop.html"></a>
+                          <a class="banner-link-overlay" href="shop.php"></a>
                         </div>
                         <div class="product-info">
                           <div class="category">
                     <ul>
-                      <li><a href="shop.html">Men</a></li>
+                      <li><a href="shop.php">Men</a></li>
                               <li class="sep">/</li>
-                              <li><a href="shop.html">Women</a></li>
+                              <li><a href="shop.php">Women</a></li>
                             </ul>
                           </div>
                           <h4 class="title"><a href="single-product.html">Modern Smart Shoes</a></h4>
@@ -642,14 +642,14 @@ $posts = get_posts(3);
                     </button>
                     <a class="btn-product-compare" href="shop-compare.html"><i class="fa fa-random"></i></a>
                   </div>
-                          <a class="banner-link-overlay" href="shop.html"></a>
+                          <a class="banner-link-overlay" href="shop.php"></a>
                         </div>
                         <div class="product-info">
                           <div class="category">
                     <ul>
-                      <li><a href="shop.html">Men</a></li>
+                      <li><a href="shop.php">Men</a></li>
                               <li class="sep">/</li>
-                              <li><a href="shop.html">Women</a></li>
+                              <li><a href="shop.php">Women</a></li>
                             </ul>
                           </div>
                           <h4 class="title"><a href="single-product.html">Quickiin Mens shoes</a></h4>
@@ -682,14 +682,14 @@ $posts = get_posts(3);
                     </button>
                     <a class="btn-product-compare" href="shop-compare.html"><i class="fa fa-random"></i></a>
                   </div>
-                          <a class="banner-link-overlay" href="shop.html"></a>
+                          <a class="banner-link-overlay" href="shop.php"></a>
                         </div>
                         <div class="product-info">
                           <div class="category">
                     <ul>
-                      <li><a href="shop.html">Men</a></li>
+                      <li><a href="shop.php">Men</a></li>
                               <li class="sep">/</li>
-                              <li><a href="shop.html">Women</a></li>
+                              <li><a href="shop.php">Women</a></li>
                             </ul>
                           </div>
                           <h4 class="title"><a href="single-product.html">Rexpo Womens shoes</a></h4>
@@ -719,14 +719,14 @@ $posts = get_posts(3);
                     </button>
                     <a class="btn-product-compare" href="shop-compare.html"><i class="fa fa-random"></i></a>
                   </div>
-                          <a class="banner-link-overlay" href="shop.html"></a>
+                          <a class="banner-link-overlay" href="shop.php"></a>
                         </div>
                         <div class="product-info">
                           <div class="category">
                     <ul>
-                      <li><a href="shop.html">Men</a></li>
+                      <li><a href="shop.php">Men</a></li>
                               <li class="sep">/</li>
-                              <li><a href="shop.html">Women</a></li>
+                              <li><a href="shop.php">Women</a></li>
                             </ul>
                           </div>
                           <h4 class="title"><a href="single-product.html">Leather Mens Slipper</a></h4>
@@ -754,14 +754,14 @@ $posts = get_posts(3);
                     </button>
                     <a class="btn-product-compare" href="shop-compare.html"><i class="fa fa-random"></i></a>
                   </div>
-                          <a class="banner-link-overlay" href="shop.html"></a>
+                          <a class="banner-link-overlay" href="shop.php"></a>
                         </div>
                         <div class="product-info">
                           <div class="category">
                     <ul>
-                      <li><a href="shop.html">Men</a></li>
+                      <li><a href="shop.php">Men</a></li>
                               <li class="sep">/</li>
-                              <li><a href="shop.html">Women</a></li>
+                              <li><a href="shop.php">Women</a></li>
                             </ul>
                           </div>
                           <h4 class="title"><a href="single-product.html">Primitive Mens shoes</a></h4>
@@ -796,280 +796,14 @@ $posts = get_posts(3);
                     </button>
                     <a class="btn-product-compare" href="shop-compare.html"><i class="fa fa-random"></i></a>
                   </div>
-                          <a class="banner-link-overlay" href="shop.html"></a>
+                          <a class="banner-link-overlay" href="shop.php"></a>
                         </div>
                         <div class="product-info">
                           <div class="category">
                     <ul>
-                      <li><a href="shop.html">Men</a></li>
+                      <li><a href="shop.php">Men</a></li>
                               <li class="sep">/</li>
-                              <li><a href="shop.html">Women</a></li>
-                            </ul>
-                          </div>
-                          <h4 class="title"><a href="single-product.html">Simple Fabric Shoe</a></h4>
-                          <div class="prices">
-                            <span class="price-old">$400</span>
-                            <span class="sep">-</span>
-                            <span class="price">$580.00</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <!--== End prPduct Item ==-->
-                  </div>
-                </div>
-              </div>
-              <!--== Add Swiper Arrows ==-->
-              <div class="product-swiper-btn-wrap">
-                <div class="product-swiper-btn-prev">
-                  <i class="fa fa-arrow-left"></i>
-                </div>
-                <div class="product-swiper-btn-next">
-                  <i class="fa fa-arrow-right"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="product-area product-best-seller-area">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="section-title text-center">
-              <h3 class="title">Best Seller</h3>
-              <div class="desc">
-                <p>There are many variations of passages of Lorem Ipsum available</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12">
-            <div class="product-slider-wrap">
-              <div class="swiper-container product-slider-col4-container">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide">
-                    <!--== Start Product Item ==-->
-                    <div class="product-item">
-                      <div class="inner-content">
-                        <div class="product-thumb">
-                          <a href="single-product.html">
-                            <img src="assets/img/shop/1.webp" width="270" height="274" alt="Image-HasTech">
-                          </a>
-                          <div class="product-flag">
-                            <ul>
-                              <li class="discount">-10%</li>
-                            </ul>
-                          </div>
-                          <div class="product-action">
-                    <a class="btn-product-wishlist" href="shop-wishlist.html"><i class="fa fa-heart"></i></a>
-                    <a class="btn-product-cart" href="shop-cart.html"><i class="fa fa-shopping-cart"></i></a>
-                    <button type="button" class="btn-product-quick-view-open">
-                      <i class="fa fa-arrows"></i>
-                    </button>
-                    <a class="btn-product-compare" href="shop-compare.html"><i class="fa fa-random"></i></a>
-                  </div>
-                          <a class="banner-link-overlay" href="shop.html"></a>
-                        </div>
-                        <div class="product-info">
-                          <div class="category">
-                    <ul>
-                      <li><a href="shop.html">Men</a></li>
-                              <li class="sep">/</li>
-                              <li><a href="shop.html">Women</a></li>
-                            </ul>
-                          </div>
-                          <h4 class="title"><a href="single-product.html">Modern Smart Shoes</a></h4>
-                          <div class="prices">
-                            <span class="price-old">$200</span>
-                            <span class="sep">-</span>
-                            <span class="price">$240.00</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <!--== End prPduct Item ==-->
-                  </div>
-                  <div class="swiper-slide">
-                    <!--== Start Product Item ==-->
-                    <div class="product-item">
-                      <div class="inner-content">
-                        <div class="product-thumb">
-                          <a href="single-product.html">
-                            <img src="assets/img/shop/7.webp" width="270" height="274" alt="Image-HasTech">
-                          </a>
-                          <div class="product-action">
-                    <a class="btn-product-wishlist" href="shop-wishlist.html"><i class="fa fa-heart"></i></a>
-                    <a class="btn-product-cart" href="shop-cart.html"><i class="fa fa-shopping-cart"></i></a>
-                    <button type="button" class="btn-product-quick-view-open">
-                      <i class="fa fa-arrows"></i>
-                    </button>
-                    <a class="btn-product-compare" href="shop-compare.html"><i class="fa fa-random"></i></a>
-                  </div>
-                          <a class="banner-link-overlay" href="shop.html"></a>
-                        </div>
-                        <div class="product-info">
-                          <div class="category">
-                    <ul>
-                      <li><a href="shop.html">Men</a></li>
-                              <li class="sep">/</li>
-                              <li><a href="shop.html">Women</a></li>
-                            </ul>
-                          </div>
-                          <h4 class="title"><a href="single-product.html">Quickiin Mens shoes</a></h4>
-                          <div class="prices">
-                            <span class="price">$440.00</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <!--== End prPduct Item ==-->
-                  </div>
-                  <div class="swiper-slide">
-                    <!--== Start Product Item ==-->
-                    <div class="product-item">
-                      <div class="inner-content">
-                        <div class="product-thumb">
-                          <a href="single-product.html">
-                            <img src="assets/img/shop/3.webp" width="270" height="274" alt="Image-HasTech">
-                          </a>
-                          <div class="product-flag">
-                            <ul>
-                              <li class="discount">-10%</li>
-                            </ul>
-                          </div>
-                          <div class="product-action">
-                    <a class="btn-product-wishlist" href="shop-wishlist.html"><i class="fa fa-heart"></i></a>
-                    <a class="btn-product-cart" href="shop-cart.html"><i class="fa fa-shopping-cart"></i></a>
-                    <button type="button" class="btn-product-quick-view-open">
-                      <i class="fa fa-arrows"></i>
-                    </button>
-                    <a class="btn-product-compare" href="shop-compare.html"><i class="fa fa-random"></i></a>
-                  </div>
-                          <a class="banner-link-overlay" href="shop.html"></a>
-                        </div>
-                        <div class="product-info">
-                          <div class="category">
-                    <ul>
-                      <li><a href="shop.html">Men</a></li>
-                              <li class="sep">/</li>
-                              <li><a href="shop.html">Women</a></li>
-                            </ul>
-                          </div>
-                          <h4 class="title"><a href="single-product.html">Rexpo Womens shoes</a></h4>
-                          <div class="prices">
-                            <span class="price-old">$130</span>
-                            <span class="sep">-</span>
-                            <span class="price">$333.00</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <!--== End prPduct Item ==-->
-                  </div>
-                  <div class="swiper-slide">
-                    <!--== Start Product Item ==-->
-                    <div class="product-item">
-                      <div class="inner-content">
-                        <div class="product-thumb">
-                          <a href="single-product.html">
-                            <img src="assets/img/shop/4.webp" width="270" height="274" alt="Image-HasTech">
-                          </a>
-                          <div class="product-action">
-                    <a class="btn-product-wishlist" href="shop-wishlist.html"><i class="fa fa-heart"></i></a>
-                    <a class="btn-product-cart" href="shop-cart.html"><i class="fa fa-shopping-cart"></i></a>
-                    <button type="button" class="btn-product-quick-view-open">
-                      <i class="fa fa-arrows"></i>
-                    </button>
-                    <a class="btn-product-compare" href="shop-compare.html"><i class="fa fa-random"></i></a>
-                  </div>
-                          <a class="banner-link-overlay" href="shop.html"></a>
-                        </div>
-                        <div class="product-info">
-                          <div class="category">
-                    <ul>
-                      <li><a href="shop.html">Men</a></li>
-                              <li class="sep">/</li>
-                              <li><a href="shop.html">Women</a></li>
-                            </ul>
-                          </div>
-                          <h4 class="title"><a href="single-product.html">Leather Mens Slipper</a></h4>
-                          <div class="prices">
-                            <span class="price">$540.00</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <!--== End prPduct Item ==-->
-                  </div>
-                  <div class="swiper-slide">
-                    <!--== Start Product Item ==-->
-                    <div class="product-item">
-                      <div class="inner-content">
-                        <div class="product-thumb">
-                          <a href="single-product.html">
-                            <img src="assets/img/shop/5.webp" width="270" height="274" alt="Image-HasTech">
-                          </a>
-                          <div class="product-action">
-                    <a class="btn-product-wishlist" href="shop-wishlist.html"><i class="fa fa-heart"></i></a>
-                    <a class="btn-product-cart" href="shop-cart.html"><i class="fa fa-shopping-cart"></i></a>
-                    <button type="button" class="btn-product-quick-view-open">
-                      <i class="fa fa-arrows"></i>
-                    </button>
-                    <a class="btn-product-compare" href="shop-compare.html"><i class="fa fa-random"></i></a>
-                  </div>
-                          <a class="banner-link-overlay" href="shop.html"></a>
-                        </div>
-                        <div class="product-info">
-                          <div class="category">
-                    <ul>
-                      <li><a href="shop.html">Men</a></li>
-                              <li class="sep">/</li>
-                              <li><a href="shop.html">Women</a></li>
-                            </ul>
-                          </div>
-                          <h4 class="title"><a href="single-product.html">Primitive Mens shoes</a></h4>
-                          <div class="prices">
-                            <span class="price-old">$40</span>
-                            <span class="sep">-</span>
-                            <span class="price">$280.00</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <!--== End prPduct Item ==-->
-                  </div>
-                  <div class="swiper-slide">
-                    <!--== Start Product Item ==-->
-                    <div class="product-item">
-                      <div class="inner-content">
-                        <div class="product-thumb">
-                          <a href="single-product.html">
-                            <img src="assets/img/shop/6.webp" width="270" height="274" alt="Image-HasTech">
-                          </a>
-                          <div class="product-flag">
-                            <ul>
-                              <li class="discount">-10%</li>
-                            </ul>
-                          </div>
-                          <div class="product-action">
-                    <a class="btn-product-wishlist" href="shop-wishlist.html"><i class="fa fa-heart"></i></a>
-                    <a class="btn-product-cart" href="shop-cart.html"><i class="fa fa-shopping-cart"></i></a>
-                    <button type="button" class="btn-product-quick-view-open">
-                      <i class="fa fa-arrows"></i>
-                    </button>
-                    <a class="btn-product-compare" href="shop-compare.html"><i class="fa fa-random"></i></a>
-                  </div>
-                          <a class="banner-link-overlay" href="shop.html"></a>
-                        </div>
-                        <div class="product-info">
-                          <div class="category">
-                    <ul>
-                      <li><a href="shop.html">Men</a></li>
-                              <li class="sep">/</li>
-                              <li><a href="shop.html">Women</a></li>
+                              <li><a href="shop.php">Women</a></li>
                             </ul>
                           </div>
                           <h4 class="title"><a href="single-product.html">Simple Fabric Shoe</a></h4>
@@ -1108,22 +842,22 @@ $posts = get_posts(3);
           <div class="col-lg-6">
             <div class="divider-thumb-content">
               <div class="thumb">
-                <a href="shop.html">
-                  <img src="assets/img/shop/banner/1.webp" width="570" height="350" alt="Image-HasTech">
+                <a href="shop.php">
+                  <img src="assets/img/shop/banner/1.jpg" width="570" height="350" alt="Image-HasTech">
                 </a>
               </div>
               <div class="content">
-                <h2 class="title">Sports Shoes</h2>
-                <p class="desc">Up To 30% Off All Shoes & Products</p>
-                <a class="btn-theme" href="shop.html">Shop Now</a>
+                <h2 class="title">محصولات ANKER</h2>
+                <p class="desc">فروش ویژه شگفت انگیز، تخفیف تا 25 درصد</p>
+                <a class="btn-theme" href="shop.php">محصولات انکر</a>
               </div>
             </div>
           </div>
           <div class="col-lg-6">
             <div class="divider-thumb-content">
               <div class="thumb">
-                <a href="shop.html">
-                  <img src="assets/img/shop/banner/2.webp" width="570" height="700" alt="Image-HasTech">
+                <a href="shop.php">
+                  <img src="assets/img/shop/banner/2.jpg" width="570" height="700" alt="Image-HasTech">
                 </a>
               </div>
             </div>
@@ -1139,9 +873,9 @@ $posts = get_posts(3);
         <div class="row">
           <div class="col-12">
             <div class="section-title text-center">
-              <h3 class="title">Latest Blog</h3>
+              <h3 class="title">جدیدترین مطالب وب</h3>
               <div class="desc">
-                <p>There are many variations of passages of Lorem Ipsum available</p>
+                <p>گزیده ای کوتاه از سرتاسر دنیای دیجیتال</p>
               </div>
             </div>
           </div>
@@ -1217,115 +951,8 @@ $posts = get_posts(3);
   </main>
 
   <!--== Start Footer Area Wrapper ==-->
-  <footer class="footer-area">
-    <!--== Start Footer Main ==-->
-    <div class="footer-main">
-      <div class="container pt--0 pb--0">
-        <div class="row">
-          <div class="col-md-6 col-lg-3">
-            <!--== Start widget Item ==-->
-            <div class="widget-item">
-              <div class="about-widget-wrap">
-                <div class="widget-logo-area">
-                  <a href="index.php">
-                    <img class="logo-main" src="assets/img/logo-light.webp" width="131" height="34" alt="Logo" />
-                  </a>
-                </div>
-                <p class="desc">Lorem ipsum dolor sit amet consl adipisi elit, sed do eiusmod templ incididunt ut labore</p>
-                <div class="social-icons">
-                  <a href="https://www.facebook.com/" target="_blank" rel="noopener"><i class="fa fa-facebook"></i></a>
-                  <a href="https://dribbble.com/" target="_blank" rel="noopener"><i class="fa fa-dribbble"></i></a>
-                  <a href="https://www.pinterest.com/" target="_blank" rel="noopener"><i class="fa fa-pinterest-p"></i></a>
-                  <a href="https://twitter.com/" target="_blank" rel="noopener"><i class="fa fa-twitter"></i></a>
-                </div>
-              </div>
-            </div>
-            <!--== End widget Item ==-->
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <!--== Start widget Item ==-->
-            <div class="widget-item widget-services-item">
-              <h4 class="widget-title">Services</h4>
-              <h4 class="widget-collapsed-title collapsed" data-bs-toggle="collapse" data-bs-target="#widgetId-1">Services</h4>
-              <div id="widgetId-1" class="collapse widget-collapse-body">
-                <div class="collapse-body">
-                  <div class="widget-menu-wrap">
-                    <ul class="nav-menu">
-                      <li><a href="contact.html">Home monitoring</a></li>
-                      <li><a href="contact.html">Air Filters</a></li>
-                      <li><a href="contact.html">Professional installation</a></li>
-                      <li><a href="contact.html">Smart Buildings</a></li>
-                      <li><a href="contact.html">For contractors</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!--== End widget Item ==-->
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <!--== Start widget Item ==-->
-            <div class="widget-item widget-account-item">
-              <h4 class="widget-title">My Account</h4>
-              <h4 class="widget-collapsed-title collapsed" data-bs-toggle="collapse" data-bs-target="#widgetId-2">My Account</h4>
-              <div id="widgetId-2" class="collapse widget-collapse-body">
-                <div class="collapse-body">
-                  <div class="widget-menu-wrap">
-                    <ul class="nav-menu">
-                      <li><a href="account-login.html">My Account</a></li>
-                      <li><a href="contact.html">Contact</a></li>
-                      <li><a href="shop-cart.html">Shopping cart</a></li>
-                      <li><a href="shop.html">Shop</a></li>
-                      <li><a href="account-login.html">Services Login</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!--== End widget Item ==-->
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <!--== Start widget Item ==-->
-            <div class="widget-item">
-              <h4 class="widget-title">Contact Info</h4>
-              <h4 class="widget-collapsed-title collapsed" data-bs-toggle="collapse" data-bs-target="#widgetId-3">Contact Info</h4>
-              <div id="widgetId-3" class="collapse widget-collapse-body">
-                <div class="collapse-body">
-                  <div class="widget-contact-wrap">
-                    <ul>
-                      <li><span>Address:</span> Your address goes here.</li>
-                      <li><span>Phone//fax:</span> <a href="tel://0123456789">0123456789</a></li>
-                      <li><span>Email:</span> <a href="mailto://demo@example.com">demo@example.com</a></li>
-                      <li><a target="_blank" href="https://www.hasthemes.com">www.example.com</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!--== End widget Item ==-->
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--== End Footer Main ==-->
+    <?php require_once 'sections/footer.php' ?>
 
-    <!--== Start Footer Bottom ==-->
-    <div class="footer-bottom">
-      <div class="container pt--0 pb--0">
-        <div class="row">
-          <div class="col-md-7 col-lg-6">
-            <p class="copyright">© 2021 Shome. Made with <i class="fa fa-heart"></i> by <a target="_blank" href="https://themeforest.net/user/codecarnival/portfolio">Codecarnival.</a></p>
-          </div>
-          <div class="col-md-5 col-lg-6">
-            <div class="payment">
-              <a href="account-login.html"><img src="assets/img/photos/payment-card.webp" width="192" height="21" alt="Payment Logo"></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--== End Footer Bottom ==-->
-  </footer>
   <!--== End Footer Area Wrapper ==-->
 
   <!--== Scroll Top Button ==-->
@@ -1484,7 +1111,7 @@ $posts = get_posts(3);
                 <ul class="sub-menu">
                   <li><a href="shop-three-columns.html">Shop 3 Column</a></li>
                   <li><a href="shop-four-columns.html">Shop 4 Column</a></li>
-                  <li><a href="shop.html">Shop Left Sidebar</a></li>
+                  <li><a href="shop.php">Shop Left Sidebar</a></li>
                   <li><a href="shop-right-sidebar.html">Shop Right Sidebar</a></li>
                 </ul>
               </li>
