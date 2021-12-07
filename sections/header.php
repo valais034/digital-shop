@@ -41,6 +41,7 @@ function myFunction() {
 <!--f-->
     <header class="main-header-wrapper position-relative">
         <div class="header-top">
+
             <div class="container pt--0 pb--0">
                 <div class="row">
                     <div class="col-12">
@@ -122,9 +123,17 @@ function myFunction() {
                                 <ul class="main-menu nav">
                                     <li><a href="<?php echo PATH; ?>"><span>خانه</span></a></li>
                                     <li><a href="<?php echo PATH; ?>/shop.php"><span>محصولات</span></a></li>
-                                    <li class="has-submenu position-static"><a href="#/"><span>فروشگاه</span></a>
+                                    <li class="has-submenu"><a href="#"><span>صفحات</span></a>
+                                        <ul class="submenu-nav">
+                                            <li><a href="account.html"><span>حساب کاربری</span></a></li>
+                                            <li><a href="account-login.html"><span>ورود</span></a></li>
+                                            <li><a href="account-register.html"><span>ثبت نام</span></a></li>
+                                            <li><a href="page-not-found.html"><span>صفحه پیدا نشد</span></a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-submenu position-static"><a href="#"><span>فروشگاه</span></a>
                                         <ul class="submenu-nav submenu-nav-mega column-3">
-                                            <li class="mega-menu-item"><a href="#/" class="mega-title"><span>استایل فروشگاه</span></a>
+                                            <li class="mega-menu-item"><a href="#" class="mega-title"><span>استایل فروشگاه</span></a>
                                                 <ul>
                                                     <li><a href="shop-three-columns.html"><span>فروشگاه سه ستونه</span></a></li>
                                                     <li><a href="shop-four-columns.html"><span>فروشگاه چهار ستونه</span></a></li>
@@ -132,7 +141,7 @@ function myFunction() {
                                                     <li><a href="shop-right-sidebar.html"><span>فروشگاه با سایدبار راست</span></a></li>
                                                 </ul>
                                             </li>
-                                            <li class="mega-menu-item"><a href="#/" class="mega-title"><span>محصول تکی</span></a>
+                                            <li class="mega-menu-item"><a href="#" class="mega-title"><span>محصول تکی</span></a>
                                                 <ul>
                                                     <li><a href="single-normal-product.html"><span>محصول تکی نرمال</span></a></li>
                                                     <li><a href="single-product.html"><span>محصول تکی متنوع</span></a></li>
@@ -140,7 +149,7 @@ function myFunction() {
                                                     <li><a href="single-affiliate-product.html"><span>محصول تکی افلیت</span></a></li>
                                                 </ul>
                                             </li>
-                                            <li class="mega-menu-item"><a href="#/" class="mega-title"><span>صفحات دیگر</span></a>
+                                            <li class="mega-menu-item"><a href="#" class="mega-title"><span>صفحات دیگر</span></a>
                                                 <ul>
                                                     <li><a href="shop-cart.html"><span>سبد خرید</span></a></li>
                                                     <li><a href="shop-checkout.html"><span>صورت حساب</span></a></li>
@@ -150,16 +159,16 @@ function myFunction() {
                                             </li>
                                         </ul>
                                     </li>
-                                    <li class="has-submenu"><a href="#/"><span>بلاگ</span></a>
+                                    <li class="has-submenu"><a href="#"><span>بلاگ</span></a>
                                         <ul class="submenu-nav submenu-nav-mega">
-                                            <li class="mega-menu-item"><a href="#/" class="mega-title">بلاگ استایل</a>
+                                            <li class="mega-menu-item"><a href="#" class="mega-title">بلاگ استایل</a>
                                                 <ul>
                                                     <li><a href="blog.html">بلاگ گرید</a></li>
                                                     <li><a href="blog-left-sidebar.html">بلاگ با سایدبار چپ</a></li>
                                                     <li><a href="blog-right-sidebar.html">بلاگ با سایدبار راست</a></li>
                                                 </ul>
                                             </li>
-                                            <li class="mega-menu-item"><a href="#/" class="mega-title">بلاگ تکی</a>
+                                            <li class="mega-menu-item"><a href="#" class="mega-title">بلاگ تکی</a>
                                                 <ul>
                                                     <li><a href="blog-details-no-sidebar.html">جزئیات بلاگ</a></li>
                                                     <li><a href="blog-details-left-sidebar.html">جزئیات بلاگ با سایدبار چپ</a></li>
@@ -169,7 +178,6 @@ function myFunction() {
                                         </ul>
                                     </li>
                                     <li><a href="contact.html"><span>تماس با ما</span></a></li>
-                                    <li><a href="<?php echo PATH; ?>/about-us.php"><span>درباره ما</span></a></li>
                                 </ul>
                             </div>
                         </div>
