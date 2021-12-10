@@ -21,7 +21,7 @@ $pcomments = get_comments_by_product_id($product_id);
     <meta name="keywords" content="footwear, shoes, modern, shop, store, ecommerce, responsive, e-commerce"/>
     <meta name="author" content="codecarnival"/>
 
-    <title>جزئیات محصول</title>
+    <title>جزئیات <?php echo $product_info['product_name'] ?></title>
 
     <!--== Favicon ==-->
     <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
@@ -68,7 +68,7 @@ $pcomments = get_comments_by_product_id($product_id);
                 <div class="row">
                     <div class="col-12">
                         <div class="page-header-content">
-                            <h2 class="title" data-aos="fade-down" data-aos-duration="1000">جزئیات محصول</h2>
+                            <h2 class="title" data-aos="fade-down" data-aos-duration="1000">محصول <?php echo $product_info['product_name'] ?></h2>
                             <nav class="breadcrumb-area" data-aos="fade-down" data-aos-duration="1200">
                                 <ul class="breadcrumb">
                                     <li><a href="index.php">خانه</a></li>
@@ -96,28 +96,28 @@ $pcomments = get_comments_by_product_id($product_id);
                                         <div class="swiper-container single-product-thumb single-product-thumb-slider">
                                             <div class="swiper-wrapper">
                                                 <div class="swiper-slide">
-                                                    <a class="lightbox-image" data-fancybox="gallery" href="assets/img/shop/product-single/1.webp">
-                                                        <img src="assets/img/shop/product-single/1.webp" width="570" height="541" alt="Image-HasTech">
+                                                    <a class="lightbox-image" data-fancybox="gallery" href="assets/img/product/<?php echo $product_info['product_image'] ?>">
+                                                        <img src="assets/img/product/<?php echo $product_info['product_image'] ?>" alt="">
                                                     </a>
                                                 </div>
                                                 <div class="swiper-slide">
-                                                    <a class="lightbox-image" data-fancybox="gallery" href="assets/img/shop/product-single/2.webp">
-                                                        <img src="assets/img/shop/product-single/2.webp" width="570" height="541" alt="Image-HasTech">
+                                                    <a class="lightbox-image" data-fancybox="gallery" href="assets/img/product/<?php echo $product_info['product_image'] ?>">
+                                                        <img src="assets/img/product/<?php echo $product_info['product_image'] ?>" alt="">
                                                     </a>
                                                 </div>
                                                 <div class="swiper-slide">
-                                                    <a class="lightbox-image" data-fancybox="gallery" href="assets/img/shop/product-single/3.webp">
-                                                        <img src="assets/img/shop/product-single/3.webp" width="570" height="541" alt="Image-HasTech">
+                                                    <a class="lightbox-image" data-fancybox="gallery" href="assets/img/product/<?php echo $product_info['product_image'] ?>">
+                                                        <img src="assets/img/product/<?php echo $product_info['product_image'] ?>" alt="">
                                                     </a>
                                                 </div>
                                                 <div class="swiper-slide">
-                                                    <a class="lightbox-image" data-fancybox="gallery" href="assets/img/shop/product-single/4.webp">
-                                                        <img src="assets/img/shop/product-single/4.webp" width="570" height="541" alt="Image-HasTech">
+                                                    <a class="lightbox-image" data-fancybox="gallery" href="assets/img/product/<?php echo $product_info['product_image'] ?>">
+                                                        <img src="assets/img/product/<?php echo $product_info['product_image'] ?>" alt="">
                                                     </a>
                                                 </div>
                                                 <div class="swiper-slide">
-                                                    <a class="lightbox-image" data-fancybox="gallery" href="assets/img/shop/product-single/5.webp">
-                                                        <img src="assets/img/shop/product-single/5.webp" width="570" height="541" alt="Image-HasTech">
+                                                    <a class="lightbox-image" data-fancybox="gallery" href="assets/img/product/<?php echo $product_info['product_image'] ?>">
+                                                        <img src="assets/img/product/<?php echo $product_info['product_image'] ?>" alt="">
                                                     </a>
                                                 </div>
                                             </div>
@@ -125,19 +125,19 @@ $pcomments = get_comments_by_product_id($product_id);
                                         <div class="swiper-container single-product-nav single-product-nav-slider">
                                             <div class="swiper-wrapper">
                                                 <div class="swiper-slide">
-                                                    <img src="assets/img/shop/product-single/nav-1.webp" width="127" height="127" alt="Image-HasTech">
+                                                    <img src="assets/img/product/<?php echo $product_info['product_image'] ?>" width="127" height="127" alt="Image-HasTech">
                                                 </div>
                                                 <div class="swiper-slide">
-                                                    <img src="assets/img/shop/product-single/nav-2.webp" width="127" height="127" alt="Image-HasTech">
+                                                    <img src="assets/img/product/<?php echo $product_info['product_image'] ?>" width="127" height="127" alt="Image-HasTech">
                                                 </div>
                                                 <div class="swiper-slide">
-                                                    <img src="assets/img/shop/product-single/nav-3.webp" width="127" height="127" alt="Image-HasTech">
+                                                    <img src="assets/img/product/<?php echo $product_info['product_image'] ?>" width="127" height="127" alt="Image-HasTech">
                                                 </div>
                                                 <div class="swiper-slide">
-                                                    <img src="assets/img/shop/product-single/nav-4.webp" width="127" height="127" alt="Image-HasTech">
+                                                    <img src="assets/img/product/<?php echo $product_info['product_image'] ?>" width="127" height="127" alt="Image-HasTech">
                                                 </div>
                                                 <div class="swiper-slide">
-                                                    <img src="assets/img/shop/product-single/nav-5.webp" width="127" height="127" alt="Image-HasTech">
+                                                    <img src="assets/img/product/<?php echo $product_info['product_image'] ?>" width="127" height="127" alt="Image-HasTech">
                                                 </div>
                                             </div>
                                         </div>
@@ -147,9 +147,13 @@ $pcomments = get_comments_by_product_id($product_id);
                                 <div class="col-xl-6">
                                     <!--== Start Product Info Area ==-->
                                     <div class="product-single-info">
-                                        <h3 class="main-title">Leather Mens Slipper</h3>
+                                        <h3 class="main-title"><?php echo $product_info['product_name'] ?></h3>
+                                        <h6 class="mb-3">
+                                            دسته‌بندی: <?php echo $product_info['product_cat'] ?>
+                                        </h6>
                                         <div class="prices">
-                                            <span class="price">$20.19</span>
+                                            <span class="price">
+                                    قیمت محصول: <?php echo $product_info['product_price'] ?> تومان </h5></span>
                                         </div>
                                         <div class="rating-box-wrap">
                                             <div class="rating-box">
@@ -160,12 +164,12 @@ $pcomments = get_comments_by_product_id($product_id);
                                                 <i class="fa fa-star"></i>
                                             </div>
                                             <div class="review-status">
-                                                <a href="javascript:void(0)">(5 Customer Review)</a>
+                                                <a href="javascript:void(0)">امتیازبندی</a>
                                             </div>
                                         </div>
-                                        <p>Lorem ipsum dolor sit amet, consecte adipisicing elit, sed do eiusmll tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mill veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exet commodo consequat. Duis aute irure dolor</p>
+                                        <p><?php echo $product_info['product_desc'] ?></p>
                                         <div class="product-color">
-                                            <h6 class="title">Color</h6>
+                                            <h6 class="title">رنگ</h6>
                                             <ul class="color-list">
                                                 <li  data-bg-color="#586882"></li>
                                                 <li class="active" data-bg-color="#505050"></li>
@@ -174,7 +178,7 @@ $pcomments = get_comments_by_product_id($product_id);
                                             </ul>
                                         </div>
                                         <div class="product-size">
-                                            <h6 class="title">Size</h6>
+                                            <h6 class="title">سایز</h6>
                                             <ul class="size-list">
                                                 <li>S</li>
                                                 <li class="active">M</li>
@@ -188,16 +192,16 @@ $pcomments = get_comments_by_product_id($product_id);
                                                     <input type="text" title="Quantity" value="1">
                                                 </div>
                                             </div>
-                                            <a class="btn-theme" href="shop-cart.html">Add to Cart</a>
+                                            <button type="submit" class="btn-theme" style="background: white "><a href="?add-to-cart=<?php echo $product_info['id'] ?>">افزودن به سبد خرید</a></button>
                                         </div>
                                         <div class="product-wishlist-compare">
-                                            <a href="shop-wishlist.html"><i class="pe-7s-like"></i>Add to Wishlist</a>
-                                            <a href="shop-compare.html"><i class="pe-7s-shuffle"></i>Add to Compare</a>
+                                            <a href="shop-wishlist.html"><i class="pe-7s-like"></i>افزودن به علاقه مندی ها</a>
+                                            <a href="shop-compare.html"><i class="pe-7s-shuffle"></i>مقایسه</a>
                                         </div>
                                         <div class="product-info-footer">
-                                            <h6 class="code"><span>Code :</span>Ch-256xl</h6>
+                                            <h6 class="code"><span>کد محصول:</span><?php echo $product_info['product_serial'] ?></h6>
                                             <div class="social-icons">
-                                                <span>Share</span>
+                                                <span>اشتراک گذاری</span>
                                                 <a href="#/"><i class="fa fa-facebook"></i></a>
                                                 <a href="#/"><i class="fa fa-dribbble"></i></a>
                                                 <a href="#/"><i class="fa fa-pinterest-p"></i></a>
@@ -216,30 +220,30 @@ $pcomments = get_comments_by_product_id($product_id);
                         <div class="product-review-tabs-content">
                             <ul class="nav product-tab-nav" id="ReviewTab" role="tablist">
                                 <li role="presentation">
-                                    <a class="active" id="information-tab" data-bs-toggle="pill" href="#information" role="tab" aria-controls="information" aria-selected="true">Information</a>
+                                    <a class="active" id="information-tab" data-bs-toggle="pill" href="#information" role="tab" aria-controls="information" aria-selected="true">اطلاعات محصول</a>
                                 </li>
                                 <li role="presentation">
-                                    <a id="description-tab" data-bs-toggle="pill" href="#description" role="tab" aria-controls="description" aria-selected="false">Description</a>
+                                    <a id="description-tab" data-bs-toggle="pill" href="#description" role="tab" aria-controls="description" aria-selected="false">توضیحات محصول</a>
                                 </li>
                                 <li role="presentation">
-                                    <a id="reviews-tab" data-bs-toggle="pill" href="#reviews" role="tab" aria-controls="reviews" aria-selected="false">Reviews <span>(05)</span></a>
+                                    <a id="reviews-tab" data-bs-toggle="pill" href="#reviews" role="tab" aria-controls="reviews" aria-selected="false">نظرات <span>(05)</span></a>
                                 </li>
                             </ul>
                             <div class="tab-content product-tab-content" id="ReviewTabContent">
                                 <div class="tab-pane fade show active" id="information" role="tabpanel" aria-labelledby="information-tab">
                                     <div class="product-information">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adlo minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in tun tuni reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserun mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rel aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.</p>
+                                        <p>اطلاعاتی برای این محصول درج نگردیده است.</p>
                                     </div>
                                 </div>
                                 <div class="tab-pane fade" id="description" role="tabpanel" aria-labelledby="description-tab">
                                     <div class="product-description">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adlo minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in tun tuni reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserun mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rel aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.</p>
+                                        <p><?php echo $product_info['product_desc'] ?></p>
                                     </div>
                                 </div>
                                 <div class="tab-pane fade" id="reviews" role="tabpanel" aria-labelledby="reviews-tab">
                                     <div class="product-review-content">
                                         <div class="review-content-header">
-                                            <h3>Customer Reviews</h3>
+                                            <h3>نظرات کاربران</h3>
                                             <div class="review-info">
                                                 <ul class="review-rating">
                                                     <li class="fa fa-star"></li>
@@ -248,56 +252,41 @@ $pcomments = get_comments_by_product_id($product_id);
                                                     <li class="fa fa-star"></li>
                                                     <li class="fa fa-star-o"></li>
                                                 </ul>
-                                                <span class="review-caption">Based on 5 reviews</span>
-                                                <span class="review-write-btn">Write a review</span>
+                                                <span class="review-caption">به این محصول امتیاز بدهید</span>
+                                                <span class="review-write-btn">درج نظر</span>
                                             </div>
                                         </div>
 
                                         <!--== Start Reviews Form Item ==-->
                                         <div class="reviews-form-area">
-                                            <h4 class="title">Write a review</h4>
+                                            <h4 class="title">نظر خود را بنویسید...</h4>
                                             <div class="reviews-form-content">
-                                                <form action="#">
+                                                <form action="product.php?product-id=<?php echo $product_id ?>">
                                                     <div class="row">
                                                         <div class="col-md-12">
                                                             <div class="form-group">
-                                                                <label for="for_name">Name</label>
-                                                                <input id="for_name" class="form-control" type="text" placeholder="Enter your name">
+                                                                <label for="for_name">نام</label>
+                                                                <input id="for_name" class="form-control" name="username" placeholder="نام ...">
                                                             </div>
                                                         </div>
                                                         <div class="col-md-12">
                                                             <div class="form-group">
-                                                                <label for="for_email">Email</label>
-                                                                <input id="for_email" class="form-control" type="email" placeholder="john.smith@example.com">
+                                                                <label for="for_email">ایمیل:</label>
+                                                                <input id="for_email" class="form-control" name="email" placeholder="ایمیل ...">
                                                             </div>
                                                         </div>
+
+
                                                         <div class="col-md-12">
                                                             <div class="form-group">
-                                                                <span class="title">Rating</span>
-                                                                <ul class="review-rating">
-                                                                    <li class="fa fa-star-o"></li>
-                                                                    <li class="fa fa-star-o"></li>
-                                                                    <li class="fa fa-star-o"></li>
-                                                                    <li class="fa fa-star-o"></li>
-                                                                    <li class="fa fa-star-o"></li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-12">
-                                                            <div class="form-group">
-                                                                <label for="for_review-title">Review Title</label>
-                                                                <input id="for_review-title" class="form-control" type="text" placeholder="Give your review a title">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-12">
-                                                            <div class="form-group">
-                                                                <label for="for_comment">Body of Review (1500)</label>
-                                                                <textarea id="for_comment" class="form-control" placeholder="Write your comments here"></textarea>
+                                                                <label for="for_comment">متن نظر:</label>
+                                                                <textarea id="for_comment" class="form-control" name="comment_text" placeholder="متن نظر شما ..."></textarea>
                                                             </div>
                                                         </div>
                                                         <div class="col-md-12">
                                                             <div class="form-submit-btn">
-                                                                <button type="submit" class="btn-submit">Post comment</button>
+                                                                <input type="hidden" name="product-id" value="<?php echo $product_id ?>">
+                                                                <button class="btn-submit" type="submit" name="add-comment">ثبت نظر</button>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -308,6 +297,7 @@ $pcomments = get_comments_by_product_id($product_id);
 
                                         <div class="reviews-content-body">
                                             <!--== Start Reviews Content Item ==-->
+                                            <?php while ($pcomment = mysqli_fetch_array($pcomments)) { ?>
                                             <div class="review-item">
                                                 <ul class="review-rating">
                                                     <li class="fa fa-star"></li>
@@ -316,76 +306,30 @@ $pcomments = get_comments_by_product_id($product_id);
                                                     <li class="fa fa-star"></li>
                                                     <li class="fa fa-star"></li>
                                                 </ul>
-                                                <h3 class="title">Awesome shipping service!</h3>
-                                                <h5 class="sub-title"><span>Nantu Nayal</span> no <span>Sep 30, 2018</span></h5>
-                                                <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                                                <a href="#/">Report as Inappropriate</a>
+                                                <h3 class="title"></h3>
+                                                <h5 class="sub-title"><span><?php echo $pcomment['username'] ?></span> در <span>۱۲ فروردین ۱۳۹۶</span></h5>
+                                                <p><?php echo $pcomment['comment_text'] ?></p>
                                             </div>
                                             <!--== End Reviews Content Item ==-->
+                                                <?php if ($pcomment['comment_answer']) { ?>
+                                                    <div class="comment-answer"><?php echo $pcomment['comment_answer'] ?></div>
+                                                <?php } ?>
+                                                </li>
+                                            <?php } ?>
+                                        </div>
+                                        <?php
+                                        if ($message) {
+                                            ?>
+                                            <div class="success-message"><?php echo $message ?></div>
+                                            <?php
+                                        }
+                                        if ($error) {
+                                            ?>
+                                            <div class="error-message"><?php echo $error ?></div>
+                                            <?php
+                                        }
+                                        ?>
 
-                                            <!--== Start Reviews Content Item ==-->
-                                            <div class="review-item">
-                                                <ul class="review-rating">
-                                                    <li class="fa fa-star"></li>
-                                                    <li class="fa fa-star-o"></li>
-                                                    <li class="fa fa-star-o"></li>
-                                                    <li class="fa fa-star-o"></li>
-                                                    <li class="fa fa-star-o"></li>
-                                                </ul>
-                                                <h3 class="title">Low Quality</h3>
-                                                <h5 class="sub-title"><span>Oliv hala</span> no <span>Sep 30, 2018</span></h5>
-                                                <p>My Favorite White Sneakers From Splurge To Save the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
-                                                <a href="#/">Report as Inappropriate</a>
-                                            </div>
-                                            <!--== End Reviews Content Item ==-->
-
-                                            <!--== Start Reviews Content Item ==-->
-                                            <div class="review-item">
-                                                <ul class="review-rating">
-                                                    <li class="fa fa-star"></li>
-                                                    <li class="fa fa-star"></li>
-                                                    <li class="fa fa-star"></li>
-                                                    <li class="fa fa-star"></li>
-                                                    <li class="fa fa-star"></li>
-                                                </ul>
-                                                <h3 class="title">Excellent services!</h3>
-                                                <h5 class="sub-title"><span>Halk Marron</span> no <span>Sep 30, 2018</span></h5>
-                                                <p>The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-                                                <a href="#/">Report as Inappropriate</a>
-                                            </div>
-                                            <!--== End Reviews Content Item ==-->
-
-                                            <!--== Start Reviews Content Item ==-->
-                                            <div class="review-item">
-                                                <ul class="review-rating">
-                                                    <li class="fa fa-star"></li>
-                                                    <li class="fa fa-star"></li>
-                                                    <li class="fa fa-star"></li>
-                                                    <li class="fa fa-star-o"></li>
-                                                    <li class="fa fa-star-o"></li>
-                                                </ul>
-                                                <h3 class="title">Price is very high</h3>
-                                                <h5 class="sub-title"><span>Musa</span> no <span>Sep 30, 2018</span></h5>
-                                                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
-                                                <a href="#/">Report as Inappropriate</a>
-                                            </div>
-                                            <!--== End Reviews Content Item ==-->
-
-                                            <!--== Start Reviews Content Item ==-->
-                                            <div class="review-item">
-                                                <ul class="review-rating">
-                                                    <li class="fa fa-star"></li>
-                                                    <li class="fa fa-star"></li>
-                                                    <li class="fa fa-star"></li>
-                                                    <li class="fa fa-star"></li>
-                                                    <li class="fa fa-star-o"></li>
-                                                </ul>
-                                                <h3 class="title">Normal</h3>
-                                                <h5 class="sub-title"><span>Muhammad</span> no <span>Sep 30, 2018</span></h5>
-                                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
-                                                <a href="#/">Report as Inappropriate</a>
-                                            </div>
-                                            <!--== End Reviews Content Item ==-->
                                         </div>
 
                                         <!--== Start Reviews Pagination Item ==-->
@@ -1025,274 +969,4 @@ $pcomments = get_comments_by_product_id($product_id);
 
 
 
-
-<!-- Page Header Section Start Here -->
-<section class="page-header bg_img padding-tb">
-    <div class="overlay"></div>
-    <div class="container">
-        <div class="page-header-content-area">
-            <h4 class="ph-title">محصول <?php echo $product_info['product_name'] ?> </h4>
-
-        </div>
-    </div>
-</section>
-<!-- Page Header Section Ending Here -->
-<!-- Shop Page Section start here -->
-<section class="shop-single padding-tb">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-10 col-12 sticky-widget">
-                <div class="product-details">
-                    <div class="row align-items-center">
-                        <div class="col-md-6 col-12">
-                            <div class="product-thumb">
-                                <div class="swiper-container gallery-top">
-                                    <div class="swiper-wrapper">
-                                        <div class="swiper-slide">
-                                            <div class="shop-item">
-                                                <div class="shop-thumb">
-                                                    <img src="assets/img/product/<?php echo $product_info['product_image'] ?>" alt="">
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="shop-item">
-                                                <div class="shop-thumb">
-                                                    <img src="assets/img/product/<?php echo $product_info['product_image'] ?>" alt="">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="shop-item">
-                                                <div class="shop-thumb">
-                                                    <img src="assets/img/product/<?php echo $product_info['product_image'] ?>" alt="">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="shop-item">
-                                                <div class="shop-thumb">
-                                                    <img src="assets/img/product/<?php echo $product_info['product_image'] ?>" alt="">
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="shop-item">
-                                                <div class="shop-thumb">
-                                                    <img src="assets/img/product/<?php echo $product_info['product_image'] ?>" alt="">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="shop-navigation d-flex flex-wrap">
-                                        <div class="shop-nav shop-slider-prev"><i class="icofont-simple-left"></i>
-                                        </div>
-                                        <div class="shop-nav shop-slider-next"><i class="icofont-simple-right"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-container gallery-thumbs">
-                                    <div class="swiper-wrapper">
-                                        <div class="swiper-slide">
-                                            <div class="shop-item">
-                                                <div class="shop-thumb">
-                                                    <img src="assets/img/product/<?php echo $product_info['product_image'] ?>" alt="">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="shop-item">
-                                                <div class="shop-thumb">
-                                                    <img src="assets/img/product/<?php echo $product_info['product_image'] ?>" alt="">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="shop-item">
-                                                <div class="shop-thumb">
-                                                    <img src="assets/img/product/<?php echo $product_info['product_image'] ?>" alt="">
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="shop-item">
-                                                <div class="shop-thumb">
-                                                    <img src="assets/img/product/<?php echo $product_info['product_image'] ?>" alt="">
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="shop-item">
-                                                <div class="shop-thumb">
-                                                    <img src="assets/img/product/<?php echo $product_info['product_image'] ?>" alt="">
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-12">
-                            <div class="post-content">
-                                <h4><?php echo $product_info['product_name'] ?></h4>
-                                <h6 class="mb-3">
-                                    دسته‌بندی: <?php echo $product_info['product_cat'] ?>
-                                </h6>
-
-                                <p class="rating">
-                                    <i class="far fa-star"></i>
-                                    <i class="far fa-star"></i>
-                                    <i class="far fa-star"></i>
-                                    <i class="far fa-star"></i>
-                                    <i class="far fa-star"></i>
-                                    (3 امتیاز)
-                                </p>
-                                <h5 class="mb-3">
-                                    قیمت محصول: <?php echo $product_info['product_price'] ?> تومان </h5>
-                                <h5>
-                                    درباره این محصول:
-                                </h5>
-                                <p>
-                                    <?php echo $product_info['product_desc'] ?>
-                                </p>
-                                <form>
-                                    <div class="select-product size">
-                                        <select>
-                                            <option>Select Size</option>
-                                            <option>SM</option>
-                                            <option>MD</option>
-                                            <option>LG</option>
-                                            <option>XL</option>
-                                            <option>XXL</option>
-                                        </select>
-                                        <i class="fas fa-angle-down"></i>
-                                    </div>
-                                    <div class="select-product color">
-                                        <select>
-                                            <option>Select Color</option>
-                                            <option>Pink</option>
-                                            <option>Ash</option>
-                                            <option>Red</option>
-                                            <option>White</option>
-                                            <option>Blue</option>
-                                        </select>
-                                        <i class="fas fa-angle-down"></i>
-                                    </div>
-                                    <div class="cart-plus-minus">
-                                        <div class="dec qtybutton">-</div>
-                                        <input class="cart-plus-minus-box" type="text" name="qtybutton" value="1">
-                                        <div class="inc qtybutton">+</div>
-                                    </div>
-                                    <div class="discount-code">
-                                        <input type="text" placeholder="Enter Discount Code">
-                                    </div>
-                                    <button type="submit" class="lab-btn" style="background: #008903"><a href="?add-to-cart=<?php echo $product_info['id'] ?>">افزودن به سبد خرید</a></button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="review">
-                    <ul class="agri-ul review-nav">
-                        <li class="desc" data-target="description-show">توضیحات</li>
-                        <li class="rev active" data-target="review-content-show">نظرات</li>
-                    </ul>
-                    <!-- box comments -->
-                    <div class="review-showing">
-                    <div class="review-content review-content-show">
-                        <div class="review-showing">
-
-                            <div class="box comments">
-                                <div class="comments-list">
-
-                                    <?php while ($pcomment = mysqli_fetch_array($pcomments)) { ?>
-                                        <li>
-                                            <div class="post-thumb">
-                                                <img src="assets/images/profile/profile2.jpg" alt="shop">
-                                            </div>
-                                            <div class="user-image"><img src="images/2.jpg" alt=""></div>
-                                            <div class="comment-username"><?php echo $pcomment['username'] ?></div>
-                                            <div class="comment-date">۱۲ فروردین ۱۳۹۶</div>
-                                            <div class="comment-text"><p><?php echo $pcomment['comment_text'] ?></p></div>
-                                            <?php if ($pcomment['comment_answer']) { ?>
-                                                <div class="comment-answer"><?php echo $pcomment['comment_answer'] ?></div>
-                                            <?php } ?>
-                                        </li>
-                                    <?php } ?>
-                                </div>
-                                <?php
-                                if ($message) {
-                                    ?>
-                                    <div class="success-message"><?php echo $message ?></div>
-                                    <?php
-                                }
-                                if ($error) {
-                                    ?>
-                                    <div class="error-message"><?php echo $error ?></div>
-                                    <?php
-                                }
-                                ?>
-
-                            </div>
-
-                            <div class="client-review">
-                                <div class="review-form">
-                                    <div class="review-title">
-                                        <h5>درج نظر</h5>
-                                    </div>
-                                    <form action="product.php?product-id=<?php echo $product_id ?>" method="post">
-                                        <div class="col-md-4 col-12">
-                                            <input type="text" name="username" placeholder="نام ...">
-                                        </div>
-                                        <div class="col-md-4 col-12">
-                                            <input type="email" name="email" placeholder="ایمیل ...">
-                                        </div>
-                                        <div class="col-md-4 col-12">
-                                            <div class="rating">
-                                                <span class="rating-title">Your Rating : </span>
-                                                <div class="rating">
-                                                    <i class="far fa-star"></i>
-                                                    <i class="far fa-star"></i>
-                                                    <i class="far fa-star"></i>
-                                                    <i class="far fa-star"></i>
-                                                    <i class="far fa-star"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12 col-12">
-                                            <textarea rows="4" name="comment_text" placeholder="متن نظر شما ..."></textarea><br>
-                                        </div>
-                                        <div class="col-12">
-                                            <input type="hidden" name="product-id" value="<?php echo $product_id ?>">
-                                            <button class="lab-btn" type="submit" name="add-comment">ثبت نظر</button>
-<!--                                            <input type="submit" name="add-comment" value="ثبت نظر">-->
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="description">
-                            <p> <?php echo $product_info['product_desc'] ?></p>
-                            <div class="post-item">
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Shop Page Section ending here -->
-
-
-
-<div class="clear"></div>
-<?php require_once 'sections/footer.php' ?>
-
-
-</body>
 </html>
