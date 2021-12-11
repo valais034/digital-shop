@@ -36,11 +36,11 @@ $footer_posts = get_posts(3);
                             <div class="collapse-body">
                                 <div class="widget-menu-wrap">
                                     <ul class="nav-menu">
-                                        <li><a href="contact.html">تلفن همراه</a></li>
-                                        <li><a href="contact.html">لپ تاپ</a></li>
-                                        <li><a href="contact.html">لوازم جانبی</a></li>
-                                        <li><a href="contact.html">قطعات کامپیوتر</a></li>
-                                        <li><a href="contact.html">موبایل های کترپیلار</a></li>
+                                        <li><a href="#">تلفن همراه</a></li>
+                                        <li><a href="#">لپ تاپ</a></li>
+                                        <li><a href="#">لوازم جانبی</a></li>
+                                        <li><a href="#">قطعات کامپیوتر</a></li>
+                                        <li><a href="#">موبایل های کترپیلار</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -57,11 +57,11 @@ $footer_posts = get_posts(3);
                             <div class="collapse-body">
                                 <div class="widget-menu-wrap">
                                     <ul class="nav-menu">
-                                        <li><a href="account-login.html">حساب کاربری</a></li>
-                                        <li><a href="contact.html">تماس با ما</a></li>
-                                        <li><a href="shop-cart.html">سبد خرید</a></li>
-                                        <li><a href="shop.php">محصولات</a></li>
-                                        <li><a href="account-login.html">ورود/ ثبت نام</a></li>
+                                        <li><a href="<?php echo PATH; ?>/users/login.php">حساب کاربری</a></li>
+                                        <li><a href="<?php echo PATH; ?>/contact.php">تماس با ما</a></li>
+                                        <li><a href="<?php echo PATH; ?>/cart.php">سبد خرید</a></li>
+                                        <li><a href="<?php echo PATH; ?>/shop.php">محصولات</a></li>
+                                        <li><a href="<?php echo PATH; ?>/users/login.php">ورود/ ثبت نام</a></li>
                                     </ul>
                                 </div>
                             </div>

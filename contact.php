@@ -1,12 +1,6 @@
 <?php require_once 'inc/config.php';
 require_once 'sections/header.php';
 ?>
-<?php
-$posts= get_posts(6);
-$post_cats = get_post_cats();
-$number_of_posts = mysqli_query($db, "SELECT * FROM posts");
-$sidebar_posts = get_posts(3);
-?>
 <!DOCTYPE html>
 <html lang="zxx">
 
@@ -18,15 +12,13 @@ $sidebar_posts = get_posts(3);
     <meta name="keywords" content="footwear, shoes, modern, shop, store, ecommerce, responsive, e-commerce"/>
     <meta name="author" content="codecarnival"/>
 
-    <title>بلاگ</title>
+    <title>تماس با ما</title>
 
     <!--== Favicon ==-->
     <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
 
     <!--== Google Fonts ==-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,300i,400,400i,500,600,700,800" rel="stylesheet">
 
     <!--== Bootstrap CSS ==-->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
@@ -65,12 +57,12 @@ $sidebar_posts = get_posts(3);
         <div class="row">
           <div class="col-12">
             <div class="page-header-content">
-              <h2 class="title" data-aos="fade-down" data-aos-duration="1000">بلاگ</h2>
+              <h2 class="title" data-aos="fade-down" data-aos-duration="1000">تماس با ما</h2>
               <nav class="breadcrumb-area" data-aos="fade-down" data-aos-duration="1200">
                 <ul class="breadcrumb">
                   <li><a href="index.php">خانه</a></li>
                   <li class="breadcrumb-sep">//</li>
-                  <li>بلاگ</li>
+                  <li>تماس با ما</li>
                 </ul>
               </nav>
             </div>
@@ -80,106 +72,101 @@ $sidebar_posts = get_posts(3);
     </div>
     <!--== End Page Header Area Wrapper ==-->
 
-    <!--== Start Blog Area Wrapper ==-->
-    <section class="blog-area blog-inner-area">
+    <!--== Start Contact Area Wrapper ==-->
+    <section class="contact-area contact-page-area">
       <div class="container">
-        <div class="row justify-content-between">
-          <div class="col-xl-8" data-aos="fade-right">
-            <div class="row">
-                <?php while ($post = mysqli_fetch_array($posts)) { ?>
-              <div class="col-md-6 col-lg-4 col-xl-6">
-                <!--== Start Blog Item ==-->
-                <div class="post-item">
-                  <div class="inner-content">
-                    <div class="thumb">
-                        <a href="post.php?post-id=<?php echo $post['id'] ?>"><img src="assets/img/post/<?php echo $post['post_image'] ?>" alt=""></a>
-                    </div>
-                    <div class="content">
-                      <div class="meta-post">
-                        <ul>
-                          <li class="post-date"><i class="fa fa-calendar"></i><a href="blog.php">27,Jun 2030</a></li>
-                          <li class="author-info"><i class="fa fa-user"></i><a href="blog.php">admin</a></li>
-                        </ul>
+        <div class="row contact-page-wrapper">
+          <div class="col-xl-9">
+            <div class="contact-form-wrap" data-aos="fade-right">
+              <div class="contact-form-title">
+                <h2 class="title">با ما <br>در تماس باشید</h2>
+              </div>
+              <!--== Start Contact Form ==-->
+              <div class="contact-form">
+                <form id="contact-form" action="https://whizthemes.com/mail-php/raju/arden/mail.php" method="POST">
+                  <div class="row row-gutter-20">
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <input class="form-control" type="text" name="con_name" placeholder="نام *">
                       </div>
-                        <h3><a href="post.php?post-id=<?php echo $post['id'] ?>"><?php echo $post['post_title'] ?></a></h3>
-                        <a class="post-btn" href="post.php?post-id=<?php echo $post['id'] ?>" class="lab-btn">ادامه مطلب</a>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <input class="form-control" type="email" name="con_email" placeholder="ایمیل *">
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-group">
+                        <input class="form-control" type="text" placeholder="موضوع (اختیاری)">
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-group mb--0">
+                        <textarea class="form-control" name="con_message" placeholder="پیغام"></textarea>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-group mb--0">
+                        <button class="btn-theme" type="submit">ارسال پیام</button>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <!--== End Blog Item ==-->
+                </form>
               </div>
-                <?php } ?>
+              <!--== End Contact Form ==-->
 
+              <!--== Message Notification ==-->
+              <div class="form-message"></div>
+              <div class="shape-group-style2">
+                <div class="shape-group-one"><img src="assets/img/shape/13.webp" width="193" height="168" alt="Image-HasTech"></div>
+                <div class="shape-group-two"><img src="assets/img/shape/15.webp" width="221" height="113" alt="Image-HasTech"></div>
+                <div class="shape-group-three"><img src="assets/img/shape/16.webp" width="129" height="147" alt="Image-HasTech"></div>
+                <div class="shape-group-four"><img src="assets/img/shape/17.webp" width="493" height="340" alt="Image-HasTech"></div>
+              </div>
             </div>
           </div>
-          <div class="col-xl-4" data-aos="fade-left">
-            <div class="blog-sidebar">
-              <div class="blog-sidebar-search">
-                <div class="sidebar-search-form">
-                  <form action="#">
-                    <input type="search" placeholder="Search">
-                    <button><i class="fa fa-search"></i></button>
-                  </form>
-                </div>
-              </div>
-
-              <div class="blog-sidebar-wrap">
-                <div class="blog-sidebar-category">
-                  <h4 class="sidebar-title" data-margin-bottom="23">دسته بندی نوشته ها</h4>
-                  <div class="sidebar-category">
-                    <ul class="category-list">
-                      <li><a href="shop.php">اخبار<span> (6)</span></a></li>
-                      <li><a href="shop.php">مطالب مفید<span> (4)</span></a></li>
-                      <li><a href="shop.php">اخبار تکنولوژی<span> (2)</span></a></li>
-                      <li><a href="shop.php">اخبار مایکروسافت<span> (6)</span></a></li>
-                      <li><a href="shop.php">اخبار اپل<span> (12)</span></a></li>
-                      <li><a href="shop.php">اخبار سامسونگ<span> (7)</span></a></li>
-                      <li><a href="shop.php">اخبار شیائومی<span> (9)</span></a></li>
-                    </ul>
-                  </div>
-                </div>
-
-                <div class="blog-sidebar-post">
-                  <h4 class="sidebar-title">مطالب اخیر</h4>
-                    <?php while ($sidebar_post = mysqli_fetch_array($sidebar_posts)) { ?>
-                  <div class="sidebar-post">
-                    <div class="single-post">
-                      <div class="post-thumb">
-                        <a href="post.php?post-id=<?php echo $sidebar_post['id'] ?>"><img src="assets/img/post/<?php echo $sidebar_post['post_image'] ?>" width="98" height="101" alt=""></a>
+          <div class="col-xl-3">
+            <div class="contact-info-wrap">
+              <div class="contact-info">
+                <div class="row">
+                  <div class="col-lg-4 col-xl-12">
+                    <div class="info-item"  data-aos="fade-left">
+                      <div class="icon">
+                        <img src="assets/img/icons/c1.webp" width="69" height="65" alt="Image-HasTech">
                       </div>
-                      <div class="post-content">
-                        <span class="date"><a href="blog.html"><i class="fa fa-calendar"></i>22,Jun 2022</a></span>
-                          <h6><a href="post.php?post-id=<?php echo $sidebar_post['id'] ?>"><?php echo $sidebar_post['post_title'] ?></a></h6>
+                      <div class="info">
+                        <h5 class="title">آدرس</h5>
+                        <p>تهران، میرداماد، بالاتر از شریعتی، پ 22، واحد 6</p>
                       </div>
                     </div>
-                      <?php } ?>
                   </div>
-                </div>
-
-<!--                <div class="blog-sidebar-category-sub-menu">-->
-<!--                  <h4 class="sidebar-title" data-margin-bottom="23">Archives</h4>-->
-<!--                  <div class="sidebar-category-sub-menu">-->
-<!--                    <ul class="sub-menu-list">-->
-<!--                      <li><a href="shop.php">March 2018</a></li>-->
-<!--                      <li><a href="shop.php">February 2018</a></li>-->
-<!--                      <li><a href="shop.php">January 2021</a></li>-->
-<!--                      <li><a href="shop.php">September 2019</a></li>-->
-<!--                      <li><a href="shop.php">March 2018</a></li>-->
-<!--                      <li><a href="shop.php">July 2021</a></li>-->
-<!--                    </ul>-->
-<!--                  </div>-->
-<!--                </div>-->
-
-                <div class="blog-sidebar-tags">
-                  <h4 class="sidebar-title">تگ ها</h4>
-                  <div class="sidebar-tags">
-                    <ul class="tags-list mb--0">
-                      <li><a href="blog.php">موبایل</a></li>
-                      <li><a href="blog.php">لپ تاپ</a></li>
-                      <li><a href="blog.php">لوازم جانبی</a></li>
-                      <li><a href="blog.php">لوازم موبایل</a></li>
-                      <li><a href="blog.php">قاب گوشی</a></li>
-                    </ul>
+                  <div class="col-lg-4 col-xl-12">
+                    <div class="info-item"  data-aos="fade-left" data-aos-delay="60">
+                      <div class="icon">
+                        <img src="assets/img/icons/c2.webp" width="65" height="65" alt="Image-HasTech">
+                      </div>
+                      <div class="info">
+                        <h5 class="title">تلفن</h5>
+                        <p>
+                          <a href="tel://+2166388810">02166388810</a><br>
+                          <a href="tel://+989354608896">09354608896</a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-xl-12">
+                    <div class="info-item"  data-aos="fade-left" data-aos-delay="120">
+                      <div class="icon">
+                        <img src="assets/img/icons/c3.webp" width="65" height="65" alt="Image-HasTech">
+                      </div>
+                      <div class="info">
+                        <h5 class="title">ایمیل / وب سایت</h5>
+                        <p>
+                          <a href="mailto://info@digital-shop.com">info@digital-shop.com</a><br>
+                          <a href="mailto://www.digital-shop.com">www.digital-shop.com</a>
+                        </p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -188,12 +175,11 @@ $sidebar_posts = get_posts(3);
         </div>
       </div>
     </section>
-    <!--== End Blog Area Wrapper ==-->
+    <!--== End Contact Area Wrapper ==-->
   </main>
 
   <!--== Start Footer Area Wrapper ==-->
     <div class="clear"></div>
-    <!-- Footer Section start here -->
     <?php require_once 'sections/footer.php' ?>  <!--== End Footer Area Wrapper ==-->
 
   <!--== Scroll Top Button ==-->
@@ -380,7 +366,7 @@ $sidebar_posts = get_posts(3);
                 <ul class="sub-menu">
                   <li><a href="blog.html">Blog Grid</a></li>
                   <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-                  <li><a href="blog-right-sidebar.php">Blog Right Sidebar</a></li>
+                  <li><a href="blog.php">Blog Right Sidebar</a></li>
                 </ul>
               </li>
               <li><a href="#">Single Blog</a>
@@ -392,7 +378,7 @@ $sidebar_posts = get_posts(3);
               </li>
             </ul>
           </li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.php">Contact</a></li>
         </ul>
       </div>
       <!-- Mobile Menu End -->

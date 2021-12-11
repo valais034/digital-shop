@@ -1,3 +1,6 @@
+<?php require_once 'inc/config.php';
+require_once 'sections/header.php';
+?>
 <!DOCTYPE html>
 <html lang="zxx">
 
@@ -9,7 +12,7 @@
     <meta name="keywords" content="footwear, shoes, modern, shop, store, ecommerce, responsive, e-commerce"/>
     <meta name="author" content="codecarnival"/>
 
-    <title>About Us :: Shome - Shoes eCommerce Website Template</title>
+    <title>درباره ما</title>
 
     <!--== Favicon ==-->
     <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
@@ -47,172 +50,22 @@
 <div class="wrapper">
 
   <!--== Start Header Wrapper ==-->
-  <header class="main-header-wrapper position-relative">
-    <div class="header-top">
-      <div class="container pt--0 pb--0">
-        <div class="row">
-          <div class="col-12">
-            <div class="header-top-align">
-              <div class="header-top-align-start">
-                <div class="desc">
-                  <p>World Wide Completely Free Returns and Free Shipping</p>
-                </div>
-              </div>
-              <div class="header-top-align-end">
-                <div class="header-info-items">
-                  <div class="info-items">
-                    <ul>
-                      <li class="number"><i class="fa fa-phone"></i><a href="tel://0123456789">+00 123 456 789</a></li>
-                      <li class="email"><i class="fa fa-envelope"></i><a href="mailto://demo@example.com">demo@example.com</a></li>
-                      <li class="account"><i class="fa fa-user"></i><a href="account-login.html">Account</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="header-middle">
-      <div class="container pt--0 pb--0">
-        <div class="row align-items-center">
-          <div class="col-12">
-            <div class="header-middle-align">
-              <div class="header-middle-align-start">
-                <div class="header-logo-area">
-                  <a href="index.php">
-                    <img class="logo-main" src="assets/img/logo.webp" width="131" height="34" alt="Logo" />
-                    <img class="logo-light" src="assets/img/logo-light.webp" width="131" height="34" alt="Logo" />
-                  </a>
-                </div>
-              </div>
-              <div class="header-middle-align-center">
-                <div class="header-search-area">
-                  <form class="header-searchbox">
-                    <input type="search" class="form-control" placeholder="Search">
-                    <button class="btn-submit" type="submit"><i class="pe-7s-search"></i></button>
-                  </form>
-                </div>
-              </div>
-              <div class="header-middle-align-end">
-                <div class="header-action-area">
-                  <div class="shopping-search">
-                    <button class="shopping-search-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#AsideOffcanvasSearch" aria-controls="AsideOffcanvasSearch"><i class="pe-7s-search icon"></i></button>
-                  </div>
-                  <div class="shopping-wishlist">
-                    <a class="shopping-wishlist-btn" href="shop-wishlist.html">
-                      <i class="pe-7s-like icon"></i>
-                    </a>
-                  </div>
-                  <div class="shopping-cart">
-                    <button class="shopping-cart-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#AsideOffcanvasCart" aria-controls="offcanvasRightLabel">
-                      <i class="pe-7s-shopbag icon"></i>
-                      <sup class="shop-count">02</sup>
-                    </button>
-                  </div>
-                  <button class="btn-menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#AsideOffcanvasMenu" aria-controls="AsideOffcanvasMenu">
-                    <i class="pe-7s-menu"></i>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="header-area header-default">
-      <div class="container">
-        <div class="row no-gutter align-items-center position-relative">
-          <div class="col-12">
-            <div class="header-align">
-              <div class="header-navigation-area position-relative">
-                <ul class="main-menu nav">
-                  <li class="has-submenu"><a href="#/"><span>Home</span></a>
-                    <ul class="submenu-nav">
-                      <li><a href="index.php"><span>Home One</span></a></li>
-                      <li><a href="index-two.html"><span>Home Two</span></a></li>
-                    </ul>
-                  </li>
-                  <li><a href="about-us.html"><span>About</span></a></li>
-                  <li class="has-submenu"><a href="#/"><span>Pages</span></a>
-                    <ul class="submenu-nav">
-                      <li><a href="account.html"><span>Account</span></a></li>
-                      <li><a href="account-login.html"><span>Login</span></a></li>
-                      <li><a href="account-register.html"><span>Register</span></a></li>
-                      <li><a href="page-not-found.html"><span>Page Not Found</span></a></li>
-                    </ul>
-                  </li>
-                  <li class="has-submenu position-static"><a href="#/"><span>Shop</span></a>
-                    <ul class="submenu-nav submenu-nav-mega column-3">
-                      <li class="mega-menu-item"><a href="#/" class="mega-title"><span>Shop Layout</span></a>
-                        <ul>
-                          <li><a href="shop-three-columns.html"><span>Shop 3 Column</span></a></li>
-                          <li><a href="shop-four-columns.html"><span>Shop 4 Column</span></a></li>
-                          <li><a href="shop.php"><span>Shop Left Sidebar</span></a></li>
-                          <li><a href="shop-right-sidebar.html"><span>Shop Right Sidebar</span></a></li>
-                        </ul>
-                      </li>
-                      <li class="mega-menu-item"><a href="#/" class="mega-title"><span>Single Product</span></a>
-                        <ul>
-                          <li><a href="single-normal-product.html"><span>Single Product Normal</span></a></li>
-                          <li><a href="single-product.html"><span>Single Product Variable</span></a></li>
-                          <li><a href="single-group-product.html"><span>Single Product Group</span></a></li>
-                          <li><a href="single-affiliate-product.html"><span>Single Product Affiliate</span></a></li>
-                        </ul>
-                      </li>
-                      <li class="mega-menu-item"><a href="#/" class="mega-title"><span>Others Pages</span></a>
-                        <ul>
-                          <li><a href="shop-cart.html"><span>Shopping Cart</span></a></li>
-                          <li><a href="shop-checkout.html"><span>Checkout</span></a></li>
-                          <li><a href="shop-wishlist.html"><span>Wishlist</span></a></li>
-                          <li><a href="shop-compare.html"><span>Compare</span></a></li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="has-submenu"><a href="#/"><span>Blog</span></a>
-                    <ul class="submenu-nav submenu-nav-mega">
-                      <li class="mega-menu-item"><a href="#/" class="mega-title">Blog Layout</a>
-                        <ul>
-                          <li><a href="blog.html">Blog Grid</a></li>
-                          <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-                          <li><a href="blog-right-sidebar.php">Blog Right Sidebar</a></li>
-                        </ul>
-                      </li>
-                      <li class="mega-menu-item"><a href="#/" class="mega-title">Single Blog</a>
-                        <ul>
-                          <li><a href="blog-details-no-sidebar.html">Blog Details</a></li>
-                          <li><a href="blog-details-left-sidebar.html">Blog Details Left Sidebar</a></li>
-                          <li><a href="blog-details.html">Blog Details Right Sidebar</a></li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
-                  <li><a href="contact.html"><span>Contact</span></a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
+
   <!--== End Header Wrapper ==-->
   
   <main class="main-content">
     <!--== Start Page Header Area Wrapper ==-->
-    <div class="page-header-area" data-bg-img="assets/img/photos/bg3.webp">
+    <div class="page-header-area" data-bg-img="assets/img/photos/bg3.jpg">
       <div class="container pt--0 pb--0">
         <div class="row">
           <div class="col-12">
             <div class="page-header-content">
-              <h2 class="title" data-aos="fade-down" data-aos-duration="1000">About Us</h2>
+              <h2 class="title" data-aos="fade-down" data-aos-duration="1000">درباره ما</h2>
               <nav class="breadcrumb-area" data-aos="fade-down" data-aos-duration="1200">
                 <ul class="breadcrumb">
-                  <li><a href="index.php">Home</a></li>
+                  <li><a href="index.php">خانه</a></li>
                   <li class="breadcrumb-sep">//</li>
-                  <li>About Us</li>
+                  <li>درباره ما</li>
                 </ul>
               </nav>
             </div>
@@ -231,17 +84,17 @@
               <div class="about-thumb">
                 <div class="shape-one scene">
                   <span class="scene-layer" data-depth=".2">
-                    <img src="assets/img/about/1.webp" width="570" height="368" alt="Image-HasTech">
+                    <img src="assets/img/slider/slider-01.webp" width="570" height="368" alt="Image-HasTech">
                   </span>
                 </div>
               </div>
             </div>
             <div class="col-lg-6">
               <div class="about-content">
-                <h4 class="sub-title">Smart Life</h4>
-                <h3 class="title">With Smart Shoes</h3>
-                <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmol tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minivel quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidata non proident, sunt in culpa qui officia.</p>
-                <a class="btn-theme" href="contact.html">Contact Us</a>
+                <h4 class="sub-title">دیجیتال شاپ</h4>
+                <h3 class="title">عرضه برترین محصولات دیجیتال</h3>
+                <p class="desc">در دیجیتال شاپ برترین لوازم اصلی موبایل، لپ تاپ و لوازم جانبی عرضه می گردند. در این فروشگاه سعی شده همواره از اجناس با کیفیت بالا و قیمت پایین استفاده شود. شما مشتریان میتوانید با توجه به نیاز خود از بهترین کالاهای دیجیتالی انتخاب و به سبد خرید خود وارد کنید و سپس بعد از ثبت نام کاربری، به ادامه خرید بپردازید.</p>
+                <a class="btn-theme" href="contact.php">تماس با ما</a>
               </div>
             </div>
           </div>
@@ -276,9 +129,9 @@
         <div class="row">
           <div class="col-12">
             <div class="section-title text-center">
-              <h3 class="title">Our Team</h3>
+              <h3 class="title">تیمی قدرتمند</h3>
               <div class="desc">
-                <p>There are many variations of passages of Lorem Ipsum available</p>
+                <p>چندین متخصص در امر فروش و تهیه کالای دیجیتال در فروشگاه دیجیتال شاپ گرد هم آمده اند</p>
               </div>
             </div>
           </div>
@@ -297,8 +150,8 @@
                   </div>
                 </div>
                 <div class="content">
-                  <h4 class="title"><a href="about-us.html">Jander Durham</a></h4>
-                  <p>Team Member</p>
+                  <h4 class="title"><a href="about-us.html">علی رضایی</a></h4>
+                  <p>مدیر داخلی</p>
                 </div>
               </div>
             </div>
@@ -317,8 +170,8 @@
                   </div>
                 </div>
                 <div class="content">
-                  <h4 class="title"><a href="about-us.html">Jaren Hammer</a></h4>
-                  <p>Team Member</p>
+                  <h4 class="title"><a href="about-us.html">محمد محبی</a></h4>
+                  <p>مدیر فروش دیجیتال</p>
                 </div>
               </div>
             </div>
@@ -337,8 +190,8 @@
                   </div>
                 </div>
                 <div class="content">
-                  <h4 class="title"><a href="about-us.html">Nurdan Denkel</a></h4>
-                  <p>Team Member</p>
+                  <h4 class="title"><a href="about-us.html">علی محمدی</a></h4>
+                  <p>تهیه و توزیع کالا</p>
                 </div>
               </div>
             </div>
@@ -357,8 +210,8 @@
                   </div>
                 </div>
                 <div class="content">
-                  <h4 class="title"><a href="about-us.html">Monroe Bond</a></h4>
-                  <p>Team Member</p>
+                  <h4 class="title"><a href="about-us.html">مونا رضایی</a></h4>
+                  <p>مدیر بازاریابی</p>
                 </div>
               </div>
             </div>
@@ -375,9 +228,9 @@
         <div class="row">
           <div class="col-12">
             <div class="section-title text-center">
-              <h3 class="title">Client Feedback</h3>
+              <h3 class="title">دیدگاه کاربران</h3>
               <div class="desc">
-                <p>There are many variations of passages of Lorem Ipsum available</p>
+                <p>بخشی از دیدگاه کاربران در زیر آمده است.</p>
               </div>
             </div>
           </div>
@@ -394,10 +247,10 @@
                         <img src="assets/img/testimonial/1.webp" width="90" height="90" alt="Image-HasTech">
                       </div>
                       <div class="testi-content">
-                        <p>Lorem ipsum dolor sit amel adipiscing elit, sed do eiusll tempor incididunt ut laborj et dolore magna.</p>
+                        <p>تجربه بسیار خوبی در خرید از سایت دیجیتال شاپ داشتم. با تشکر </p>
                         <div class="testi-author">
                           <div class="testi-info">
-                            <span class="name"><a href="about-us.html">Jaren Hammer</a></span>
+                            <span class="name"><a href="about-us.html">احمد محمدپور</a></span>
                           </div>
                         </div>
                         <div class="testi-quote"><img src="assets/img/icons/quote1.webp" width="62" height="44" alt="Image-HasTech"></div>
@@ -414,10 +267,10 @@
                         <img src="assets/img/testimonial/2.webp" width="90" height="90" alt="Image-HasTech">
                       </div>
                       <div class="testi-content">
-                        <p>Lorem ipsum dolor sit amel adipiscing elit, sed do eiusll tempor incididunt ut laborj et dolore magna.</p>
+                        <p>در این فروشگاه تمامی کالاها با قیمت و کیفیت عالی به دست مشتری می رسند.</p>
                         <div class="testi-author">
                           <div class="testi-info">
-                            <span class="name"><a href="about-us.html">Dorian Cordova</a></span>
+                            <span class="name"><a href="about-us.html">مهدی اسدی</a></span>
                           </div>
                         </div>
                         <div class="testi-quote"><img src="assets/img/icons/quote1.webp" width="62" height="44" alt="Image-HasTech"></div>
@@ -441,198 +294,12 @@
     <!--== End Testimonial Area Wrapper ==-->
 
     <!--== Start Blog Area Wrapper ==-->
-    <section class="blog-area blog-default-area">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="section-title text-center">
-              <h3 class="title">Latest Blog</h3>
-              <div class="desc">
-                <p>There are many variations of passages of Lorem Ipsum available</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6 col-lg-4">
-            <!--== Start Blog Item ==-->
-            <div class="post-item">
-              <div class="inner-content">
-                <div class="thumb">
-                  <a href="blog-details.html"><img src="assets/img/blog/1.webp" width="370" height="260" alt="Image-HasTech"></a>
-                </div>
-                <div class="content">
-                  <div class="meta-post">
-                    <ul>
-                      <li class="post-date"><i class="fa fa-calendar"></i><a href="blog.html">27,Jun 2030</a></li>
-                      <li class="author-info"><i class="fa fa-user"></i><a href="blog.html">Oaklee Odom</a></li>
-                    </ul>
-                  </div>
-                  <h4 class="title"><a href="blog-details.html">Lorem ipsum dolor ametcons adipisicing elit sed</a></h4>
-                  <a class="post-btn" href="blog.html">Read More</a>
-                </div>
-              </div>
-            </div>
-            <!--== End Blog Item ==-->
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <!--== Start Blog Item ==-->
-            <div class="post-item">
-              <div class="inner-content">
-                <div class="thumb">
-                  <a href="blog-details.html"><img src="assets/img/blog/2.webp" width="370" height="260" alt="Image-HasTech"></a>
-                </div>
-                <div class="content">
-                  <div class="meta-post">
-                    <ul>
-                      <li class="post-date"><i class="fa fa-calendar"></i><a href="blog.html">27,Jun 2030</a></li>
-                      <li class="author-info"><i class="fa fa-user"></i><a href="blog.html">Oaklee Odom</a></li>
-                    </ul>
-                  </div>
-                  <h4 class="title"><a href="blog-details.html">Celebrity Daughter Opens About Upto Having Her Eye</a></h4>
-                  <a class="post-btn" href="blog.html">Read More</a>
-                </div>
-              </div>
-            </div>
-            <!--== End Blog Item ==-->
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <!--== Start Blog Item ==-->
-            <div class="post-item">
-              <div class="inner-content">
-                <div class="thumb">
-                  <a href="blog-details.html"><img src="assets/img/blog/3.webp" width="370" height="260" alt="Image-HasTech"></a>
-                </div>
-                <div class="content">
-                  <div class="meta-post">
-                    <ul>
-                      <li class="post-date"><i class="fa fa-calendar"></i><a href="blog.html">27,Jun 2030</a></li>
-                      <li class="author-info"><i class="fa fa-user"></i><a href="blog.html">Oaklee Odom</a></li>
-                    </ul>
-                  </div>
-                  <h4 class="title"><a href="blog-details.html">Romantic Love Stories Of Hollywood Popular Celebrities</a></h4>
-                  <a class="post-btn" href="blog.html">Read More</a>
-                </div>
-              </div>
-            </div>
-            <!--== End Blog Item ==-->
-          </div>
-        </div>
-      </div>
-    </section>
     <!--== End Blog Area Wrapper ==-->
   </main>
 
   <!--== Start Footer Area Wrapper ==-->
-  <footer class="footer-area">
-    <!--== Start Footer Main ==-->
-    <div class="footer-main">
-      <div class="container pt--0 pb--0">
-        <div class="row">
-          <div class="col-md-6 col-lg-3">
-            <!--== Start widget Item ==-->
-            <div class="widget-item">
-              <div class="about-widget-wrap">
-                <div class="widget-logo-area">
-                  <a href="index.php">
-                    <img class="logo-main" src="assets/img/logo-light.webp" width="131" height="34" alt="Logo" />
-                  </a>
-                </div>
-                <p class="desc">Lorem ipsum dolor sit amet consl adipisi elit, sed do eiusmod templ incididunt ut labore</p>
-                <div class="social-icons">
-                  <a href="https://www.facebook.com/" target="_blank" rel="noopener"><i class="fa fa-facebook"></i></a>
-                  <a href="https://dribbble.com/" target="_blank" rel="noopener"><i class="fa fa-dribbble"></i></a>
-                  <a href="https://www.pinterest.com/" target="_blank" rel="noopener"><i class="fa fa-pinterest-p"></i></a>
-                  <a href="https://twitter.com/" target="_blank" rel="noopener"><i class="fa fa-twitter"></i></a>
-                </div>
-              </div>
-            </div>
-            <!--== End widget Item ==-->
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <!--== Start widget Item ==-->
-            <div class="widget-item widget-services-item">
-              <h4 class="widget-title">Services</h4>
-              <h4 class="widget-collapsed-title collapsed" data-bs-toggle="collapse" data-bs-target="#widgetId-1">Services</h4>
-              <div id="widgetId-1" class="collapse widget-collapse-body">
-                <div class="collapse-body">
-                  <div class="widget-menu-wrap">
-                    <ul class="nav-menu">
-                      <li><a href="contact.html">Home monitoring</a></li>
-                      <li><a href="contact.html">Air Filters</a></li>
-                      <li><a href="contact.html">Professional installation</a></li>
-                      <li><a href="contact.html">Smart Buildings</a></li>
-                      <li><a href="contact.html">For contractors</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!--== End widget Item ==-->
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <!--== Start widget Item ==-->
-            <div class="widget-item widget-account-item">
-              <h4 class="widget-title">My Account</h4>
-              <h4 class="widget-collapsed-title collapsed" data-bs-toggle="collapse" data-bs-target="#widgetId-2">My Account</h4>
-              <div id="widgetId-2" class="collapse widget-collapse-body">
-                <div class="collapse-body">
-                  <div class="widget-menu-wrap">
-                    <ul class="nav-menu">
-                      <li><a href="account-login.html">My Account</a></li>
-                      <li><a href="contact.html">Contact</a></li>
-                      <li><a href="shop-cart.html">Shopping cart</a></li>
-                      <li><a href="shop.php">Shop</a></li>
-                      <li><a href="account-login.html">Services Login</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!--== End widget Item ==-->
-          </div>
-          <div class="col-md-6 col-lg-3">
-            <!--== Start widget Item ==-->
-            <div class="widget-item">
-              <h4 class="widget-title">Contact Info</h4>
-              <h4 class="widget-collapsed-title collapsed" data-bs-toggle="collapse" data-bs-target="#widgetId-3">Contact Info</h4>
-              <div id="widgetId-3" class="collapse widget-collapse-body">
-                <div class="collapse-body">
-                  <div class="widget-contact-wrap">
-                    <ul>
-                      <li><span>Address:</span> Your address goes here.</li>
-                      <li><span>Phone//fax:</span> <a href="tel://0123456789">0123456789</a></li>
-                      <li><span>Email:</span> <a href="mailto://demo@example.com">demo@example.com</a></li>
-                      <li><a target="_blank" href="https://www.hasthemes.com">www.example.com</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!--== End widget Item ==-->
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--== End Footer Main ==-->
-
-    <!--== Start Footer Bottom ==-->
-    <div class="footer-bottom">
-      <div class="container pt--0 pb--0">
-        <div class="row">
-          <div class="col-md-7 col-lg-6">
-            <p class="copyright">© 2021 Shome. Made with <i class="fa fa-heart"></i> by <a target="_blank" href="https://themeforest.net/user/codecarnival/portfolio">Codecarnival.</a></p>
-          </div>
-          <div class="col-md-5 col-lg-6">
-            <div class="payment">
-              <a href="account-login.html"><img src="assets/img/photos/payment-card.webp" width="192" height="21" alt="Payment Logo"></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--== End Footer Bottom ==-->
-  </footer>
+    <div class="clear"></div>
+    <?php require_once 'sections/footer.php' ?>
   <!--== End Footer Area Wrapper ==-->
 
   <!--== Scroll Top Button ==-->
@@ -819,7 +486,7 @@
                 <ul class="sub-menu">
                   <li><a href="blog.html">Blog Grid</a></li>
                   <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-                  <li><a href="blog-right-sidebar.php">Blog Right Sidebar</a></li>
+                  <li><a href="blog.php">Blog Right Sidebar</a></li>
                 </ul>
               </li>
               <li><a href="#">Single Blog</a>
@@ -831,7 +498,7 @@
               </li>
             </ul>
           </li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.php">Contact</a></li>
         </ul>
       </div>
       <!-- Mobile Menu End -->

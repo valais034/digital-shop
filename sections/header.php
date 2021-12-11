@@ -170,9 +170,9 @@ function myFunction() {
 <!---->
 <!--                                        </ul>-->
 <!--                                    </li>-->
-                                    <li><a href="blog-right-sidebar.html">بلاگ</a></li>
-                                    <li><a href="contact.html"><span>درباره ما</span></a></li>
-                                    <li><a href="blog-details.html"><span>تماس با ما</span></a></li>
+                                    <li><a href="blog.php">بلاگ</a></li>
+                                    <li><a href="contact.php"><span>تماس با ما</span></a></li>
+                                    <li><a href="about-us.php"><span>درباره ما</span></a></li>
                                     <li><a href="blog-details.html"><span></span></a></li>
                                 </ul>
                             </div>
