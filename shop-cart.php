@@ -1,3 +1,15 @@
+<?php require_once 'inc/config.php'; ?>
+<?php
+$products = get_products(6);
+$cart_items = get_cart_items();
+$cart_total = cart_total();
+if (is_login()) {
+    $user_data = get_userdata();
+}
+?>
+<?php
+require_once 'sections/header.php';
+?>
 <!DOCTYPE html>
 <html lang="zxx">
 
@@ -9,7 +21,7 @@
     <meta name="keywords" content="footwear, shoes, modern, shop, store, ecommerce, responsive, e-commerce"/>
     <meta name="author" content="codecarnival"/>
 
-    <title>Shopping Cart :: Shome - Shoes eCommerce Website Template</title>
+    <title>سبد خرید</title>
 
     <!--== Favicon ==-->
     <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
@@ -47,157 +59,6 @@
 <div class="wrapper">
 
   <!--== Start Header Wrapper ==-->
-  <header class="main-header-wrapper position-relative">
-    <div class="header-top">
-      <div class="container pt--0 pb--0">
-        <div class="row">
-          <div class="col-12">
-            <div class="header-top-align">
-              <div class="header-top-align-start">
-                <div class="desc">
-                  <p>World Wide Completely Free Returns and Free Shipping</p>
-                </div>
-              </div>
-              <div class="header-top-align-end">
-                <div class="header-info-items">
-                  <div class="info-items">
-                    <ul>
-                      <li class="number"><i class="fa fa-phone"></i><a href="tel://0123456789">+00 123 456 789</a></li>
-                      <li class="email"><i class="fa fa-envelope"></i><a href="mailto://demo@example.com">demo@example.com</a></li>
-                      <li class="account"><i class="fa fa-user"></i><a href="account-login.html">Account</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="header-middle">
-      <div class="container pt--0 pb--0">
-        <div class="row align-items-center">
-          <div class="col-12">
-            <div class="header-middle-align">
-              <div class="header-middle-align-start">
-                <div class="header-logo-area">
-                  <a href="index.php">
-                    <img class="logo-main" src="assets/img/logo.webp" width="131" height="34" alt="Logo" />
-                    <img class="logo-light" src="assets/img/logo-light.webp" width="131" height="34" alt="Logo" />
-                  </a>
-                </div>
-              </div>
-              <div class="header-middle-align-center">
-                <div class="header-search-area">
-                  <form class="header-searchbox">
-                    <input type="search" class="form-control" placeholder="Search">
-                    <button class="btn-submit" type="submit"><i class="pe-7s-search"></i></button>
-                  </form>
-                </div>
-              </div>
-              <div class="header-middle-align-end">
-                <div class="header-action-area">
-                  <div class="shopping-search">
-                    <button class="shopping-search-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#AsideOffcanvasSearch" aria-controls="AsideOffcanvasSearch"><i class="pe-7s-search icon"></i></button>
-                  </div>
-                  <div class="shopping-wishlist">
-                    <a class="shopping-wishlist-btn" href="shop-wishlist.html">
-                      <i class="pe-7s-like icon"></i>
-                    </a>
-                  </div>
-                  <div class="shopping-cart">
-                    <button class="shopping-cart-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#AsideOffcanvasCart" aria-controls="offcanvasRightLabel">
-                      <i class="pe-7s-shopbag icon"></i>
-                      <sup class="shop-count">02</sup>
-                    </button>
-                  </div>
-                  <button class="btn-menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#AsideOffcanvasMenu" aria-controls="AsideOffcanvasMenu">
-                    <i class="pe-7s-menu"></i>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="header-area header-default">
-      <div class="container">
-        <div class="row no-gutter align-items-center position-relative">
-          <div class="col-12">
-            <div class="header-align">
-              <div class="header-navigation-area position-relative">
-                <ul class="main-menu nav">
-                  <li class="has-submenu"><a href="#/"><span>Home</span></a>
-                    <ul class="submenu-nav">
-                      <li><a href="index.php"><span>Home One</span></a></li>
-                      <li><a href="index-two.html"><span>Home Two</span></a></li>
-                    </ul>
-                  </li>
-                  <li><a href="about-us.php"><span>About</span></a></li>
-                  <li class="has-submenu"><a href="#/"><span>Pages</span></a>
-                    <ul class="submenu-nav">
-                      <li><a href="account.html"><span>Account</span></a></li>
-                      <li><a href="account-login.html"><span>Login</span></a></li>
-                      <li><a href="account-register.html"><span>Register</span></a></li>
-                      <li><a href="page-not-found.html"><span>Page Not Found</span></a></li>
-                    </ul>
-                  </li>
-                  <li class="has-submenu position-static"><a href="#/"><span>Shop</span></a>
-                    <ul class="submenu-nav submenu-nav-mega column-3">
-                      <li class="mega-menu-item"><a href="#/" class="mega-title"><span>Shop Layout</span></a>
-                        <ul>
-                          <li><a href="shop-three-columns.html"><span>Shop 3 Column</span></a></li>
-                          <li><a href="shop-four-columns.html"><span>Shop 4 Column</span></a></li>
-                          <li><a href="shop.php"><span>Shop Left Sidebar</span></a></li>
-                          <li><a href="shop-right-sidebar.html"><span>Shop Right Sidebar</span></a></li>
-                        </ul>
-                      </li>
-                      <li class="mega-menu-item"><a href="#/" class="mega-title"><span>Single Product</span></a>
-                        <ul>
-                          <li><a href="single-normal-product.html"><span>Single Product Normal</span></a></li>
-                          <li><a href="single-product.html"><span>Single Product Variable</span></a></li>
-                          <li><a href="single-group-product.html"><span>Single Product Group</span></a></li>
-                          <li><a href="single-affiliate-product.html"><span>Single Product Affiliate</span></a></li>
-                        </ul>
-                      </li>
-                      <li class="mega-menu-item"><a href="#/" class="mega-title"><span>Others Pages</span></a>
-                        <ul>
-                          <li><a href="shop-cart.html"><span>Shopping Cart</span></a></li>
-                          <li><a href="shop-checkout.html"><span>Checkout</span></a></li>
-                          <li><a href="shop-wishlist.html"><span>Wishlist</span></a></li>
-                          <li><a href="shop-compare.html"><span>Compare</span></a></li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="has-submenu"><a href="#/"><span>Blog</span></a>
-                    <ul class="submenu-nav submenu-nav-mega">
-                      <li class="mega-menu-item"><a href="#/" class="mega-title">Blog Layout</a>
-                        <ul>
-                          <li><a href="blog.html">Blog Grid</a></li>
-                          <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-                          <li><a href="blog.php">Blog Right Sidebar</a></li>
-                        </ul>
-                      </li>
-                      <li class="mega-menu-item"><a href="#/" class="mega-title">Single Blog</a>
-                        <ul>
-                          <li><a href="blog-details-no-sidebar.html">Blog Details</a></li>
-                          <li><a href="blog-details-left-sidebar.html">Blog Details Left Sidebar</a></li>
-                          <li><a href="blog-details.html">Blog Details Right Sidebar</a></li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
-                  <li><a href="contact.php"><span>Contact</span></a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
   <!--== End Header Wrapper ==-->
   
   <main class="main-content">
@@ -207,12 +68,12 @@
         <div class="row">
           <div class="col-12">
             <div class="page-header-content">
-              <h2 class="title" data-aos="fade-down" data-aos-duration="1000">Shopping Cart</h2>
+              <h2 class="title" data-aos="fade-down" data-aos-duration="1000">سبد خرید</h2>
               <nav class="breadcrumb-area" data-aos="fade-down" data-aos-duration="1200">
                 <ul class="breadcrumb">
-                  <li><a href="index.php">Home</a></li>
+                  <li><a href="index.php">خانه</a></li>
                   <li class="breadcrumb-sep">//</li>
-                  <li>Shopping Cart</li>
+                  <li>سبد خرید</li>
                 </ul>
               </nav>
             </div>
@@ -516,7 +377,7 @@
                     <ul class="nav-menu">
                       <li><a href="account-login.html">My Account</a></li>
                       <li><a href="contact.php">Contact</a></li>
-                      <li><a href="shop-cart.html">Shopping cart</a></li>
+                      <li><a href="shop-cart.php">Shopping cart</a></li>
                       <li><a href="shop.php">Shop</a></li>
                       <li><a href="account-login.html">Services Login</a></li>
                     </ul>
@@ -656,7 +517,7 @@
         </li>
       </ul>
       <p class="cart-total"><span>Subtotal:</span><span class="amount">£89.99</span></p>
-      <a class="btn-theme" data-margin-bottom="10" href="shop-cart.html">View cart</a>
+      <a class="btn-theme" data-margin-bottom="10" href="shop-cart.php">View cart</a>
       <a class="btn-theme" href="shop-checkout.html">Checkout</a>
       <a class="d-block text-end lh-1" href="shop-checkout.html"><img src="assets/img/photos/paypal.webp" width="133" height="26" alt="Has-image"></a>
     </div>
@@ -740,7 +601,7 @@
               </li>
               <li><a href="#">Others Pages</a>
                 <ul class="sub-menu">
-                  <li><a href="shop-cart.html">Shopping Cart</a></li>
+                  <li><a href="shop-cart.php">Shopping Cart</a></li>
                   <li><a href="shop-checkout.html">Checkout</a></li>
                   <li><a href="shop-wishlist.html">Wishlist</a></li>
                   <li><a href="shop-compare.html">Compare</a></li>

@@ -247,7 +247,7 @@ $posts = get_posts(3);
                   </div>
                   <div class="product-action">
                     <a class="btn-product-wishlist" href="shop-wishlist.html"><i class="fa fa-heart"></i></a>
-                    <a class="btn-product-cart" href="shop-cart.html"><i class="fa fa-shopping-cart"></i></a>
+                    <a class="btn-product-cart" href="shop-cart.php"><i class="fa fa-shopping-cart"></i></a>
                     <button type="button" class="btn-product-quick-view-open">
                       <i class="fa fa-arrows"></i>
                     </button>
@@ -284,7 +284,7 @@ $posts = get_posts(3);
                   </a>
                   <div class="product-action">
                     <a class="btn-product-wishlist" href="shop-wishlist.html"><i class="fa fa-heart"></i></a>
-                    <a class="btn-product-cart" href="shop-cart.html"><i class="fa fa-shopping-cart"></i></a>
+                    <a class="btn-product-cart" href="shop-cart.php"><i class="fa fa-shopping-cart"></i></a>
                     <button type="button" class="btn-product-quick-view-open">
                       <i class="fa fa-arrows"></i>
                     </button>
@@ -324,7 +324,7 @@ $posts = get_posts(3);
                   </div>
                   <div class="product-action">
                     <a class="btn-product-wishlist" href="shop-wishlist.html"><i class="fa fa-heart"></i></a>
-                    <a class="btn-product-cart" href="shop-cart.html"><i class="fa fa-shopping-cart"></i></a>
+                    <a class="btn-product-cart" href="shop-cart.php"><i class="fa fa-shopping-cart"></i></a>
                     <button type="button" class="btn-product-quick-view-open">
                       <i class="fa fa-arrows"></i>
                     </button>
@@ -361,7 +361,7 @@ $posts = get_posts(3);
                   </a>
                   <div class="product-action">
                     <a class="btn-product-wishlist" href="shop-wishlist.html"><i class="fa fa-heart"></i></a>
-                    <a class="btn-product-cart" href="shop-cart.html"><i class="fa fa-shopping-cart"></i></a>
+                    <a class="btn-product-cart" href="shop-cart.php"><i class="fa fa-shopping-cart"></i></a>
                     <button type="button" class="btn-product-quick-view-open">
                       <i class="fa fa-arrows"></i>
                     </button>
@@ -396,7 +396,7 @@ $posts = get_posts(3);
                   </a>
                   <div class="product-action">
                     <a class="btn-product-wishlist" href="shop-wishlist.html"><i class="fa fa-heart"></i></a>
-                    <a class="btn-product-cart" href="shop-cart.html"><i class="fa fa-shopping-cart"></i></a>
+                    <a class="btn-product-cart" href="shop-cart.php"><i class="fa fa-shopping-cart"></i></a>
                     <button type="button" class="btn-product-quick-view-open">
                       <i class="fa fa-arrows"></i>
                     </button>
@@ -436,7 +436,7 @@ $posts = get_posts(3);
                   </div>
                   <div class="product-action">
                     <a class="btn-product-wishlist" href="shop-wishlist.html"><i class="fa fa-heart"></i></a>
-                    <a class="btn-product-cart" href="shop-cart.html"><i class="fa fa-shopping-cart"></i></a>
+                    <a class="btn-product-cart" href="shop-cart.php"><i class="fa fa-shopping-cart"></i></a>
                     <button type="button" class="btn-product-quick-view-open">
                       <i class="fa fa-arrows"></i>
                     </button>
@@ -473,7 +473,7 @@ $posts = get_posts(3);
                   </a>
                   <div class="product-action">
                     <a class="btn-product-wishlist" href="shop-wishlist.html"><i class="fa fa-heart"></i></a>
-                    <a class="btn-product-cart" href="shop-cart.html"><i class="fa fa-shopping-cart"></i></a>
+                    <a class="btn-product-cart" href="shop-cart.php"><i class="fa fa-shopping-cart"></i></a>
                     <button type="button" class="btn-product-quick-view-open">
                       <i class="fa fa-arrows"></i>
                     </button>
@@ -513,7 +513,7 @@ $posts = get_posts(3);
                   </div>
                   <div class="product-action">
                     <a class="btn-product-wishlist" href="shop-wishlist.html"><i class="fa fa-heart"></i></a>
-                    <a class="btn-product-cart" href="shop-cart.html"><i class="fa fa-shopping-cart"></i></a>
+                    <a class="btn-product-cart" href="shop-cart.php"><i class="fa fa-shopping-cart"></i></a>
                     <button type="button" class="btn-product-quick-view-open">
                       <i class="fa fa-arrows"></i>
                     </button>
@@ -599,7 +599,7 @@ $posts = get_posts(3);
                           </div>
                           <div class="product-action">
                     <a class="btn-product-wishlist" href="shop-wishlist.html"><i class="fa fa-heart"></i></a>
-                    <a class="btn-product-cart" href="shop-cart.html"><i class="fa fa-shopping-cart"></i></a>
+                    <a class="btn-product-cart" href="shop-cart.php"><i class="fa fa-shopping-cart"></i></a>
                     <button type="button" class="btn-product-quick-view-open">
                       <i class="fa fa-arrows"></i>
                     </button>
@@ -636,7 +636,7 @@ $posts = get_posts(3);
                           </a>
                           <div class="product-action">
                     <a class="btn-product-wishlist" href="shop-wishlist.html"><i class="fa fa-heart"></i></a>
-                    <a class="btn-product-cart" href="shop-cart.html"><i class="fa fa-shopping-cart"></i></a>
+                    <a class="btn-product-cart" href="shop-cart.php"><i class="fa fa-shopping-cart"></i></a>
                     <button type="button" class="btn-product-quick-view-open">
                       <i class="fa fa-arrows"></i>
                     </button>
@@ -676,7 +676,7 @@ $posts = get_posts(3);
                           </div>
                           <div class="product-action">
                     <a class="btn-product-wishlist" href="shop-wishlist.html"><i class="fa fa-heart"></i></a>
-                    <a class="btn-product-cart" href="shop-cart.html"><i class="fa fa-shopping-cart"></i></a>
+                    <a class="btn-product-cart" href="shop-cart.php"><i class="fa fa-shopping-cart"></i></a>
                     <button type="button" class="btn-product-quick-view-open">
                       <i class="fa fa-arrows"></i>
                     </button>
@@ -713,7 +713,7 @@ $posts = get_posts(3);
                           </a>
                           <div class="product-action">
                     <a class="btn-product-wishlist" href="shop-wishlist.html"><i class="fa fa-heart"></i></a>
-                    <a class="btn-product-cart" href="shop-cart.html"><i class="fa fa-shopping-cart"></i></a>
+                    <a class="btn-product-cart" href="shop-cart.php"><i class="fa fa-shopping-cart"></i></a>
                     <button type="button" class="btn-product-quick-view-open">
                       <i class="fa fa-arrows"></i>
                     </button>
@@ -748,7 +748,7 @@ $posts = get_posts(3);
                           </a>
                           <div class="product-action">
                     <a class="btn-product-wishlist" href="shop-wishlist.html"><i class="fa fa-heart"></i></a>
-                    <a class="btn-product-cart" href="shop-cart.html"><i class="fa fa-shopping-cart"></i></a>
+                    <a class="btn-product-cart" href="shop-cart.php"><i class="fa fa-shopping-cart"></i></a>
                     <button type="button" class="btn-product-quick-view-open">
                       <i class="fa fa-arrows"></i>
                     </button>
@@ -790,7 +790,7 @@ $posts = get_posts(3);
                           </div>
                           <div class="product-action">
                     <a class="btn-product-wishlist" href="shop-wishlist.html"><i class="fa fa-heart"></i></a>
-                    <a class="btn-product-cart" href="shop-cart.html"><i class="fa fa-shopping-cart"></i></a>
+                    <a class="btn-product-cart" href="shop-cart.php"><i class="fa fa-shopping-cart"></i></a>
                     <button type="button" class="btn-product-quick-view-open">
                       <i class="fa fa-arrows"></i>
                     </button>
@@ -1041,7 +1041,7 @@ $posts = get_posts(3);
         </li>
       </ul>
       <p class="cart-total"><span>Subtotal:</span><span class="amount">£89.99</span></p>
-      <a class="btn-theme" data-margin-bottom="10" href="shop-cart.html">View cart</a>
+      <a class="btn-theme" data-margin-bottom="10" href="shop-cart.php">View cart</a>
       <a class="btn-theme" href="shop-checkout.html">Checkout</a>
       <a class="d-block text-end lh-1" href="shop-checkout.html"><img src="assets/img/photos/paypal.webp" width="133" height="26" alt="Has-image"></a>
     </div>
@@ -1125,7 +1125,7 @@ $posts = get_posts(3);
               </li>
               <li><a href="#">Others Pages</a>
                 <ul class="sub-menu">
-                  <li><a href="shop-cart.html">Shopping Cart</a></li>
+                  <li><a href="shop-cart.php">Shopping Cart</a></li>
                   <li><a href="shop-checkout.html">Checkout</a></li>
                   <li><a href="shop-wishlist.html">Wishlist</a></li>
                   <li><a href="shop-compare.html">Compare</a></li>
