@@ -2,7 +2,10 @@
 require_once 'sections/header.php';
 ?>
 <?php
-$products= get_products(6);
+$posts= get_posts(6);
+$post_cats = get_post_cats();
+$number_of_posts = mysqli_query($db, "SELECT * FROM posts");
+$sidebar_posts = get_posts(3);
 ?>
 <!DOCTYPE html>
 <html lang="zxx">
@@ -15,7 +18,7 @@ $products= get_products(6);
     <meta name="keywords" content="footwear, shoes, modern, shop, store, ecommerce, responsive, e-commerce"/>
     <meta name="author" content="codecarnival"/>
 
-    <title>فروشگاه :: دیجیتال شاپ - فروشگاه اینترنتی دیجیتالی</title>
+    <title>بلاگ</title>
 
     <!--== Favicon ==-->
     <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
@@ -62,12 +65,12 @@ $products= get_products(6);
         <div class="row">
           <div class="col-12">
             <div class="page-header-content">
-              <h2 class="title" data-aos="fade-down" data-aos-duration="1000">فروشگاه</h2>
+              <h2 class="title" data-aos="fade-down" data-aos-duration="1000">بلاگ</h2>
               <nav class="breadcrumb-area" data-aos="fade-down" data-aos-duration="1200">
                 <ul class="breadcrumb">
                   <li><a href="index.php">خانه</a></li>
                   <li class="breadcrumb-sep">//</li>
-                  <li>کلیه محصولات</li>
+                  <li>بلاگ</li>
                 </ul>
               </nav>
             </div>
@@ -77,173 +80,107 @@ $products= get_products(6);
     </div>
     <!--== End Page Header Area Wrapper ==-->
 
-    <!--== Start Product Area Wrapper ==-->
-    <section class="product-area product-default-area">
+    <!--== Start Blog Area Wrapper ==-->
+    <section class="blog-area blog-inner-area">
       <div class="container">
-        <div class="row flex-xl-row-reverse justify-content-between">
-          <div class="col-xl-9">
+        <div class="row justify-content-between">
+          <div class="col-xl-8" data-aos="fade-right">
             <div class="row">
-              <div class="col-12">
-                <div class="shop-top-bar">
-                  <div class="shop-top-left">
-                      <p>نمایش <?php echo mysqli_num_rows($products) ?> از <?php echo mysqli_num_rows($products) ?> محصول</p>
-                  </div>
-                  <div class="shop-top-center">
-                    <nav class="product-nav">
-                      <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                        <button class="nav-link active" id="nav-grid-tab" data-bs-toggle="tab" data-bs-target="#nav-grid" type="button" role="tab" aria-controls="nav-grid" aria-selected="true"><i class="fa fa-th"></i></button>
-                        <button class="nav-link" id="nav-list-tab" data-bs-toggle="tab" data-bs-target="#nav-list" type="button" role="tab" aria-controls="nav-list" aria-selected="false"><i class="fa fa-list"></i></button>
+                <?php while ($post = mysqli_fetch_array($posts)) { ?>
+              <div class="col-md-6 col-lg-4 col-xl-6">
+                <!--== Start Blog Item ==-->
+                <div class="post-item">
+                  <div class="inner-content">
+                    <div class="thumb">
+                        <a href="post.php?post-id=<?php echo $post['id'] ?>"><img src="assets/img/post/<?php echo $post['post_image'] ?>" alt=""></a>
+                    </div>
+                    <div class="content">
+                      <div class="meta-post">
+                        <ul>
+                          <li class="post-date"><i class="fa fa-calendar"></i><a href="blog.php">27,Jun 2030</a></li>
+                          <li class="author-info"><i class="fa fa-user"></i><a href="blog.php">admin</a></li>
+                        </ul>
                       </div>
-                    </nav>
-                  </div>
-                  <div class="shop-top-right">
-                    <div class="shop-sort">
-                      <span>ترتیب:</span>
-                      <select class="form-select" aria-label="Sort select example">
-                        <option selected>پیش فرض</option>
-                        <option value="1">محبوبیت</option>
-                        <option value="2">بیشترین امتیاز</option>
-                        <option value="3">جدیدترین</option>
-                        <option value="4">قیمت از کم به زیاد</option>
-                      </select>
+                        <h3><a href="post.php?post-id=<?php echo $post['id'] ?>"><?php echo $post['post_title'] ?></a></h3>
+                        <a class="post-btn" href="post.php?post-id=<?php echo $post['id'] ?>" class="lab-btn">ادامه مطلب</a>
                     </div>
                   </div>
                 </div>
+                <!--== End Blog Item ==-->
               </div>
-              <div class="col-12">
-                <div class="tab-content" id="nav-tabContent">
-                  <div class="tab-pane fade show active" id="nav-grid" role="tabpanel" aria-labelledby="nav-grid-tab">
-                    <div class="row">
-                        <?php while ($product = mysqli_fetch_array($products)) { ?>
+                <?php } ?>
 
-                        <div class="col-sm-6 col-lg-4">
-
-                            <!--== Start Product Item ==-->
-                        <div class="product-item">
-                          <div class="inner-content">
-                            <div class="product-thumb">
-                                <a href="product.php?product-id=<?php echo $product['id'] ?>"><img src="assets/img/product/<?php echo $product['product_image'] ?>" alt=""></a>
-                              <div class="product-flag">
-                                <ul>
-                                  <li class="discount">-10%</li>
-                                </ul>
-                              </div>
-                              <div class="product-action">
-                    <a class="btn-product-wishlist" href="shop-wishlist.html"><i class="fa fa-heart"></i></a>
-                    <a class="btn-product-cart" href="shop-cart.html"><i class="fa fa-shopping-cart"></i></a>
-                    <button type="button" class="btn-product-quick-view-open">
-                      <i class="fa fa-arrows"></i>
-                    </button>
-                    <a class="btn-product-compare" href="shop-compare.html"><i class="fa fa-random"></i></a>
-                  </div>
-                              <a class="banner-link-overlay" href="shop.php"></a>
-                            </div>
-                            <div class="product-info">
-                              <div class="category">
-                                <ul>
-                                  <li><a href="shop.php">دیجیتال</a></li>
-                                  <li class="sep">/</li>
-                                  <li><a href="shop.php">تلفن همراه</a></li>
-                                </ul>
-                              </div>
-                                <h6><a href="product.php?product-id=<?php echo $product['id'] ?>"><?php echo $product['product_name'] ?></a></h6>
-                              <div class="prices">
-                                <span class="price-old"><?php echo $product['product_price'] ?> تومان</span>
-                                <span class="sep">-</span>
-                                <span class="price"><?php echo $product['product_off_price'] ?> تومان</span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-
-                            <!--== End prPduct Item ==-->
-                      </div>
-                        <?php } ?>
-<!--
-<!--                        <!--== End prPduct Item ==-->-->
-<!--                      </div>-->
-                      <div class="col-12">
-                        <div class="pagination-items">
-                          <ul class="pagination justify-content-end mb--0">
-                            <li><a class="active" href="shop.php">1</a></li>
-                            <li><a href="shop-four-columns.html">2</a></li>
-                            <li><a href="shop-three-columns.html">3</a></li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
-          <div class="col-xl-3">
-            <div class="shop-sidebar">
-              <div class="shop-sidebar-category">
-                <h4 class="sidebar-title">دسته بندی ها</h4>
-                <div class="sidebar-category">
-                  <ul class="category-list mb--0">
-                    <li><a href="shop.php">تلفن همراه <span>(6)</span></a></li>
-                    <li><a href="shop.php">لپ تاپ <span>(4)</span></a></li>
-                    <li><a href="shop.php">الترابوک <span>(2)</span></a></li>
-                    <li><a href="shop.php">لوازم جانبی <span>(6)</span></a></li>
-                    <li><a href="shop.php">متفرقه <span>(12)</span></a></li>
-                  </ul>
+          <div class="col-xl-4" data-aos="fade-left">
+            <div class="blog-sidebar">
+              <div class="blog-sidebar-search">
+                <div class="sidebar-search-form">
+                  <form action="#">
+                    <input type="search" placeholder="Search">
+                    <button><i class="fa fa-search"></i></button>
+                  </form>
                 </div>
               </div>
 
-              <div class="shop-sidebar-price-range">
-                <h4 class="sidebar-title">محدوده قیمت</h4>
-                <div class="sidebar-price-range">   
-                  <div id="price-range"></div>
+              <div class="blog-sidebar-wrap">
+                <div class="blog-sidebar-category">
+                  <h4 class="sidebar-title" data-margin-bottom="23">دسته بندی نوشته ها</h4>
+                  <div class="sidebar-category">
+                    <ul class="category-list">
+                      <li><a href="shop.php">اخبار<span> (6)</span></a></li>
+                      <li><a href="shop.php">مطالب مفید<span> (4)</span></a></li>
+                      <li><a href="shop.php">اخبار تکنولوژی<span> (2)</span></a></li>
+                      <li><a href="shop.php">اخبار مایکروسافت<span> (6)</span></a></li>
+                      <li><a href="shop.php">اخبار اپل<span> (12)</span></a></li>
+                      <li><a href="shop.php">اخبار سامسونگ<span> (7)</span></a></li>
+                      <li><a href="shop.php">اخبار شیائومی<span> (9)</span></a></li>
+                    </ul>
+                  </div>
                 </div>
-              </div>
 
-              <div class="shop-sidebar-color">
-                <h4 class="sidebar-title">رنگ</h4>
-                <div class="sidebar-color">
-                  <ul class="color-list">
-                    <li data-bg-color="#39ed8c" class="active"></li>
-                    <li data-bg-color="#a6ed42"></li>
-                    <li data-bg-color="#daed39"></li>
-                    <li data-bg-color="#eed739"></li>
-                    <li data-bg-color="#eca23a"></li>
-                    <li data-bg-color="#f36768"></li>
-                    <li data-bg-color="#e14755"></li>
-                    <li data-bg-color="#dc83a3"></li>
-                    <li data-bg-color="#dc82da"></li>
-                    <li data-bg-color="#9a82dd"></li>
-                    <li data-bg-color="#82c2db"></li>
-                    <li data-bg-color="#6bd6b0"></li>
-                    <li data-bg-color="#9ed76b"></li>
-                    <li data-bg-color="#c8c289"></li>
-                  </ul>
+                <div class="blog-sidebar-post">
+                  <h4 class="sidebar-title">مطالب اخیر</h4>
+                    <?php while ($sidebar_post = mysqli_fetch_array($sidebar_posts)) { ?>
+                  <div class="sidebar-post">
+                    <div class="single-post">
+                      <div class="post-thumb">
+                        <a href="post.php?post-id=<?php echo $sidebar_post['id'] ?>"><img src="assets/img/post/<?php echo $sidebar_post['post_image'] ?>" width="98" height="101" alt=""></a>
+                      </div>
+                      <div class="post-content">
+                        <span class="date"><a href="blog.html"><i class="fa fa-calendar"></i>22,Jun 2022</a></span>
+                          <h6><a href="post.php?post-id=<?php echo $sidebar_post['id'] ?>"><?php echo $sidebar_post['post_title'] ?></a></h6>
+                      </div>
+                    </div>
+                      <?php } ?>
+                  </div>
                 </div>
-              </div>
 
-              <div class="shop-sidebar-size">
-                <h4 class="sidebar-title">سایز</h4>
-                <div class="sidebar-size">
-                  <ul class="size-list">
-                    <li><a href="shop.php">S <span>(6)</span></a></li>
-                    <li><a href="shop.php">M <span>(4)</span></a></li>
-                    <li><a href="shop.php">L <span>(2)</span></a></li>
-                    <li><a href="shop.php">XL <span>(6)</span></a></li>
-                    <li><a href="shop.php">XXL <span>(12)</span></a></li>
-                  </ul>
-                </div>
-              </div>
+<!--                <div class="blog-sidebar-category-sub-menu">-->
+<!--                  <h4 class="sidebar-title" data-margin-bottom="23">Archives</h4>-->
+<!--                  <div class="sidebar-category-sub-menu">-->
+<!--                    <ul class="sub-menu-list">-->
+<!--                      <li><a href="shop.php">March 2018</a></li>-->
+<!--                      <li><a href="shop.php">February 2018</a></li>-->
+<!--                      <li><a href="shop.php">January 2021</a></li>-->
+<!--                      <li><a href="shop.php">September 2019</a></li>-->
+<!--                      <li><a href="shop.php">March 2018</a></li>-->
+<!--                      <li><a href="shop.php">July 2021</a></li>-->
+<!--                    </ul>-->
+<!--                  </div>-->
+<!--                </div>-->
 
-              <div class="shop-sidebar-brand">
-                <h4 class="sidebar-title">برندها</h4>
-                <div class="sidebar-brand">
-                  <ul class="brand-list mb--0">
-                    <li><a href="shop.php">اپل <span>(6)</span></a></li>
-                    <li><a href="shop.php">سامسونگ <span>(4)</span></a></li>
-                    <li><a href="shop.php">مایکروسافت <span>(2)</span></a></li>
-                    <li><a href="shop.php">شیائومی <span>(6)</span></a></li>
-                    <li><a href="shop.php">موتورولا <span>(12)</span></a></li>
-                  </ul>
+                <div class="blog-sidebar-tags">
+                  <h4 class="sidebar-title">تگ ها</h4>
+                  <div class="sidebar-tags">
+                    <ul class="tags-list mb--0">
+                      <li><a href="blog.php">موبایل</a></li>
+                      <li><a href="blog.php">لپ تاپ</a></li>
+                      <li><a href="blog.php">لوازم جانبی</a></li>
+                      <li><a href="blog.php">لوازم موبایل</a></li>
+                      <li><a href="blog.php">قاب گوشی</a></li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
@@ -251,20 +188,13 @@ $products= get_products(6);
         </div>
       </div>
     </section>
-    <!--== End Product Area Wrapper ==-->
+    <!--== End Blog Area Wrapper ==-->
   </main>
 
   <!--== Start Footer Area Wrapper ==-->
-  <footer class="footer-area">
-    <!--== Start Footer Main ==-->
-    <!--== End Footer Main ==-->
-
-    <!--== Start Footer Bottom ==-->
-      <div class="clear"></div>
-      <?php require_once 'sections/footer.php' ?>
-
-      <!--== End Footer Bottom ==-->
-  <!--== End Footer Area Wrapper ==-->
+    <div class="clear"></div>
+    <!-- Footer Section start here -->
+    <?php require_once 'sections/footer.php' ?>  <!--== End Footer Area Wrapper ==-->
 
   <!--== Scroll Top Button ==-->
   <div id="scroll-to-top" class="scroll-to-top"><span class="fa fa-angle-up"></span></div>

@@ -795,7 +795,7 @@ $pcomments = get_comments_by_product_id($product_id);
                                 <ul class="sub-menu">
                                     <li><a href="blog.html">Blog Grid</a></li>
                                     <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-                                    <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
+                                    <li><a href="blog-right-sidebar.php">Blog Right Sidebar</a></li>
                                 </ul>
                             </li>
                             <li><a href="#">Single Blog</a>
