@@ -1,7 +1,7 @@
 <?php
 
 
-$db = mysqli_connect('localhost','adidasuser','123456','adidasecommerce2');
+$db = mysqli_connect('localhost','adidasuser','123456','adidasecommerce');
 
 if (!$db) {
     echo mysqli_connect_error();
@@ -16,7 +16,7 @@ session_start();
 
 define("ADMIN_USERNAME","admin");
 define("ADMIN_PASSWORD","135790");
-define("PATH","http://localhost:8080/digital-shop");
+define("PATH","http://localhost/digital-shop");
 //define("PATH","http://localhost:8888/myFiles/ecommerce/");
 
 require_once 'functions.php';

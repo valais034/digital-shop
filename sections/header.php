@@ -94,14 +94,14 @@ function myFunction() {
                                         <button class="shopping-search-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#AsideOffcanvasSearch" aria-controls="AsideOffcanvasSearch"><i class="pe-7s-search icon"></i></button>
                                     </div>
                                     <div class="shopping-wishlist">
-                                        <a class="shopping-wishlist-btn" href="shop-wishlist.html">
+                                        <a class="shopping-wishlist-btn" href="#">
                                             <i class="pe-7s-like icon"></i>
                                         </a>
                                     </div>
                                     <div class="shopping-cart">
                                         <button class="shopping-cart-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#AsideOffcanvasCart" aria-controls="offcanvasRightLabel">
                                             <i class="pe-7s-shopbag icon"></i>
-                                            <sup class="shop-count">02</sup>
+                                            <sup class="shop-count"><?php echo mysqli_num_rows($number_of_cart_items);?></sup>
                                         </button>
                                     </div>
                                     <button class="btn-menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#AsideOffcanvasMenu" aria-controls="AsideOffcanvasMenu">
@@ -184,3 +184,31 @@ function myFunction() {
     </header>
 
 
+    <!--== Start Aside Cart Menu ==-->
+    <div class="aside-cart-wrapper offcanvas offcanvas-end" tabindex="-1" id="AsideOffcanvasCart" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h1 id="offcanvasRightLabel"></h1>
+            <button class="btn-aside-cart-close" data-bs-dismiss="offcanvas" aria-label="Close">سبد خرید <i class="fa fa-chevron-right"></i></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="aside-cart-product-list">
+                <?php foreach ($cart_items as $cart_item) { ?>
+
+                <li class="product-list-item">
+                    <a href="#" class="remove">×</a>
+                    <a href="product.php?product-id=<?php echo $cart_item['id'] ?> " target="_blank">
+                        <img src="assets/img/product/<?php echo $cart_item['product_image'] ?>" alt="product">
+                        <span class="product-title"><?php echo $cart_item['product_name'] ?></span>
+                    </a>
+                    <span class="product-price"><?php echo $cart_item['product_price'] ?> تومان</span>
+                </li>
+                <?php } ?>
+
+            </ul>
+            <p class="cart-total"><span class="amount"><?php echo $cart_total ?> تومان</span><span>جمع سبد خرید:</span></p>
+            <a class="btn-theme" data-margin-bottom="10" href="cart.php">سبد خرید</a>
+<!--            <a class="btn-theme" href="shop-checkout.html">Checkout</a>-->
+<!--            <a class="d-block text-end lh-1" href="shop-checkout.html"><img src="assets/img/photos/paypal.webp" width="133" height="26" alt="Has-image"></a>-->
+        </div>
+    </div>
+    <!--== End Aside Cart Menu ==-->

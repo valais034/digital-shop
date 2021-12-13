@@ -369,7 +369,7 @@ $pcomments = get_comments_by_product_id($product_id);
                                                     </div>
                                                     <div class="product-action">
                                                         <a class="btn-product-wishlist" href="shop-wishlist.html"><i class="fa fa-heart"></i></a>
-                                                        <a class="btn-product-cart" href="shop-cart.php"><i class="fa fa-shopping-cart"></i></a>
+                                                        <a class="btn-product-cart" href="cart.php"><i class="fa fa-shopping-cart"></i></a>
                                                         <button type="button" class="btn-product-quick-view-open">
                                                             <i class="fa fa-arrows"></i>
                                                         </button>
@@ -406,7 +406,7 @@ $pcomments = get_comments_by_product_id($product_id);
                                                     </a>
                                                     <div class="product-action">
                                                         <a class="btn-product-wishlist" href="shop-wishlist.html"><i class="fa fa-heart"></i></a>
-                                                        <a class="btn-product-cart" href="shop-cart.php"><i class="fa fa-shopping-cart"></i></a>
+                                                        <a class="btn-product-cart" href="cart.php"><i class="fa fa-shopping-cart"></i></a>
                                                         <button type="button" class="btn-product-quick-view-open">
                                                             <i class="fa fa-arrows"></i>
                                                         </button>
@@ -446,7 +446,7 @@ $pcomments = get_comments_by_product_id($product_id);
                                                     </div>
                                                     <div class="product-action">
                                                         <a class="btn-product-wishlist" href="shop-wishlist.html"><i class="fa fa-heart"></i></a>
-                                                        <a class="btn-product-cart" href="shop-cart.php"><i class="fa fa-shopping-cart"></i></a>
+                                                        <a class="btn-product-cart" href="cart.php"><i class="fa fa-shopping-cart"></i></a>
                                                         <button type="button" class="btn-product-quick-view-open">
                                                             <i class="fa fa-arrows"></i>
                                                         </button>
@@ -483,7 +483,7 @@ $pcomments = get_comments_by_product_id($product_id);
                                                     </a>
                                                     <div class="product-action">
                                                         <a class="btn-product-wishlist" href="shop-wishlist.html"><i class="fa fa-heart"></i></a>
-                                                        <a class="btn-product-cart" href="shop-cart.php"><i class="fa fa-shopping-cart"></i></a>
+                                                        <a class="btn-product-cart" href="cart.php"><i class="fa fa-shopping-cart"></i></a>
                                                         <button type="button" class="btn-product-quick-view-open">
                                                             <i class="fa fa-arrows"></i>
                                                         </button>
@@ -518,7 +518,7 @@ $pcomments = get_comments_by_product_id($product_id);
                                                     </a>
                                                     <div class="product-action">
                                                         <a class="btn-product-wishlist" href="shop-wishlist.html"><i class="fa fa-heart"></i></a>
-                                                        <a class="btn-product-cart" href="shop-cart.php"><i class="fa fa-shopping-cart"></i></a>
+                                                        <a class="btn-product-cart" href="cart.php"><i class="fa fa-shopping-cart"></i></a>
                                                         <button type="button" class="btn-product-quick-view-open">
                                                             <i class="fa fa-arrows"></i>
                                                         </button>
@@ -560,7 +560,7 @@ $pcomments = get_comments_by_product_id($product_id);
                                                     </div>
                                                     <div class="product-action">
                                                         <a class="btn-product-wishlist" href="shop-wishlist.html"><i class="fa fa-heart"></i></a>
-                                                        <a class="btn-product-cart" href="shop-cart.php"><i class="fa fa-shopping-cart"></i></a>
+                                                        <a class="btn-product-cart" href="cart.php"><i class="fa fa-shopping-cart"></i></a>
                                                         <button type="button" class="btn-product-quick-view-open">
                                                             <i class="fa fa-arrows"></i>
                                                         </button>
@@ -697,7 +697,7 @@ $pcomments = get_comments_by_product_id($product_id);
                 </li>
             </ul>
             <p class="cart-total"><span>Subtotal:</span><span class="amount">£89.99</span></p>
-            <a class="btn-theme" data-margin-bottom="10" href="shop-cart.php">View cart</a>
+            <a class="btn-theme" data-margin-bottom="10" href="cart.php">View cart</a>
             <a class="btn-theme" href="shop-checkout.html">Checkout</a>
             <a class="d-block text-end lh-1" href="shop-checkout.html"><img src="assets/img/photos/paypal.webp" width="133" height="26" alt="Has-image"></a>
         </div>
@@ -781,7 +781,7 @@ $pcomments = get_comments_by_product_id($product_id);
                             </li>
                             <li><a href="#">Others Pages</a>
                                 <ul class="sub-menu">
-                                    <li><a href="shop-cart.php">Shopping Cart</a></li>
+                                    <li><a href="cart.php">Shopping Cart</a></li>
                                     <li><a href="shop-checkout.html">Checkout</a></li>
                                     <li><a href="shop-wishlist.html">Wishlist</a></li>
                                     <li><a href="shop-compare.html">Compare</a></li>
